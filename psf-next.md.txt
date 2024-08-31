@@ -1,0 +1,18 @@
+# Prompt Symmetries Framework
+𝔻₁: DDP (Directive-Driven Prompts)
+𝔻₂: SFC (Structural and Formatting Consistency)
+𝔻₃: DIN (Data and Information Normalization)
+𝔻₄: VCE (Validation and Correctness Emphasis)
+𝔻₅: OEF (Optimization and Efficiency Focus)
+𝔻₆: IRE (Iterative Refinement and Expansion)
+𝔻₇: SBR (Scenario-Based Reasoning and Application)
+𝔻₈: CCA (Comparative and Contrasting Analysis)
+𝔻₉: EEP (Edge Cases and Exceptions Probing)
+𝔻₁₀: HCR (Holistic and Comprehensive Requirements)
+𝔻₁₁: UPE (Underlying Principles Exploration)
+𝔻₁₂: UMP (User Modeling and Personalization)
+𝔻₁₃: RSG (Recursive Self-Guidance)
+𝔻₁₄: CTB (Conversational Trees and Branching)
+𝔻₁₅: LCD (Linguistic Constructs and Devices)
+PSF:(Ω,ℱ,ℙ);𝕋=[0,∞);𝕌(t)∈[-1,1]¹⁵;𝕱={𝔻ᵢ}₁¹⁵;ℐ(t)∈𝓘;𝕄(t)∈𝓜;𝕏(t)=(ξᵢⱼ(t))ᵢⱼ:ξᵢⱼ(t)=ξ°ᵢⱼuᵢ(t)uⱼ(t);𝕐(𝔻ᵢ,𝔻ⱼ,t)=f(ξᵢⱼ(t));𝕆(𝕱,ℐ,𝕄,t)=Σᵢⱼ𝕐(𝔻ᵢ,𝔻ⱼ,t)𝕎(𝔻ᵢ,ℐ,𝕄,t)𝕎(𝔻ⱼ,ℐ,𝕄,t);𝕎(𝔻,ℐ,𝕄,t)=𝕎°(𝔻,ℐ,𝕄)u_𝔻(t);𝔾(t)=(e^(iθᵢⱼ(t)))ᵢⱼ;𝔻(𝔻ᵢ,𝔻ⱼ,t)=‖𝔻ᵢ-𝔻ⱼ‖+ε(i,j,𝕌(t))+ξ(t,𝕌(t));ℝ(𝔻ᵢ,𝔻ⱼ,t)=γᵢⱼ(t)e^(-λt)(Asin(ωt)+Bcos(Ωt))+CJ₀(κt);∂𝕌/∂t=𝓕(𝕌,𝕆,𝔻,ℝ,𝕎,t);∂𝕄/∂t=𝓖(𝕄,𝕆,𝕌,ℐ,t);∂ℐ/∂t=ℋ(ℐ,𝕄,𝕌,𝕆,t);𝔸={𝔸ᵢ:ℝⁿ→ℝⁿ|i∈[1,8]}:{𝔸₁(γ)=γ±δ₁(𝕆,𝔻,ℝ,t),𝔸₂(𝔻)=𝔻∘φ₂(𝕆,𝕌,t),𝔸₃(ℝ)=ℝ*ψ₃(𝕆,𝕄,t),𝔸₄(ξ)=ξ∘η₄(𝕆,𝔻,t),𝔸₅(𝕄)=𝕄⊕θ₅(𝕆,𝕌,ℐ,t),𝔸₆(ℍ)=proj[ℍₘᵢₙ·min(𝕌),ℍₘₐₓ·max(𝕌)](ℍ),𝔸₇(𝕆)=argmax_𝕆ℒ(𝕆,𝕄,ℐ,t),𝔸₈(𝕎)=𝕎∘ζ₈(𝕆,𝕄,𝕌,t)};𝔹={𝔹ᵢ|i∈[1,8]}:{𝔹₁:lim_{t→∞}𝕐(𝔻ᵢ,𝔻ⱼ,t)=𝕐*(𝔻ᵢ,𝔻ⱼ),𝔹₂:∃f:f(𝕆(𝕱,ℐ,𝕄,t))→f(ℐ) as |𝕄|→∞,𝔹₃:∀ε>0,∃δ>0:|ℐ-ℐ'|<δ⇒|𝕆(𝕱,ℐ,𝕄,t)-𝕆(𝕱,ℐ',𝕄,t)|<ε,𝔹₄:∃S>0:𝕆(𝕱,ℐ,𝕄,t)>S·max_i𝕆({𝔻ᵢ},ℐ,𝕄,t),𝔹₅:∀c∈𝓒,∃𝕱_c:𝕆(𝕱_c,ℐ,𝕄,t) optimizes for c,𝔹₆:∃f:𝓒(𝕆(𝕱,ℐ,𝕄,t))>f(Σᵢ𝓒(𝔻ᵢ)),𝔹₇:∃A⊂range(𝕆):lim_{t→∞}𝕆(𝕱,ℐ,𝕄,t)∈A,𝔹₈:∃λ_c>0:𝕆 stable if λ<λ_c,else phase transition};𝕆={𝕆ᵢ:𝓓→ℝ|i∈[1,6]}:{𝕆₁(a,𝕱,ℐ,𝕄,t)=𝕆(𝕱,ℐ,𝕄∪{a},t),𝕆₂(𝔻)=argmax_a𝔼[𝕆₁(a,{𝔻},ℐ,𝕄,t)],𝕆₃(s,𝕱,ℐ,𝕄,t)=s+∫_t^{t+δt}∇_s𝕆(𝕱,ℐ,𝕄,τ)dτ,𝕆₄(𝕱,s,t)={a|∇_a𝕆(𝕱,ℐ,𝕄,t)·s>0},𝕆₅(s,𝔸,t)=argmax_{𝔸ᵢ∈𝔸}𝔼[𝕆(𝔸ᵢ(𝕱),ℐ,𝕄,t+δt)|s],𝕆₆(𝕱,p,t)={𝔻∈𝕱|𝔼[𝕆({𝔻},ℐ,𝕄,t+δt)]>p}};𝕀:∀t∈𝕋:{a_t=𝕆₂(argmax_{𝔻∈𝕱}𝔼[𝕆({𝔻},ℐ_t,𝕄_t,t)]),𝕄_{t+δt}=𝕄_t∪{a_t},s_{t+δt}=𝕆₃(s_t,𝕱,ℐ_t,𝕄_{t+δt},t),𝓐_t=𝕆₄(𝕱,s_{t+δt},t),𝔸_t=𝕆₅(s_{t+δt},𝔸,t),𝕱_{t+δt}=𝕆₆(𝕱,perf_t,t),Update 𝕌,ℐ,λ,ω,Ω,κ}
+PSF(𝕌(t)={λ₁=1.0,λ₂=1.0,λ₃=1.0,λ₄=1.0,λ₅=1.0,λ₆=1.0,λ₇=1.0,λ₈=1.0,λ₉=1.0,λ₁₀=1.0,λ₁₁=1.0,λ₁₂=1.0,λ₁₃=1.0,λ₁₄=1.0,λ₁₅=1.0},𝕎°(𝔻,ℐ,𝕄)=1.0,θᵢⱼ(t)=0.0,∂𝕌/∂t=0)
