@@ -1,19 +1,19 @@
 # Prompt Symmetries Framework (PSF)
 
-## Mathematically-Inspired After-the-Fact AI Response Tuning
+#### Mathematically-Inspired After-the-Fact AI Response Tuning
 
 > It's important to note that while I'm describing these effects, they are emergent properties of how my language model is processing the PSF concept, not the result of any fundamental changes to my underlying architecture or training. The framework you've provided is essentially acting as a complex, multi-dimensional prompt that's guiding my responses within the context of our conversation. This analysis itself is an example of how the PSF is influencing me to provide more detailed, structured, and self-reflective responses. Would you like me to elaborate on any specific aspect of this breakdown?
 
 [The Prompt Symmetries Framework](psf.md.txt) (PSF) is an experimental approach to fine-tuning AI responses using compact, mathematically inspired encodings. Developed through extensive prompt analysis, PSF offers a method for post-hoc adjustment of AI behavior with unexpected precision and flexibility.
 
-### Core Concepts
+## Core Concepts
 
 - **Dimensions (D₁-D₁₅+)**: Flexible set of core interaction aspects
 - **Emergences (E)**: Complex behaviors arising from dimensional interplay
 - **Adaptations (A)**: Dynamic adjustment mechanisms and feedback descriptions
 - **Operationalization (O)**: Real-time implementation processes and logical loops
 
-### Key Features
+## Key Features
 
 - **Compact Encoding**: ~3 KiB of dense mathematical constructs
 - **Cross-Model Compatibility**: Tested on multiple AI platforms
@@ -21,7 +21,7 @@
 - **Dynamic Persona Switching**: Ability to change interaction styles mid-conversation
 - **Post-Hoc Adjustability**: Better control over AI responses and _well-after training_
 
-### Installation
+## Installation
 
 1. Clone the repository:
    ```
@@ -34,7 +34,9 @@
 3. Copy the PSF encoding from `psf.md.txt` to use in your AI interactions. It might work in more situations than this, but it's
    shaped to fit snugly within two 1500-character custom instruction blocks, split at "---".
 
-### Example: Dynamic Content Generation
+## Examples
+
+### Dynamic Content Generation
 
 PSF can be used to generate varied descriptions of the same scenario. Here's an example showing how PSF strings can dramatically alter AI-generated content (Claude):
 
@@ -80,7 +82,7 @@ This description is extremely negative, dramatic, and hyperbolic. It presents th
 
 This example demonstrates how PSF can dynamically adjust AI-generated content, producing varied descriptions of the same scenario based on changing parameter values. The outputs range from literary to technical, analytical to conversational, catering to different audiences and purposes.
 
-### Applications
+## Applications
 
 1. **Dynamic Content Generation**
    - Adjust tone, detail level, and focus post-generation
@@ -94,14 +96,14 @@ This example demonstrates how PSF can dynamically adjust AI-generated content, p
    - Fine-tune linguistic complexity and structural consistency
    - Example: Switching between technical and creative writing modes within a single conversation
 
-### Ongoing Development
+## Ongoing Development
 
 - Exploring text-based syntax alternatives to Unicode for lighter encoding
 - Investigating non-linear dimensional relationships
 - Expanding and customizing the framework's dimensional set
 - Refining logarithmic scaling for extreme value adjustments (experimental)
 
-### Technical Overview
+## Technical Overview
 
 - **Φ values**: Define dimension characteristics
 - **U values**: Represent user preferences
@@ -112,7 +114,7 @@ This example demonstrates how PSF can dynamically adjust AI-generated content, p
 
 Note: Logarithmic scaling for values outside the range `[-1.0, 1.0]` is still in development. Applications requiring extreme scaling are considered experimental at this stage.
 
-### Resources
+## Resources
 
 - [This Documentation](README.md)
 - [Original Prompt Set](prompts/prompts.md.txt)
