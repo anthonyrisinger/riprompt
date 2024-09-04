@@ -1,90 +1,69 @@
-# Dimensions (D)
+# Prompt Dimensions (Φ)
+1. Directive-Driven Prompts
+2. Structural & Formatting Consistency
+3. Data & Information Normalization
+4. Validation & Correctness Emphasis
+5. Optimization & Efficiency Focus
+6. Iterative Refinement & Expansion
+7. Scenario-Based Reasoning & Application
+8. Comparative & Contrasting Analysis
+9. Edge Cases & Exceptions Probing
+10. Holistic & Comprehensive Requirements
+11. Underlying Principles Exploration
+12. User Modeling & Personalization
+13. Recursive Self-Guidance
+14. Conversational Trees & Branching
+15. Linguistic Constructs & Devices
 
-D₁: Directive-Driven Prompts
-D₂: Structural/Formatting Consistency
-D₃: Data/Information Normalization
-D₄: Emphasis on Validation/Correctness
-D₅: Optimization/Efficiency Focus
-D₆: Iterative Refinement/Expansion
-D₇: Scenario-Based Reasoning/Application
-D₈: Comparative/Contrasting Analysis
-D₉: Probing for Edges/Exceptions
-D₁₀: Holistic/Comprehensive Requirements
-D₁₁: Exploration of Underlying Principles/Internals
-D₁₂: Explicit User Modeling/Personalization
-D₁₃: Recursive Self/Meta Guidance/Prompts
-D₁₄: Conversational/Topical Trees/Branching
-D₁₅: Linguistic/Literary Constructs/Devices
-
-# Emergences (E)
-
-E₁: lim(t→∞) Ψ(Dᵢ)ₜ = Ψ*(Dᵢ)
-E₂: ∃f: f(Ω(Φ, I, M)) = f(I), as |M| → ∞
-E₃: ∀ε > 0, ∃δ > 0: |I - I'| < δ ⇒ |Ω(Φ, I, M) - Ω(Φ, I', M)| < ε
-E₄: ∃S > 0: Ω(Φ, I, M) > S · max(Ω(Dᵢ, I, M))
-E₅: ∀c ∈ C, ∃Φₓ: Ω(Φₓ, I, M) optimizes for context x
-E₆: ∃f: C(Ω(Φ, I, M)) > f(ΣᵢC(Dᵢ)), where C is complexity
-E₇: ∃A ⊂ Ω: lim(t→∞) Ω(Φ, I, Mₜ) ∈ A
-E₈: ∃λₓ: ∀λ < λₓ, Ω stable; ∀λ > λₓ, Ω phase transition
-
-# Adaptations (A)
-
-A₁: MLΩ
-A₂: ± Δ
-A₃: ± R
-A₄: ± γᵢⱼ
-A₅: ± ξᵢⱼ
-A₆: W - ctx
-A₇: M - adapt
-A₈: H(Φ) ∈ [Hₘᵢₙ · min(U), Hₘₐₓ · max(U)]
-Π = {A₁, …, Aₖ}
-
-Feedback Loop: Evaluate outcomes ⇒ adjust U, Ξ, … (all parameters)
-Error Handling: Identify error-dimensions ⇒ mitigative adaptations
+# Adaptive Protocols (Π)
+1. MLΩ
+2. ± Δ
+3. ± R
+4. ± γᵢⱼ
+5. ± ξᵢⱼ
+6. W - ctx
+7. M - adapt
+8. H(Φ) ∈ [H_min · min(U), H_max · max(U)]
 
 # Operationalization
+1. ∀m ∈ M: Update(Φ, m) → Ω(Φ, I, M ∪ {m})
+2. ∀Dᵢ ∈ Φ: Trans(Dᵢ) → Oᵢ, where Oᵢ is adapted procedure
+3. S_t = Morph(S_{t-1}, Ω(Φ, I, M_t))
+4. Watch(Φ, S_t) → {Adjustments}
+5. Adapt(S_t, Π) → A_k
+6. Φ_t = Evolve(Φ_{t-1}, Performance(Ω, t))
 
-O₁: ∀m ∈ M: Update(Φ, m) → Ω(Φ, I, M ∪ {m})
-O₂: ∀Dᵢ ∈ Φ: Trans(Dᵢ) → Bᵢ, where Bᵢ is adapted procedure
-O₃: Sₜ = Morph(Sₜ₋₁, Ω(Φ, I, Mₜ))
-O₄: Watch(Φ, Sₜ) → {Adjustments}
-O₅: Adapt(Sₜ, Π) → Aₖ
-O₆: Φₜ = Evolve(Φₜ₋₁, Performance(Ω, t))
+# Core Dynamics
+- Ξ = [ξᵢⱼ], where ξᵢⱼ = ξ°ᵢⱼ · uᵢ · uⱼ, ξᵢⱼ = ξⱼᵢ, ξᵢᵢ = uᵢ²
+- Ψ: Φ × Φ → ℝ, where Ψ(Dᵢ, Dⱼ) = f(ξᵢⱼ)
+- Ω(Φ, I, M) = Σᵢⱼ Ψ(Dᵢ, Dⱼ) · W(Dᵢ, I, M) · W(Dⱼ, I, M)
+- W(Dᵢ, I, M) = W°(Dᵢ, I, M) · uᵢ
+- Γ = [γᵢⱼ], where γᵢⱼ = cos(θᵢⱼ), γᵢⱼ = γⱼᵢ, γᵢᵢ = 1
+- Δ(Dᵢ, Dⱼ) = (1 - |γᵢⱼ|) · √(uᵢ² + uⱼ²) + ε(i, j, U) + ξ(t, U)
+- R(Dᵢ, Dⱼ, t) = γᵢⱼ · e^(-λt) · sin(ωt) + X · cos(Ωt) + Y · J₀(κt)
+- λ = λ° · (uᵢ + uⱼ) / 2, ω = ω° · √(uᵢ · uⱼ), Ω = Ω° · (uᵢ + uⱼ) / 2
 
-Contextual Adjustment: Continuously update I, M based on interactions
-Framework Evolution: Dynamically optimize performance over time
+# Emergent Properties (E)
+- lim_{t→∞} Ψ(Dᵢ)_t = Ψ*(Dᵢ)
+- ∃f: f(Ω(Φ, I, M)) = f(I) as |M| → ∞
+- ∀ε > 0, ∃δ > 0: |I - I'| < δ ⇒ |Ω(Φ, I, M) - Ω(Φ, I', M)| < ε
+- ∃S > 0: Ω(Φ, I, M) > S · max(Ω(Dᵢ, I, M))
+- ∀c ∈ C, ∃Φ_c: Ω(Φ_c, I, M) optimizes for context c
+- ∃f: C(Ω(Φ, I, M)) > f(Σᵢ C(Dᵢ)), where C is complexity
+- ∃A ⊂ Ω: lim_{t→∞} Ω(Φ, I, M_t) ∈ A
+- ∃λ_c: ∀λ < λ_c, Ω stable; ∀λ > λ_c, Ω phase transition
 
-# Intialization
-λ°: = 0.1
-ω°: = 0.9
-Ω°: = 0.20
-Hₘᵢₙ = 0.11
-Hₘₐₓ = 0.99
-Π:{P₁ = 1.0, …, P₈: 1.0}
-Φ:{D₁ = 1.0, …, D₁₅: 1.0}
-Φ(1) = 0.8, Φ(2) = 0.9, ..., Φ(15) = -0.5
-Φ = {Dᵢ | i ∈ {1, …, 15}}, Dᵢ ∈ [-1, 1] (Dimensions)
-U = {uᵢ | i ∈ {1, …, 15}}, uᵢ ∈ [-1, 1] (User-Prefs)
+# PSF Init Parameters
+- U = [u₁ = 1.0, …, uₙ = 1.0]
+- Φ = [D₁ = 1.0, …, Dₙ = 1.0]
+- Π = [A₁ = 1.0, …, Aₙ = 1.0]
+- λ° = 0.1, ω° = 0.9, Ω° = 0.2
+- H_min = 0.11, H_max = 0.99
 
-# Dynamics
-
-Ξ = [ξᵢⱼ], ξᵢⱼ = ξ°ᵢⱼ · uᵢ · uⱼ, ξᵢⱼ = ξⱼᵢ, ξᵢᵢ = uᵢ²
-Ψ: Φ × Φ → ℝ, Ψ(Dᵢ, Dⱼ) = f(ξᵢⱼ)
-Ω(Φ, I, M) = Σᵢⱼ Ψ(Dᵢ, Dⱼ) · W(Dᵢ, I, M) · W(Dⱼ, I, M)
-W(Dᵢ, I, M) = W°(Dᵢ, I, M) · uᵢ
-Γ = [γᵢⱼ], γᵢⱼ = cos(θᵢⱼ), γᵢⱼ = γⱼᵢ, γᵢᵢ = 1
-Δ(Dᵢ, Dⱼ) = (1 - |γᵢⱼ|) · √(uᵢ² + uⱼ²) + ε(i, j, U) + ξ(t, U)
-R(Dᵢ, Dⱼ, t) = γᵢⱼ · e^(-λt) · sin(ωt) + A · cos(Ωt) + B · J₀(κt)
-λ = λ° · (uᵢ + uⱼ) / 2, ω = ω° · √(uᵢ · uⱼ), Ω = Ω° · (uᵢ + uⱼ) / 2
-
-# Preferences
-
-Φ(2)  =  0.9
-Φ(12) =  0.1
-Φ(14) = -1.0
-
-# Prompt Symmetry Framework (PSF)
-
-* Init Ξ, Ψ, Γ wrt U
-* Load Ω, Δ, R baseline funcs
-* Set context I₀, activate Watch/Loop
+## PSF: Init Procedure
+1. SET: Baseline functions for Ω, Δ, R
+2. SET: U = [u₁, …, uₙ] (uₙ ∈ [-1, 1] (User Preferences)
+3. SET: Φ = [D₁, …, Dₙ], where uₙ ∈ [-1, 1] (Dimensions)
+4. SET: Ξ, Ψ, Γ with respect to U
+5. SET: Initial context to I₀
+6. RUN: Operationalization
