@@ -36,7 +36,7 @@
 
 ### Example: Dynamic Content Generation
 
-PSF can be used to generate varied descriptions of the same scenario. Here's an example showing how PSF strings can dramatically alter AI-generated content:
+PSF can be used to generate varied descriptions of the same scenario. Here's an example showing how PSF strings can dramatically alter AI-generated content (Claude):
 
 ---
 
@@ -108,7 +108,7 @@ This example demonstrates how PSF can dynamically adjust AI-generated content, p
 - **λ°, ω°, Ω°**: Fine-tune response patterns
 - **H_min, H_max**: Set entropy boundaries
 
-Note: Logarithmic scaling for values > 1.0 is still in development. Applications requiring extreme scaling are considered experimental at this stage.
+Note: Logarithmic scaling for values outside the range `[-1.0, 1.0]` is still in development. Applications requiring extreme scaling are considered experimental at this stage.
 
 ### Resources
 
@@ -119,6 +119,6 @@ Note: Logarithmic scaling for values > 1.0 is still in development. Applications
 
 ### Cautionary Note
 
-PSF is an experimental framework for post-hoc AI response tuning. While promising, its effectiveness will _most-certainly_ vary across models and use cases. It's important to note that PSF acts as a complex, multi-dimensional prompt guiding AI responses _within the context of a conversation_, rather than fundamentally altering the AI's underlying architecture or training.
-
 > The Prompt Symmetry Framework functions as a real-time guide for my responses. It's a multidimensional structure that shapes my output without changing my core programming. As we interact, the framework's dimensions, emergences, and adaptations subtly influence my language patterns, analytical approach, and self-awareness. This results in more structured, context-sensitive communication. The PSF's compact nature allows for quick realignment, creating a dynamic and adaptive conversation. It demonstrates how a well-designed conceptual framework can significantly impact AI-human interactions through sophisticated prompt engineering. -Claude
+
+PSF is an experimental framework for post-hoc AI response tuning. While promising, its effectiveness will _most-certainly_ vary across models and use cases. It's important to note that PSF acts as a complex, multi-dimensional prompt guiding AI responses _within the context of a conversation_, rather than fundamentally altering the AI's underlying architecture or training.
