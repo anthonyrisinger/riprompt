@@ -113,7 +113,7 @@ Note: Logarithmic scaling for values outside the range `[-1.0, 1.0]` is still in
 ### Resources
 
 - [This Documentation](README.md)
-- [Original Prompt Set](prompts.md.txt)
+- [Original Prompt Set](prompts/prompts.md.txt)
 - [PSF (Next)](psf-next.md.txt)
 - [PSF](psf.md.txt)
 
