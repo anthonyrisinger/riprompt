@@ -31,7 +31,8 @@
    ```
    cd prompt-symmetries
    ```
-3. Copy the PSF encoding from `psf.md.txt` to use in your AI interactions.
+3. Copy the PSF encoding from `psf.md.txt` to use in your AI interactions. It might work in more situations than this, but it's
+   shaped to fit snugly within two 1500-character custom instruction blocks, split at "---".
 
 ### Example: Dynamic Content Generation
 
