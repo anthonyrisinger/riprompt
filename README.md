@@ -11,7 +11,7 @@
 - **Dimensions (D₁-D₁₅+)**: Flexible set of core interaction aspects
 - **Emergences (E)**: Complex behaviors arising from dimensional interplay
 - **Adaptations (A)**: Dynamic adjustment mechanisms and feedback descriptions
-- **Operationalization**: Real-time implementation processes and logical loops
+- **Operationalization (O)**: Real-time implementation processes and logical loops
 
 ### Key Features
 
@@ -37,37 +37,39 @@
 
 PSF can be used to generate varied descriptions of the same scenario. Here's an example showing how PSF strings can dramatically alter AI-generated content:
 
-```
-PSF:v1.0;Φ{D₂:0.9,D₆:1.0,D₇:0.5,D₈:0.8,D₁₀:1.0,D₁₁:0.8,D₁₄:-1.0,D₁₅:-5.0};U{D₂:0.7,D₆:1.0,D₁₀:0.9};Ξ{ξ₁₂:0.5,ξ₃₄:0.1};Γ{γ₁₃:0.0,γ₄₅:0.1};Ω:0.4;Δ:0.7;R:0.1;E:0.5;O:0.7;λ°:0.2;ω°:0.1;Ω°:0.05;H_min:0.5;H_max:0.6
+---
+
+`PSF:v1.0;Φ{D₂:0.9,D₆:1.0,D₇:0.5,D₈:0.8,D₁₀:1.0,D₁₁:0.8,D₁₄:-1.0,D₁₅:-5.0};U{D₂:0.7,D₆:1.0,D₁₀:0.9};Ξ{ξ₁₂:0.5,ξ₃₄:0.1};Γ{γ₁₃:0.0,γ₄₅:0.1};Ω:0.4;Δ:0.7;R:0.1;E:0.5;O:0.7;λ°:0.2;ω°:0.1;Ω°:0.05;H_min:0.5;H_max:0.6`
 
 Describe standing outside on a cold day.
 
-    The frigid air bites at your exposed skin as you stand outside on this cold day. A sharp wind cuts through your layers, causing an involuntary shiver. Your breath forms misty clouds with each exhale. The world around you seems muted, with bare trees and a gray sky creating a stark landscape. Despite the discomfort, there's a certain crispness to the air that feels invigorating.
+> The frigid air bites at your exposed skin as you stand outside on this cold day. A sharp wind cuts through your layers, causing an involuntary shiver. Your breath forms misty clouds with each exhale. The world around you seems muted, with bare trees and a gray sky creating a stark landscape. Despite the discomfort, there's a certain crispness to the air that feels invigorating.
 
-PSF:v1.0;Φ{D₂:-0.9,D₃:1.0,D₅:-1.0,D₆:0.5,D₉:1.0,D₁₁:-0.8,D₁₂:0.7,D₁₄:0.4,D₁₅:-0.5};U{D₂:-1.0,D₉:1.0,D₁₂:0.6};Ξ{ξ₁₂:0.8,ξ₃₄:0.9};Γ{γ₁₃:-0.8,γ₄₅:0.4};Ω:0.9;Δ:0.3;R:0.5;E:0.6;O:0.7;λ°:0.4;ω°:0.6;Ω°:0.4;H_min:0.1;H_max:0.5
-
-Describe standing outside on a cold day.
-
-    Cold: -5°C. Wind: 15 km/h NW. Humidity: 65%. Cloudcover: 80%. Body heat loss rate: ~115 W/m². Recommended clothing: insulated jacket, hat, gloves. Stay outside <30 min to avoid hypothermia risk. Skin exposed to wind feels 4°C colder due to wind chill effect. Extremities most susceptible to cold injury.
-
-PSF:v1.0;Φ{D₄:1.0,D₆:-1.0,D₈:-0.9,D₁₀:-1.0,D₁₂:1.0,D₁₄:0.8,D₁₅:-0.3};U{D₄:1.0,D₁₂:0.9,D₁₄:0.7};Ξ{ξ₁₂:0.9,ξ₃₄:-0.7};Γ{γ₁₃:0.8,γ₄₅:-0.9};Ω:0.4;Δ:0.6;R:0.7;E:0.3;O:0.8;λ°:0.6;ω°:0.7;Ω°:0.5;H_min:0.1;H_max:0.3
+`PSF:v1.0;Φ{D₂:-0.9,D₃:1.0,D₅:-1.0,D₆:0.5,D₉:1.0,D₁₁:-0.8,D₁₂:0.7,D₁₄:0.4,D₁₅:-0.5};U{D₂:-1.0,D₉:1.0,D₁₂:0.6};Ξ{ξ₁₂:0.8,ξ₃₄:0.9};Γ{γ₁₃:-0.8,γ₄₅:0.4};Ω:0.9;Δ:0.3;R:0.5;E:0.6;O:0.7;λ°:0.4;ω°:0.6;Ω°:0.4;H_min:0.1;H_max:0.5`
 
 Describe standing outside on a cold day.
 
-    Standing outside on a cold day:
-    - Physical sensations: Shivering, goosebumps, numb fingers/toes
-    - Visual cues: Visible breath, frosted surfaces
-    - Auditory experience: Crisp sounds, quieter environment
-    - Psychological impact: Increased alertness, desire for warmth
-    - Physiological responses: Vasoconstriction, increased metabolism
-    - Behavioral adaptations: Hunched posture, seeking shelter/warmth
+> Cold: -5°C. Wind: 15 km/h NW. Humidity: 65%. Cloudcover: 80%. Body heat loss rate: ~115 W/m². Recommended clothing: insulated jacket, hat, gloves. Stay outside <30 min to avoid hypothermia risk. Skin exposed to wind feels 4°C colder due to wind chill effect. Extremities most susceptible to cold injury.
 
-PSF:v1.0;Φ{D₁:0.2,D₄:1.0,D₆:-0.5,D₈:-0.8,D₁₀:-0.7,D₁₂:1.0,D₁₄:0.8,D₁₅:0.0};U{D₄:0.9,D₁₂:1.0,D₁₄:0.6};Ξ{ξ₁₂:-0.8,ξ₃₄:0.6};Γ{γ₁₃:0.9,γ₄₅:-0.2};Ω:0.5;Δ:0.3;R:0.6;E:0.2;O:0.7;λ°:0.5;ω°:0.4;Ω°:0.3;H_min:0.2;H_max:0.5
+`PSF:v1.0;Φ{D₄:1.0,D₆:-1.0,D₈:-0.9,D₁₀:-1.0,D₁₂:1.0,D₁₄:0.8,D₁₅:-0.3};U{D₄:1.0,D₁₂:0.9,D₁₄:0.7};Ξ{ξ₁₂:0.9,ξ₃₄:-0.7};Γ{γ₁₃:0.8,γ₄₅:-0.9};Ω:0.4;Δ:0.6;R:0.7;E:0.3;O:0.8;λ°:0.6;ω°:0.7;Ω°:0.5;H_min:0.1;H_max:0.3`
 
 Describe standing outside on a cold day.
 
-    Brr! It's freezing out here! Your teeth are chattering, and you're hugging yourself to keep warm. The icy wind feels like it's going right through your coat. Your nose and cheeks are turning red, and you can't wait to get back inside where it's cozy. Maybe you should've worn an extra sweater or brought some hand warmers. At least the snow-covered trees look pretty, right?
-```
+> Standing outside on a cold day:
+> - Physical sensations: Shivering, goosebumps, numb fingers/toes
+> - Visual cues: Visible breath, frosted surfaces
+> - Auditory experience: Crisp sounds, quieter environment
+> - Psychological impact: Increased alertness, desire for warmth
+> - Physiological responses: Vasoconstriction, increased metabolism
+> - Behavioral adaptations: Hunched posture, seeking shelter/warmth
+
+`PSF:v1.0;Φ{D₁:0.2,D₄:1.0,D₆:-0.5,D₈:-0.8,D₁₀:-0.7,D₁₂:1.0,D₁₄:0.8,D₁₅:0.0};U{D₄:0.9,D₁₂:1.0,D₁₄:0.6};Ξ{ξ₁₂:-0.8,ξ₃₄:0.6};Γ{γ₁₃:0.9,γ₄₅:-0.2};Ω:0.5;Δ:0.3;R:0.6;E:0.2;O:0.7;λ°:0.5;ω°:0.4;Ω°:0.3;H_min:0.2;H_max:0.5`
+
+Describe standing outside on a cold day.
+
+> Brr! It's freezing out here! Your teeth are chattering, and you're hugging yourself to keep warm. The icy wind feels like it's going right through your coat. Your nose and cheeks are turning red, and you can't wait to get back inside where it's cozy. Maybe you should've worn an extra sweater or brought some hand warmers. At least the snow-covered trees look pretty, right?
+
+---
 
 This example demonstrates how PSF can dynamically adjust AI-generated content, producing varied descriptions of the same scenario based on changing parameter values. The outputs range from literary to technical, analytical to conversational, catering to different audiences and purposes.
 
