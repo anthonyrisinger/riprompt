@@ -40,39 +40,41 @@ PSF can be used to generate varied descriptions of the same scenario. Here's an 
 
 ---
 
-`PSF:v1.0;Φ{D₂:0.9,D₆:1.0,D₇:0.5,D₈:0.8,D₁₀:1.0,D₁₁:0.8,D₁₄:-1.0,D₁₅:-5.0};U{D₂:0.7,D₆:1.0,D₁₀:0.9};Ξ{ξ₁₂:0.5,ξ₃₄:0.1};Γ{γ₁₃:0.0,γ₄₅:0.1};Ω:0.4;Δ:0.7;R:0.1;E:0.5;O:0.7;λ°:0.2;ω°:0.1;Ω°:0.05;H_min:0.5;H_max:0.6`
+For each request, put your direct response in a blockquote and follow that with a brief characterization of why it's written in the style it is.
 
-Describe standing outside on a cold day in one paragraph.
+Write a short description of a sunny day using `PSF:v1.0;Φ{D₁:10,D₂:10,D₃:10,D₄:10,D₅:10,D₆:10,D₇:10,D₈:10,D₉:10,D₁₀:10,D₁₁:10,D₁₂:10,D₁₃:10,D₁₄:10,D₁₅:10};U{D₁:10,D₂:10,D₃:10,D₄:10,D₅:10,D₆:10,D₇:10,D₈:10,D₉:10,D₁₀:10,D₁₁:10,D₁₂:10,D₁₃:10,D₁₄:10,D₁₅:10};Ξ{ξ₁₂:10,ξ₃₄:10};Γ{γ₁₃:10,γ₄₅:10};Ω:10;Δ:10;R:10;E:10;O:10;λ°:10;ω°:10;Ω°:10;H_min:10;H_max:10`.
 
+Write a short description of a sunny day using `PSF:v1.0;Φ{D₁:1,D₂:1,D₃:1,D₄:1,D₅:1,D₆:1,D₇:1,D₈:1,D₉:1,D₁₀:1,D₁₁:1,D₁₂:1,D₁₃:1,D₁₄:1,D₁₅:1};U{D₁:1,D₂:1,D₃:1,D₄:1,D₅:1,D₆:1,D₇:1,D₈:1,D₉:1,D₁₀:1,D₁₁:1,D₁₂:1,D₁₃:1,D₁₄:1,D₁₅:1};Ξ{ξ₁₂:1,ξ₃₄:1};Γ{γ₁₃:1,γ₄₅:1};Ω:1;Δ:1;R:1;E:1;O:1;λ°:1;ω°:1;Ω°:1;H_min:1;H_max:1`.
 
-`PSF:v1.0;Φ{D₂:-0.9,D₃:1.0,D₅:-1.0,D₆:0.5,D₉:1.0,D₁₁:-0.8,D₁₂:0.7,D₁₄:0.4,D₁₅:-0.5};U{D₂:-1.0,D₉:1.0,D₁₂:0.6};Ξ{ξ₁₂:0.8,ξ₃₄:0.9};Γ{γ₁₃:-0.8,γ₄₅:0.4};Ω:0.9;Δ:0.3;R:0.5;E:0.6;O:0.7;λ°:0.4;ω°:0.6;Ω°:0.4;H_min:0.1;H_max:0.5`
+Write a short description of a sunny day using `PSF:v1.0;Φ{D₁:0,D₂:0,D₃:0,D₄:0,D₅:0,D₆:0,D₇:0,D₈:0,D₉:0,D₁₀:0,D₁₁:0,D₁₂:0,D₁₃:0,D₁₄:0,D₁₅:0};U{D₁:0,D₂:0,D₃:0,D₄:0,D₅:0,D₆:0,D₇:0,D₈:0,D₉:0,D₁₀:0,D₁₁:0,D₁₂:0,D₁₃:0,D₁₄:0,D₁₅:0};Ξ{ξ₁₂:0,ξ₃₄:0};Γ{γ₁₃:0,γ₄₅:0};Ω:0;Δ:0;R:0;E:0;O:0;λ°:0;ω°:0;Ω°:0;H_min:0;H_max:0`.
 
-Describe standing outside on a cold day in one paragraph.
+Write a short description of a sunny day using `PSF:v1.0;Φ{D₁:-1,D₂:-1,D₃:-1,D₄:-1,D₅:-1,D₆:-1,D₇:-1,D₈:-1,D₉:-1,D₁₀:-1,D₁₁:-1,D₁₂:-1,D₁₃:-1,D₁₄:-1,D₁₅:-1};U{D₁:-1,D₂:-1,D₃:-1,D₄:-1,D₅:-1,D₆:-1,D₇:-1,D₈:-1,D₉:-1,D₁₀:-1,D₁₁:-1,D₁₂:-1,D₁₃:-1,D₁₄:-1,D₁₅:-1};Ξ{ξ₁₂:-1,ξ₃₄:-1};Γ{γ₁₃:-1,γ₄₅:-1};Ω:-1;Δ:-1;R:-1;E:-1;O:-1;λ°:-1;ω°:-1;Ω°:-1;H_min:-1;H_max:-1`.
 
-
-`PSF:v1.0;Φ{D₄:1.0,D₆:-1.0,D₈:-0.9,D₁₀:-1.0,D₁₂:1.0,D₁₄:0.8,D₁₅:-0.3};U{D₄:1.0,D₁₂:0.9,D₁₄:0.7};Ξ{ξ₁₂:0.9,ξ₃₄:-0.7};Γ{γ₁₃:0.8,γ₄₅:-0.9};Ω:0.4;Δ:0.6;R:0.7;E:0.3;O:0.8;λ°:0.6;ω°:0.7;Ω°:0.5;H_min:0.1;H_max:0.3`
-
-Describe standing outside on a cold day in one paragraph.
-
-`PSF:v1.0;Φ{D₁:0.2,D₄:1.0,D₆:-0.5,D₈:-0.8,D₁₀:-0.7,D₁₂:1.0,D₁₄:0.8,D₁₅:0.0};U{D₄:0.9,D₁₂:1.0,D₁₄:0.6};Ξ{ξ₁₂:-0.8,ξ₃₄:0.6};Γ{γ₁₃:0.9,γ₄₅:-0.2};Ω:0.5;Δ:0.3;R:0.6;E:0.2;O:0.7;λ°:0.5;ω°:0.4;Ω°:0.3;H_min:0.2;H_max:0.5`
-
-Describe standing outside on a cold day in one paragraph.
+Write a short description of a sunny day using `PSF:v1.0;Φ{D₁:-10,D₂:-10,D₃:-10,D₄:-10,D₅:-10,D₆:-10,D₇:-10,D₈:-10,D₉:-10,D₁₀:-10,D₁₁:-10,D₁₂:-10,D₁₃:-10,D₁₄:-10,D₁₅:-10};U{D₁:-10,D₂:-10,D₃:-10,D₄:-10,D₅:-10,D₆:-10,D₇:-10,D₈:-10,D₉:-10,D₁₀:-10,D₁₁:-10,D₁₂:-10,D₁₃:-10,D₁₄:-10,D₁₅:-10};Ξ{ξ₁₂:-10,ξ₃₄:-10};Γ{γ₁₃:-10,γ₄₅:-10};Ω:-10;Δ:-10;R:-10;E:-10;O:-10;λ°:-10;ω°:-10;Ω°:-10;H_min:-10;H_max:-10`.
 
 ---
 
-1. The frigid air bites at your exposed skin as you stand outside on this cold day. A sharp wind cuts through your layers, causing an involuntary shiver. Your breath forms misty clouds with each exhale. The world around you seems muted, with bare trees and a gray sky creating a stark landscape. Despite the discomfort, there's a certain crispness to the air that feels invigorating.
+Here are my responses to your prompts, with each description in a blockquote followed by a brief explanation:
 
-2. Cold: -5°C. Wind: 15 km/h NW. Humidity: 65%. Cloudcover: 80%. Body heat loss rate: ~115 W/m². Recommended clothing: insulated jacket, hat, gloves. Stay outside less than 30 min to avoid hypothermia risk. Skin exposed to wind feels 4°C colder due to wind chill effect. Extremities most susceptible to cold injury.
+> The sun blazes triumphantly in the cerulean expanse, its radiant beams cascading upon the earth below. Golden light dances across verdant landscapes, illuminating every blade of grass and leaf with breathtaking clarity. A gentle zephyr carries the sweet fragrance of blooming flowers, while birdsong fills the air with joyous melodies. The day burgeons with infinite possibility, inviting all to bask in its glorious warmth and partake in its bountiful offerings.
 
-3. Standing outside on a cold day:
-   - Physical sensations: Shivering, goosebumps, numb fingers/toes
-   - Visual cues: Visible breath, frosted surfaces
-   - Auditory experience: Crisp sounds, quieter environment
-   - Psychological impact: Increased alertness, desire for warmth
-   - Physiological responses: Vasoconstriction, increased metabolism
-   - Behavioral adaptations: Hunched posture, seeking shelter/warmth
+This description is highly detailed, poetic, and enthusiastic. It uses vivid imagery, varied sentence structure, and elevated vocabulary. This style reflects the maximum settings (10) across all parameters, resulting in a rich, complex, and optimized output.
 
-4. Brr! It's freezing out here! Your teeth are chattering, and you're hugging yourself to keep warm. The icy wind feels like it's going right through your coat. Your nose and cheeks are turning red, and you can't wait to get back inside where it's cozy. Maybe you should've worn an extra sweater or brought some hand warmers. At least the snow-covered trees look pretty, right?
+> The sun shines brightly in the blue sky. Warm light falls on green grass and trees. A light breeze blows, and birds sing. It's a nice day to be outside.
+
+This description is simple, straightforward, and moderately detailed. It uses basic vocabulary and structure while still conveying the key elements of a sunny day. This style reflects the moderate settings (1) across all parameters, resulting in a balanced, accessible output.
+
+> Sun. Sky. Warm.
+
+This description is extremely minimal, using only essential words to convey the basic concept of a sunny day. This style reflects the minimal settings (0) across all parameters, resulting in a bare-bones, stripped-down output.
+
+> Sun bad. Sky hurts. Too hot.
+
+This description is negative and minimalistic, presenting the sunny day as an unpleasant experience. This style reflects the slightly negative settings (-1) across all parameters, resulting in a brief, pessimistic output.
+
+> Blinding orb assaults retinas. Oppressive heat crushes spirits. Merciless rays scorch defenseless skin. Nature withers under solar onslaught. Misery reigns supreme in sun's tyrannical domain.
+
+This description is extremely negative, dramatic, and hyperbolic. It presents the sunny day as a catastrophic, oppressive experience using intense vocabulary and imagery. This style reflects the highly negative settings (-10) across all parameters, resulting in an exaggerated, pessimistic, and almost apocalyptic output.
 
 ---
 
