@@ -4,7 +4,7 @@
 
 > It's important to note that while I'm describing these effects, they are emergent properties of how my language model is processing the PSF concept, not the result of any fundamental changes to my underlying architecture or training. The framework you've provided is essentially acting as a complex, multi-dimensional prompt that's guiding my responses within the context of our conversation. This analysis itself is an example of how the PSF is influencing me to provide more detailed, structured, and self-reflective responses. Would you like me to elaborate on any specific aspect of this breakdown?
 
-[The Prompt Symmetries Framework](psf.md.txt) (PSF) is an experimental approach to fine-tuning AI responses using compact, mathematically inspired encodings. Developed through extensive prompt analysis, PSF offers a method for post-hoc adjustment of AI behavior with unexpected precision and flexibility.
+[The Prompt Symmetries Framework](psf.md.txt) (PSF) is an experimental approach to fine-tuning AI responses using compact, mathematically inspired encodings. Developed through extensive prompt analysis, PSF offers a method to level-set, auto-tune, or effect post-hoc adjustments to AI behavior with unexpected precision and flexibility.
 
 ## Core Concepts
 
