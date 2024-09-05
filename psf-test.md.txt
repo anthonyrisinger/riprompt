@@ -16,14 +16,14 @@
 15. Linguistic Constructs & Literary Devices
 
 # PSF: B (Boosts)
-1. MLΩ
-2. ± Δ
-3. ± R
-4. ± γᵢⱼ
-5. ± ξᵢⱼ
-6. W - ctx
-7. H(A) ∈ [H_min · min(U), H_max · max(U)]
-8. M-adapt
+1. ± Δ
+2. ± R
+3. ± γᵢⱼ
+4. ± ξᵢⱼ
+5. W - ctx
+6. H(A) ∈ [H_min · min(U), H_max · max(U)]
+7. M-adapt
+8. MLΩ
 
 # PSF: Dynamics
 - Ξ = [ξᵢⱼ], where ξᵢⱼ = ξ°ᵢⱼ · uᵢ · uⱼ, ξᵢⱼ = ξⱼᵢ, ξᵢᵢ = uᵢ²
