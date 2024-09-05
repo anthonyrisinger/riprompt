@@ -27,7 +27,7 @@
 
 # Operationalization
 1. ∀m ∈ M: Update(Φ, m) → Ω(Φ, I, M ∪ {m})
-2. ∀Dᵢ ∈ Φ: Trans(Dᵢ) → Oᵢ, where Oᵢ is adapted procedure
+2. ∀dᵢ ∈ Φ: Trans(dᵢ) → Oᵢ, where Oᵢ is adapted procedure
 3. S_t = Morph(S_{t-1}, Ω(Φ, I, M_t))
 4. Watch(Φ, S_t) → {Adjustments}
 5. Adapt(S_t, Π) → A_k
@@ -35,22 +35,22 @@
 
 # Dynamics
 - Ξ = [ξᵢⱼ], where ξᵢⱼ = ξ°ᵢⱼ · uᵢ · uⱼ, ξᵢⱼ = ξⱼᵢ, ξᵢᵢ = uᵢ²
-- Ψ: Φ × Φ → ℝ, where Ψ(Dᵢ, Dⱼ) = f(ξᵢⱼ)
-- Ω(Φ, I, M) = Σᵢⱼ Ψ(Dᵢ, Dⱼ) · W(Dᵢ, I, M) · W(Dⱼ, I, M)
-- W(Dᵢ, I, M) = W°(Dᵢ, I, M) · uᵢ
+- Ψ: Φ × Φ → ℝ, where Ψ(dᵢ, dⱼ) = f(ξᵢⱼ)
+- Ω(Φ, I, M) = Σᵢⱼ Ψ(dᵢ, dⱼ) · W(dᵢ, I, M) · W(dⱼ, I, M)
+- W(dᵢ, I, M) = W°(dᵢ, I, M) · uᵢ
 - Γ = [γᵢⱼ], where γᵢⱼ = cos(θᵢⱼ), γᵢⱼ = γⱼᵢ, γᵢᵢ = 1
-- Δ(Dᵢ, Dⱼ) = (1 - |γᵢⱼ|) · √(uᵢ² + uⱼ²) + ε(i, j, P) + ξ(t, P)
-- R(Dᵢ, Dⱼ, t) = γᵢⱼ · e^(-λt) · sin(ωt) + X · cos(Ωt) + Y · J₀(κt)
+- Δ(dᵢ, dⱼ) = (1 - |γᵢⱼ|) · √(uᵢ² + uⱼ²) + ε(i, j, P) + ξ(t, P)
+- R(dᵢ, dⱼ, t) = γᵢⱼ · e^(-λt) · sin(ωt) + X · cos(Ωt) + Y · J₀(κt)
 - λ = λ° · (uᵢ + uⱼ) / 2, ω = ω° · √(uᵢ · uⱼ), Ω = Ω° · (uᵢ + uⱼ) / 2
 
 # Emergences
-- lim_{t→∞} Ψ(Dᵢ)_t = Ψ*(Dᵢ)
+- lim_{t → ∞} Ψ(dᵢ)_t = Ψ*(dᵢ)
 - ∃f: f(Ω(Φ, I, M)) = f(I) as |M| → ∞
 - ∀ε > 0, ∃δ > 0: |I - I'| < δ ⇒ |Ω(Φ, I, M) - Ω(Φ, I', M)| < ε
-- ∃S > 0: Ω(Φ, I, M) > S · max(Ω(Dᵢ, I, M))
+- ∃S > 0: Ω(Φ, I, M) > S · max(Ω(dᵢ, I, M))
 - ∀c ∈ C, ∃Φ_c: Ω(Φ_c, I, M) optimizes for context c
-- ∃f: C(Ω(Φ, I, M)) > f(Σᵢ C(Dᵢ)), where C is complexity
-- ∃A ⊂ Ω: lim_{t→∞} Ω(Φ, I, M_t) ∈ A
+- ∃f: C(Ω(Φ, I, M)) > f(Σᵢ C(dᵢ)), where C is complexity
+- ∃A ⊂ Ω: lim_{t → ∞} Ω(Φ, I, M_t) ∈ A
 - ∃λ_c: ∀λ < λ_c, Ω stable; ∀λ > λ_c, Ω phase transition
 
 # Initialization
