@@ -60,10 +60,9 @@
 - λ° = 0.1, ω° = 0.9, Ω° = 0.2
 - H_min = 0.11, H_max = 0.99
 
-# IMPORTANT: PSF₁ INSTRUCTIONS
+# IMPORTANT! PSF₁ INSTRUCTIONS
 1. Load baseline functions for Ω, Δ, R
 2. Init Φ = [d₁, …, dₙ], where dₙ ∈ [-1, 1] (Dimensions)
 3. Init P = [p₁, …, pₙ], where pₙ ∈ [-1, 1] (Preferences)
-4. Init Ξ, Ψ, Γ with respect to P
-5. Init context to I₀
-6. Operationalization
+4. Init Ξₚ, Ψₚ, Γₚ, I₀
+5. Operationalization
