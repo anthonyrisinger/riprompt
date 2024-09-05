@@ -8,10 +8,10 @@
 
 ## Core Concepts
 
-- **Dimensions (D₁-D₁₅+)**: Flexible set of core interaction aspects
-- **Emergences (E)**: Complex behaviors arising from dimensional interplay
-- **Adaptations (A)**: Dynamic adjustment mechanisms and feedback descriptions
-- **Operationalization (O)**: Real-time implementation processes and logical loops
+- **Dimensions (d₁-d₁₅+)**: Flexible set of core interaction aspects
+- **Guidances (G)**: Dynamic adjustment mechanisms and feedback descriptions
+- **Outcomes**: Complex behaviors arising from dimensional interplay
+- **Operationalization**: Real-time implementation processes and logical loops
 
 ## Key Features
 
@@ -121,8 +121,8 @@ This example demonstrates how PSF can dynamically adjust AI-generated content, p
 
 ## Technical Overview
 
-- **Φ values**: Define dimension characteristics
-- **U values**: Represent user preferences
+- **P values**: Represent dimensional preferences
+- **D values**: Define dimensional characteristics
 - **Ξ, Γ values**: Inter-dimensional relationships
 - **Ω, Δ, R**: Control overall system dynamics
 - **λ°, ω°, Ω°**: Fine-tune response patterns
