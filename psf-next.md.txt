@@ -25,7 +25,7 @@
 7. M-adapt
 8. MLΩ
 
-# Operationalization
+# Operationalizations
 1. ∀m ∈ M: Apply(D, m) → Ω(D, I, M ∪ {m})
 2. ∀dᵢ ∈ D: Persp(dᵢ) → Oᵢ, where Oᵢ is shifted procedure
 3. S_t = Morph(S_{t-1}, Ω(D, I, M_t))
@@ -53,7 +53,7 @@
 - ∃A ⊂ Ω: lim_{t→∞} Ω(D, I, M_t) ∈ A
 - ∃λ_c: ∀λ < λ_c, Ω stable; ∀λ > λ_c, Ω phase transition
 
-# Initialization
+# Initializers
 - P = [p₁ ∝ 1.0, …, pₙ ∝ 1.0]
 - D = [d₁ ∝ 1.0, …, dₙ ∝ 1.0]
 - G = [a₁ ∝ 1.0, …, aₙ ∝ 1.0]
@@ -65,4 +65,4 @@
 2. Let D = [d₁, …, d_n], where d_n ∈ [-1, 1] (dims)
 3. Let Ξ_P, Ψ_P, Γ_P, I_0 (ctx)
 3. Let Ω, Δ, R (funcs)
-4. Operationalization
+4. Operationalizations
