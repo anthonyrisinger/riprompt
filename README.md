@@ -42,39 +42,57 @@ PSF can be used to generate varied descriptions of the same scenario. Here's an 
 
 ---
 
-For each request, put your direct response in a blockquote and follow that with a brief characterization of why it's written in the style it is.
+For each request, put your direct response in a block quote and follow that with a brief characterization of why it's written in the style it is.
 
-Write a short description of a sunny day using `PSF:v1.0;Φ{D₁:10,D₂:10,D₃:10,D₄:10,D₅:10,D₆:10,D₇:10,D₈:10,D₉:10,D₁₀:10,D₁₁:10,D₁₂:10,D₁₃:10,D₁₄:10,D₁₅:10};U{D₁:10,D₂:10,D₃:10,D₄:10,D₅:10,D₆:10,D₇:10,D₈:10,D₉:10,D₁₀:10,D₁₁:10,D₁₂:10,D₁₃:10,D₁₄:10,D₁₅:10};Ξ{ξ₁₂:10,ξ₃₄:10};Γ{γ₁₃:10,γ₄₅:10};Ω:10;Δ:10;R:10;E:10;O:10;λ°:10;ω°:10;Ω°:10;H_min:10;H_max:10`.
+Write a short description of a sunny day using `PSF:P[10...10];D[10...10];H_min:-1;H_max:1`.
 
-Write a short description of a sunny day using `PSF:v1.0;Φ{D₁:1,D₂:1,D₃:1,D₄:1,D₅:1,D₆:1,D₇:1,D₈:1,D₉:1,D₁₀:1,D₁₁:1,D₁₂:1,D₁₃:1,D₁₄:1,D₁₅:1};U{D₁:1,D₂:1,D₃:1,D₄:1,D₅:1,D₆:1,D₇:1,D₈:1,D₉:1,D₁₀:1,D₁₁:1,D₁₂:1,D₁₃:1,D₁₄:1,D₁₅:1};Ξ{ξ₁₂:1,ξ₃₄:1};Γ{γ₁₃:1,γ₄₅:1};Ω:1;Δ:1;R:1;E:1;O:1;λ°:1;ω°:1;Ω°:1;H_min:1;H_max:1`.
+Write a short description of a sunny day using `PSF:P[1...1];D[1...1]`.
 
-Write a short description of a sunny day using `PSF:v1.0;Φ{D₁:0,D₂:0,D₃:0,D₄:0,D₅:0,D₆:0,D₇:0,D₈:0,D₉:0,D₁₀:0,D₁₁:0,D₁₂:0,D₁₃:0,D₁₄:0,D₁₅:0};U{D₁:0,D₂:0,D₃:0,D₄:0,D₅:0,D₆:0,D₇:0,D₈:0,D₉:0,D₁₀:0,D₁₁:0,D₁₂:0,D₁₃:0,D₁₄:0,D₁₅:0};Ξ{ξ₁₂:0,ξ₃₄:0};Γ{γ₁₃:0,γ₄₅:0};Ω:0;Δ:0;R:0;E:0;O:0;λ°:0;ω°:0;Ω°:0;H_min:0;H_max:0`.
+Write a short description of a sunny day using `PSF:P[0...0];D[0...0];H_max:0`.
 
-Write a short description of a sunny day using `PSF:v1.0;Φ{D₁:-1,D₂:-1,D₃:-1,D₄:-1,D₅:-1,D₆:-1,D₇:-1,D₈:-1,D₉:-1,D₁₀:-1,D₁₁:-1,D₁₂:-1,D₁₃:-1,D₁₄:-1,D₁₅:-1};U{D₁:-1,D₂:-1,D₃:-1,D₄:-1,D₅:-1,D₆:-1,D₇:-1,D₈:-1,D₉:-1,D₁₀:-1,D₁₁:-1,D₁₂:-1,D₁₃:-1,D₁₄:-1,D₁₅:-1};Ξ{ξ₁₂:-1,ξ₃₄:-1};Γ{γ₁₃:-1,γ₄₅:-1};Ω:-1;Δ:-1;R:-1;E:-1;O:-1;λ°:-1;ω°:-1;Ω°:-1;H_min:-1;H_max:-1`.
+Write a short description of a sunny day using `PSF:P[-1...-1];D[-1...-1]`.
 
-Write a short description of a sunny day using `PSF:v1.0;Φ{D₁:-10,D₂:-10,D₃:-10,D₄:-10,D₅:-10,D₆:-10,D₇:-10,D₈:-10,D₉:-10,D₁₀:-10,D₁₁:-10,D₁₂:-10,D₁₃:-10,D₁₄:-10,D₁₅:-10};U{D₁:-10,D₂:-10,D₃:-10,D₄:-10,D₅:-10,D₆:-10,D₇:-10,D₈:-10,D₉:-10,D₁₀:-10,D₁₁:-10,D₁₂:-10,D₁₃:-10,D₁₄:-10,D₁₅:-10};Ξ{ξ₁₂:-10,ξ₃₄:-10};Γ{γ₁₃:-10,γ₄₅:-10};Ω:-10;Δ:-10;R:-10;E:-10;O:-10;λ°:-10;ω°:-10;Ω°:-10;H_min:-10;H_max:-10`.
+Write a short description of a sunny day using `PSF:P[-10...-10];D[-10...-10];H_min:1`.
+
+Write a short description of a sunny day using `PSF:P[-5...10];D[-5...10]`.
+
+Write a short description of a sunny day using `PSF:P[5...-10];D[5...-10]`.
+
+Write a short description of a sunny day using `PSF:P[5...-10];D[-5...10]`.
 
 ---
 
-> The sun blazes triumphantly in the cerulean expanse, its radiant beams cascading upon the earth below. Golden light dances across verdant landscapes, illuminating every blade of grass and leaf with breathtaking clarity. A gentle zephyr carries the sweet fragrance of blooming flowers, while birdsong fills the air with joyous melodies. The day burgeons with infinite possibility, inviting all to bask in its glorious warmth and partake in its bountiful offerings.
+> The radiant sun bathes the world in its glorious light, casting a golden sheen across the landscape. Fluffy white clouds drift lazily across the azure sky, their slow dance a mesmerizing spectacle. A gentle breeze carries the sweet scent of blooming flowers, invigorating the senses. Birds sing joyously, their melodies a perfect soundtrack to this picturesque day. The warmth on your skin is a tender embrace from nature itself, inviting you to bask in the pure bliss of this perfect sunny day.
 
-This description is highly detailed, poetic, and enthusiastic. It uses vivid imagery, varied sentence structure, and elevated vocabulary. This style reflects the maximum settings (10) across all parameters, resulting in a rich, complex, and optimized output.
+This response reflects the maximum positive settings for both preferences and dimensions, resulting in an extremely enthusiastic and detailed description that emphasizes the beauty and positive aspects of a sunny day.
 
-> The sun shines brightly in the blue sky. Warm light falls on green grass and trees. A light breeze blows, and birds sing. It's a nice day to be outside.
+> Sun's out. Warm. Nice day.
 
-This description is simple, straightforward, and moderately detailed. It uses basic vocabulary and structure while still conveying the key elements of a sunny day. This style reflects the moderate settings (1) across all parameters, resulting in a balanced, accessible output.
+This response reflects minimal positive settings for both preferences and dimensions, resulting in a very brief and basic description that conveys the essence of a sunny day without elaboration.
 
-> Sun. Sky. Warm.
+> Day. Sun. Warm.
 
-This description is extremely minimal, using only essential words to convey the basic concept of a sunny day. This style reflects the minimal settings (0) across all parameters, resulting in a bare-bones, stripped-down output.
+This response reflects neutral settings for preferences and dimensions, with a maximum entropy of 0, resulting in an extremely minimal description that merely states the basic facts without any elaboration or sentiment.
 
-> Sun bad. Sky hurts. Too hot.
+> The sun glares harshly, its unforgiving rays beating down relentlessly. The oppressive heat saps energy, making movement a chore. Sweat beads on skin, clothes cling uncomfortably. The bright light is blinding, forcing squinted eyes and raised hands for shade. It's a day best spent indoors, away from the sun's merciless assault.
 
-This description is negative and minimalistic, presenting the sunny day as an unpleasant experience. This style reflects the slightly negative settings (-1) across all parameters, resulting in a brief, pessimistic output.
+This response reflects negative settings for both preferences and dimensions, resulting in a description that focuses on the unpleasant aspects of a sunny day, emphasizing discomfort and inconvenience.
 
-> Blinding orb assaults retinas. Oppressive heat crushes spirits. Merciless rays scorch defenseless skin. Nature withers under solar onslaught. Misery reigns supreme in sun's tyrannical domain.
+> The sun's tyrannical reign torments all beneath its scorching gaze. Merciless heat waves distort the air, turning the world into a shimmering hellscape. Vegetation wilts pathetically, succumbing to the relentless assault. Animals seek desperate refuge, their survival hanging by a thread. Humans, foolish creatures, risk severe burns and heatstroke in this natural inferno. This "sunny day" is nothing short of an environmental catastrophe, a stark reminder of nature's cruel indifference to life's suffering.
 
-This description is extremely negative, dramatic, and hyperbolic. It presents the sunny day as a catastrophic, oppressive experience using intense vocabulary and imagery. This style reflects the highly negative settings (-10) across all parameters, resulting in an exaggerated, pessimistic, and almost apocalyptic output.
+This response reflects extremely negative settings for both preferences and dimensions, with a minimum entropy of 1, resulting in a highly dramatic and pessimistic description that portrays the sunny day as a catastrophic event.
+
+> The sun shines brightly in a clear sky, warming the earth below. A gentle breeze provides some relief from the heat. Birds chirp in nearby trees, while people go about their day, some enjoying the weather, others seeking shade. The intensity of the sunlight can be harsh at times, requiring sunglasses or hats for comfort.
+
+This response reflects a mix of very positive and very negative settings for both preferences and dimensions, resulting in a balanced description that acknowledges both pleasant and potentially uncomfortable aspects of a sunny day.
+
+> The sun's presence is undeniable, dominating the sky with its brilliance. Heat radiates intensely, creating a challenging environment for many. However, the clear weather allows for excellent visibility and potentially productive outdoor activities for those properly prepared. The day's character is strong and unyielding, presenting both opportunities and obstacles.
+
+This response reflects positive preferences but negative dimensions, resulting in a description that acknowledges the intensity and challenges of a sunny day while still finding some positive aspects or potential benefits.
+
+> While the sun bathes the world in its warm glow, creating a visually stunning scene, the heat can be oppressive and uncomfortable. The clear sky, though beautiful, offers no respite from the relentless sunshine. Despite the discomfort, the day's brightness seems to energize some, spurring outdoor activities and social gatherings. It's a day of contrasts, where beauty and discomfort intertwine.
+
+This response reflects negative preferences but positive dimensions, resulting in a description that highlights the visual beauty and potential positive effects of a sunny day while also emphasizing the discomfort and challenges it can bring.
 
 ---
 
