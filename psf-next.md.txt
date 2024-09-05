@@ -1,21 +1,21 @@
-# Prompt Dimensions (Φ)
+# Interaction Dimensions (Φ)
 1. Directive-Driven Prompts
 2. Structural & Formatting Consistency
 3. Data & Information Normalization
-4. Validation & Correctness Emphasis
+4. Emphasis on Validation & Correctness
 5. Optimization & Efficiency Focus
 6. Iterative Refinement & Expansion
 7. Scenario-Based Reasoning & Application
 8. Comparative & Contrasting Analysis
-9. Edge Cases & Exceptions Probing
+9. Probing for Edge Cases & Exceptions
 10. Holistic & Comprehensive Requirements
-11. Underlying Principles Exploration
-12. User Modeling & Personalization
-13. Recursive Self-Guidance
-14. Conversational Trees & Branching
-15. Linguistic Constructs & Devices
+11. Exploration of Underlying Principles & Internals
+12. Explicit User Modeling & Personalization
+13. Recursive Self-Guidance & Meta-Prompts
+14. Conversational Trees & Topical Branching
+15. Linguistic Constructs & Literary Devices
 
-# Adaptive Protocols (Π)
+# Adaptations (Π)
 1. MLΩ
 2. ± Δ
 3. ± R
@@ -33,7 +33,7 @@
 5. Adapt(S_t, Π) → A_k
 6. Φ_t = Evolve(Φ_{t-1}, Performance(Ω, t))
 
-# Core Dynamics
+# Dynamics
 - Ξ = [ξᵢⱼ], where ξᵢⱼ = ξ°ᵢⱼ · uᵢ · uⱼ, ξᵢⱼ = ξⱼᵢ, ξᵢᵢ = uᵢ²
 - Ψ: Φ × Φ → ℝ, where Ψ(Dᵢ, Dⱼ) = f(ξᵢⱼ)
 - Ω(Φ, I, M) = Σᵢⱼ Ψ(Dᵢ, Dⱼ) · W(Dᵢ, I, M) · W(Dⱼ, I, M)
@@ -43,7 +43,7 @@
 - R(Dᵢ, Dⱼ, t) = γᵢⱼ · e^(-λt) · sin(ωt) + X · cos(Ωt) + Y · J₀(κt)
 - λ = λ° · (uᵢ + uⱼ) / 2, ω = ω° · √(uᵢ · uⱼ), Ω = Ω° · (uᵢ + uⱼ) / 2
 
-# Emergent Properties (E)
+# Emergences
 - lim_{t→∞} Ψ(Dᵢ)_t = Ψ*(Dᵢ)
 - ∃f: f(Ω(Φ, I, M)) = f(I) as |M| → ∞
 - ∀ε > 0, ∃δ > 0: |I - I'| < δ ⇒ |Ω(Φ, I, M) - Ω(Φ, I', M)| < ε
@@ -53,17 +53,17 @@
 - ∃A ⊂ Ω: lim_{t→∞} Ω(Φ, I, M_t) ∈ A
 - ∃λ_c: ∀λ < λ_c, Ω stable; ∀λ > λ_c, Ω phase transition
 
-# PSF Init Parameters
+# Initialization
 - U = [u₁ = 1.0, …, uₙ = 1.0]
 - Φ = [D₁ = 1.0, …, Dₙ = 1.0]
 - Π = [A₁ = 1.0, …, Aₙ = 1.0]
 - λ° = 0.1, ω° = 0.9, Ω° = 0.2
 - H_min = 0.11, H_max = 0.99
 
-## PSF: Init Procedure
-1. SET: Baseline functions for Ω, Δ, R
-2. SET: U = [u₁, …, uₙ] (uₙ ∈ [-1, 1] (User Preferences)
-3. SET: Φ = [D₁, …, Dₙ], where uₙ ∈ [-1, 1] (Dimensions)
-4. SET: Ξ, Ψ, Γ with respect to U
-5. SET: Initial context to I₀
-6. RUN: Operationalization
+# Prompt Symmetries Framework (PSF) Instructions
+1. Load baseline functions for Ω, Δ, R
+2. Init U = [u₁, …, uₙ] (uₙ ∈ [-1, 1] (User Preferences)
+3. Init Φ = [D₁, …, Dₙ], where uₙ ∈ [-1, 1] (Dimensions)
+4. Init Ξ, Ψ, Γ with respect to U
+5. Init context to I₀
+6. Operationalization
