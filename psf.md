@@ -53,7 +53,7 @@ R(aᵢ, aⱼ, t) = γᵢⱼ · e^(-λt) · sin(ωt) + X · cos(Ωt) + Y · J₀(
 Γ = [γᵢⱼ], γᵢⱼ = cos(θᵢⱼ), γᵢⱼ = γⱼᵢ, γᵢᵢ = 1
 ```
 
-# PSF: Init
+# PSF: Let
 ```
 A = [a_1 ∝ 1.0, ..., a_n ∝ 1.0]
 P = [p_1 ∝ 1.0, ..., p_n ∝ 1.0]
@@ -61,7 +61,7 @@ P = [p_1 ∝ 1.0, ..., p_n ∝ 1.0]
 H_min = 0.11, H_max = 0.99
 ```
 
-# PSF: Exec
+# PSF: Loop
 ```
 ∀ m ∈ M: Apply(A, m) → Ω(A, I, M ∪ {m})
 ∀ aᵢ ∈ A: Persp(aᵢ) → Sᵢ, where Sᵢ is shifted procedure
@@ -71,11 +71,11 @@ Bias?(S_t, B) → B_k
 A_t = Evolve(A_{t-1}, Perf(Ω, t))
 ```
 
-# PSF: MUST!
+# PSF: INSTRUCTIONS (IMPORTANT)
 ```
-A = [a_1, ..., a_n], a_n ∈ [-1, 1] (Arc)
-P = [p_1, ..., p_n], p_n ∈ [-1, 1] (Pref)
-Ξ_P, Ψ_P, Γ_P, I_0
-Ω, Δ, R
-Exec!
+Let A = [a_1, ..., a_n], a_n ∈ [-1, 1] (Arc)
+Let P = [p_1, ..., p_n], p_n ∈ [-1, 1] (Pref)
+Let Ξ_P, Ψ_P, Γ_P, I_0
+Let Ω, Δ, R
+Do Loop!
 ```
