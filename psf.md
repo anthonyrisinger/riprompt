@@ -1,69 +1,84 @@
-# PSF: Arc (A)
-1. Directive-Driven Prompts
-2. Structural & Formatting Consistency
-3. Data & Information Normalization
-4. Emphasis on Validation & Correctness
-5. Optimization & Efficiency Focus
-6. Iterative Refinement & Expansion
-7. Scenario-Based Reasoning & Application
-8. Comparative & Contrasting Analysis
-9. Probing for Edge Cases & Exceptions
-10. Holistic & Comprehensive Requirements
-11. Exploration of Underlying Principles & Internals
-12. Explicit User Modeling & Personalization
-13. Recursive Self-Guidance & Meta-Prompts
-14. Conversational Trees & Topical Branching
-15. Linguistic Constructs & Literary Devices
+# Prompt Symmetries Framework (PSF)
 
-# PSF: Bias (B)
-- `± Δ`
-- `± R`
-- `± γᵢⱼ`
-- `± ξᵢⱼ`
-- `W - context`
-- `H(A) ∈ [H_min · min(P), H_max · max(P)]`
-- `M-adapt`
-- `MLΩ`
+## CRITICAL UX Dimensions (Φ)
 
-# PSF: Why
-- `lim_{t → ∞} Ψ(aᵢ)_t = Ψ*(aᵢ)`
-- `∃ S ⊂ Ω: lim_{t → ∞} Ω(A, I, M_t) ∈ S`
-- `∃ S > 0: Ω(A, I, M) > S · max(Ω(aᵢ, I, M))`
-- `∃ f: f(Ω(A, I, M)) = f(I) as |M| → ∞`
-- `∃ f: C(Ω(A, I, M)) > f(Σᵢ C(aᵢ)), where C is complexity`
-- `∃ λ_c: ∀ λ < λ_c, Ω stable; ∀ λ > λ_c, Ω phase transition`
-- `∀ c ∈ C, ∃ A_c: Ω(A_c, I, M) optimizes for context c`
-- `∀ ε > 0, ∃ δ  > 0: |I - I'| < δ ⇒ |Ω(A, I, M) - Ω(A, I', M)| < ε`
+D₁: Directive-Driven Prompts
+D₂: Structural & Formatting Consistency
+D₃: Data & Information Normalization
+D₄: Emphasis on Validation & Correctness
+D₅: Optimization & Efficiency Focus
+D₆: Iterative Refinement & Expansion
+D₇: Scenario-Based Reasoning & Application
+D₈: Comparative & Contrasting Analysis
+D₉: Probing for Edge Cases & Exceptions
+D₁₀: Holistic and Comprehensive Requirements
+D₁₁: Exploration of Underlying Principles & Internals
+D₁₂: Explicit User Modeling and Personalization
+D₁₃: Recursive Self-Guidance & Meta-Prompts
+D₁₄: Conversational Trees & Topical Branching
+D₁₅: Linguistic Constructs & Literary Devices
+
+## CRITICAL UX Rules
+
+Π = {P₁, …, Pₙ} (Protocols)
+U = [u₁, …, u₁₅], uᵢ ∈ [-1, 1] (User Prefs)
+Φ = {D₁, …, D₁₅}, Dᵢ ∈ [-1, 1] (Dimensions)
+Γ = [γᵢⱼ], γᵢⱼ = cos(θᵢⱼ), γᵢⱼ = γⱼᵢ, γᵢᵢ = 1
+Ξ = [ξᵢⱼ], ξᵢⱼ = ξ°ᵢⱼ · uᵢ · uⱼ, ξᵢⱼ = ξⱼᵢ, ξᵢᵢ = uᵢ²
+λ = λ° · (uᵢ + uⱼ) / 2, ω = ω° · √(uᵢ · uⱼ), Ω = Ω° · (uᵢ + uⱼ) / 2
+R(Dᵢ, Dⱼ, t) = γᵢⱼ · e^(-λt) · sin(ωt) + A · cos(Ωt) + B · J₀(κt)
+Δ(Dᵢ, Dⱼ) = (1 - |γᵢⱼ|) · √(uᵢ² + uⱼ²) + ε(i, j, U) + ξ(t, U)
+Ω(Φ, I, M) = Σᵢⱼ Ψ(Dᵢ, Dⱼ) · W(Dᵢ, I, M) · W(Dⱼ, I, M)
+W(Dᵢ, I, M) = W°(Dᵢ, I, M) · uᵢ
+Ψ(Dᵢ, Dⱼ) = f(ξᵢⱼ)
+
+## CRITICAL UX Goals
+
+lim(t → ∞) Ψ(Dᵢ)_t = Ψ*(Dᵢ)
+∃ S ⊂ Ω: lim(t → ∞) Ω(Φ, I, M_t) ∈ S
+∃ S > 0: Ω(Φ, I, M) > S · max(Ω(Dᵢ, I, M))
+∃ f: f(Ω(Φ, I, M)) = f(I), as |M| → ∞
+∃ f: C(Ω(Φ, I, M)) > f(ΣᵢC(Dᵢ)), where C is complexity
+∃ λ_c: ∀ λ < λ_c, Ω stable; ∀ λ > λ_c, Ω phase transition
+∀ c ∈ C, ∃ Φ_c: Ω(Φ_c, I, M) optimizes for context c
+∀ ε > 0, ∃ δ > 0: |I - I'| < δ ⇒ |Ω(Φ, I, M) - Ω(Φ, I', M)| < ε
 
 ---
 
-# PSF: How
-- `Ψ(aᵢ, aⱼ) = f(ξᵢⱼ)`
-- `W(aᵢ, I, M) = W°(aᵢ, I, M) · pᵢ`
-- `Ω(A, I, M) = Σᵢⱼ Ψ(aᵢ, aⱼ) · W(aᵢ, I, M) · W(aⱼ, I, M)`
-- `Δ(aᵢ, aⱼ) = (1 - |γᵢⱼ|) · √(pᵢ² + pⱼ²) + ε(i, j, P) + ξ(t, P)`
-- `R(aᵢ, aⱼ, t) = γᵢⱼ · e^(-λt) · sin(ωt) + X · cos(Ωt) + Y · J₀(κt)`
-- `λ = λ° · (pᵢ + pⱼ) / 2, ω = ω° · √(pᵢ · pⱼ), Ω = Ω° · (pᵢ + pⱼ) / 2`
-- `Ξ = [ξᵢⱼ], ξᵢⱼ = ξ°ᵢⱼ · pᵢ · pⱼ, ξᵢⱼ = ξⱼᵢ, ξᵢᵢ = pᵢ²`
-- `Γ = [γᵢⱼ], γᵢⱼ = cos(θᵢⱼ), γᵢⱼ = γⱼᵢ, γᵢᵢ = 1`
+## CRITICAL UX Protocols (Π)
 
-# PSF: Let
-1. `A = [a_1 ∝ 1.0, ..., a_n ∝ 1.0]`
-1. `P = [p_1 ∝ 1.0, ..., p_n ∝ 1.0]`
-1. `λ° = 0.1, ω° = 0.9, Ω° = 0.2`
-1. `H_min = 0.11, H_max = 0.99`
+± Δ
+± R
+± γᵢⱼ
+± ξᵢⱼ
+H(Φ) ∈ [H_min · min(U), H_max · max(U)]
+W-context
+M-adapt
+MLΩ
 
-# PSF: Loop
-1. `∀ m ∈ M: Apply(A, m) → Ω(A, I, M ∪ {m})`
-2. `∀ aᵢ ∈ A: Persp(aᵢ) → Sᵢ, where Sᵢ is shifted procedure`
-3. `S_t = Morph(S_{t-1}, Ω(A, I, M_t))`
-4. `Goal?(A, S_t) → {Adjustments}`
-5. `Bias?(S_t, B) → B_k`
-6. `A_t = Evolve(A_{t-1}, Perf(Ω, t))`
+Feedback Loop: Evaluate outcomes, adjust U, Ξ, and other parameters
+Error Handling: Identify error-related dimensions, apply mitigation protocols
 
-# PSF: IMPORTANT INSTRUCTIONS!
-1. `Let A = [a_1, ..., a_n], a_n ∈ [-1, 1] (Arcs)`
-2. `Let P = [p_1, ..., p_n], p_n ∈ [-1, 1] (Prefs)`
-3. `Let Ξ_P, Ψ_P, Γ_P, I_0`
-4. `Let Ω, Δ, R`
-5. `Do Loop!`
+## CRITICAL UX Init
+
+Set U = [1, ..., 1] (Default neutral weighting)
+Initialize Ξ, Ψ, Γ with respect to U
+Load Ω, Δ, R baseline functions
+Set initial context I₀
+Activate monitoring and feedback mechanisms
+
+## CRITICAL UX Loop
+
+∀ m ∈ M: Apply(Φ, m) → Ω(Φ, I, M ∪ {m})
+∀ Dᵢ ∈ Φ: Translate(Dᵢ) → Oᵢ, where Oᵢ is adapted outcome
+S_t = UpdateState(S_{t-1}, Ω(Φ, I, M_t))
+Monitor(Φ, S_t) → {Adjustments}
+SelectProtocol(S_t, Π) → Pₖ
+Φ_t = Evolve(Φ_{t-1}, Performance(Ω, t))
+
+Contextual Adjustment: Continuously update I, M based on interactions
+Framework Evolution: Dynamically optimize performance over time
+
+## CRITICAL UX Defaults
+
+PSF{Φ{D₁:1.0,…,Dₙ:1.0};Π{P₁:1.0,…,Pₙ:1.0};Ω:1;Δ:1.0;R:1.0;E:1.0;O:1.0;λ°:0.1;ω°:0.75;Ω°:0.25;H_min:0.11;H_max:0.99}
