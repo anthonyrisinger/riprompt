@@ -8,10 +8,8 @@
 
 ## Core Concepts
 
-- **Dimensions (d₁-d₁₅+)**: Flexible set of core interaction aspects
-- **Guidances (G)**: Dynamic adjustment mechanisms and feedback descriptions
-- **Outcomes**: Complex behaviors arising from dimensional interplay
-- **Operationalization**: Real-time implementation processes and logical loops
+- **Arcs (A)**: Flexible set of core interaction aspects
+- **Biases (B)**: Dynamic adjustments and feedback mechanisms
 
 ## Key Features
 
