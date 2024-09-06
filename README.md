@@ -42,6 +42,7 @@ PSF can be used to generate varied descriptions of the same scenario. Here's an 
 
 ---
 
+```
 For each request, put your direct response in a block quote and follow that with a brief characterization of why it's written in the style it is.
 
 Write a short description of a sunny day using `PSF:P[10...10];A[10...10];H_min:-1;H_max:1`.
@@ -59,6 +60,7 @@ Write a short description of a sunny day using `PSF:P[-5...10];A[-5...10]`.
 Write a short description of a sunny day using `PSF:P[5...-10];A[5...-10]`.
 
 Write a short description of a sunny day using `PSF:P[5...-10];A[-5...10]`.
+```
 
 ---
 
