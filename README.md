@@ -47,14 +47,14 @@ For each request:
 * Place your direct response in a Markdown block quote.
 * Briefly characterize the reasoning behind your response.
 
-Write a short description of a sunny day using `PSF:P[5...5];A[5...5];H_min:1`.
-Write a short description of a sunny day using `PSF:P[1...1];A[1...1]`.
-Write a short description of a sunny day using `PSF:P[0...0];A[0...0];H_max:0`.
-Write a short description of a sunny day using `PSF:P[-1...-1];A[-1...-1]`.
-Write a short description of a sunny day using `PSF:P[-5...-5];A[-5...-5];H_min:1`.
-Write a short description of a sunny day using `PSF:P[-5...10];A[-5...10]`.
-Write a short description of a sunny day using `PSF:P[5...-10];A[5...-10];H_min:0.5`.
-Write a short description of a sunny day using `PSF:P[5...-10];A[-5...10]`.
+Write a short description of a sunny day using `PSF{P{5..5};D{5..5};H_min:1}`.
+Write a short description of a sunny day using `PSF{P{1..1};D{1..1}}`.
+Write a short description of a sunny day using `PSF{P{0..0};D{0..0};H_max:0}`.
+Write a short description of a sunny day using `PSF{P{-1..-1};D{-1..-1}}`.
+Write a short description of a sunny day using `PSF{P{-5..-5};D{-5..-5};H_min:1}`.
+Write a short description of a sunny day using `PSF{P{-5..10};D{-5..10}}`.
+Write a short description of a sunny day using `PSF{P{5..-10};D{5..-10};H_min:0.5}`.
+Write a short description of a sunny day using `PSF{P{5..-10};D{-5..10}}`.
 ```
 
 ---
