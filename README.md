@@ -6,7 +6,7 @@
 >
 > *-Claude*
 
-[The Prompt Symmetries Framework](psf.md.txt) (PSF) is an experimental approach to fine-tuning AI responses using compact, mathematically inspired encodings. Developed through extensive prompt analysis, PSF offers a method to level-set, auto-tune, or effect post-hoc adjustments to AI behavior with unexpected precision and flexibility.
+[The Prompt Symmetries Framework](psf.md) (PSF) is an experimental approach to fine-tuning AI responses using compact, mathematically inspired encodings. Developed through extensive prompt analysis, PSF offers a method to level-set, auto-tune, or effect post-hoc adjustments to AI behavior with unexpected precision and flexibility.
 
 ## Core Concepts
 
@@ -31,7 +31,7 @@
    ```
    cd prompt-symmetries
    ```
-3. Copy the PSF encoding from `psf.md.txt` to use in your AI interactions. It might work in more situations than this, but it's
+3. Copy the PSF encoding from `psf.md` to use in your AI interactions. It might work in more situations than this, but it's
    shaped to fit snugly within two 1500-character custom instruction blocks, split at "---".
 
 ## Examples
@@ -147,8 +147,8 @@ Note: Logarithmic scaling for values outside the range `[-1.0, 1.0]` is still in
 
 - [This Documentation](README.md)
 - [Original Prompt Set](prompts/prompts.md.txt)
-- [PSF (Next)](psf-next.md.txt)
-- [PSF](psf.md.txt)
+- [PSF (Next)](psf-next.md)
+- [PSF](psf.md)
 
 ### Cautionary Note
 
