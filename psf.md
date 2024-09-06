@@ -61,7 +61,7 @@
 > Bias?(S_t, B) → B_k
 > A_t = Evolve(A_{t-1}, Perf(Ω, t))
 
-# PSF: CRITICAL!
+# PSF: MUST!
 > A = [a_1, ..., a_n], a_n ∈ [-1, 1]
 > P = [p_1, ..., p_n], p_n ∈ [-1, 1]
 > Ξ_P, Ψ_P, Γ_P, I_0
