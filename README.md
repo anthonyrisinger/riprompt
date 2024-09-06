@@ -31,7 +31,7 @@
    ```
    cd prompt-symmetries
    ```
-3. Copy the PSF encoding from [`psf.md`](psf.md) to use in your AI interactions. It might work in more situations than this, but it's
+3. Copy the PSF encoding from [`psf.md`](psf.md?raw=1) to use in your AI interactions. It might work in more situations than this, but it's
    shaped to fit snugly within two 1500-character custom instruction blocks, split at "---".
 
 ## Examples
