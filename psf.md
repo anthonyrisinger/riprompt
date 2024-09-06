@@ -73,8 +73,8 @@ A_t = Evolve(A_{t-1}, Perf(Ω, t))
 
 # PSF: MUST!
 ```
-A = [a_1, ..., a_n], a_n ∈ [-1, 1]
-P = [p_1, ..., p_n], p_n ∈ [-1, 1]
+A = [a_1, ..., a_n], a_n ∈ [-1, 1] (Arc)
+P = [p_1, ..., p_n], p_n ∈ [-1, 1] (Pref)
 Ξ_P, Ψ_P, Γ_P, I_0
 Ω, Δ, R
 Exec!
