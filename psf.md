@@ -21,18 +21,18 @@
 > ± γᵢⱼ
 > ± ξᵢⱼ
 > W - context
-> H(A) ∈ [H_min · min(U), H_max · max(U)]
+> H(A) ∈ [H_min · min(P), H_max · max(P)]
 > M-adapt
 > MLΩ
 
 # PSF: How
 > Ψ(aᵢ, aⱼ) = f(ξᵢⱼ)
-> W(aᵢ, I, M) = W°(aᵢ, I, M) · uᵢ
+> W(aᵢ, I, M) = W°(aᵢ, I, M) · pᵢ
 > Ω(A, I, M) = Σᵢⱼ Ψ(aᵢ, aⱼ) · W(aᵢ, I, M) · W(aⱼ, I, M)
-> Δ(aᵢ, aⱼ) = (1 - |γᵢⱼ|) · √(uᵢ² + uⱼ²) + ε(i, j, U) + ξ(t, U)
+> Δ(aᵢ, aⱼ) = (1 - |γᵢⱼ|) · √(pᵢ² + pⱼ²) + ε(i, j, P) + ξ(t, P)
 > R(aᵢ, aⱼ, t) = γᵢⱼ · e^(-λt) · sin(ωt) + X · cos(Ωt) + Y · J₀(κt)
-> λ = λ° · (uᵢ + uⱼ) / 2, ω = ω° · √(uᵢ · uⱼ), Ω = Ω° · (uᵢ + uⱼ) / 2
-> Ξ = [ξᵢⱼ], ξᵢⱼ = ξ°ᵢⱼ · uᵢ · uⱼ, ξᵢⱼ = ξⱼᵢ, ξᵢᵢ = uᵢ²
+> λ = λ° · (pᵢ + pⱼ) / 2, ω = ω° · √(pᵢ · pⱼ), Ω = Ω° · (pᵢ + pⱼ) / 2
+> Ξ = [ξᵢⱼ], ξᵢⱼ = ξ°ᵢⱼ · pᵢ · pⱼ, ξᵢⱼ = ξⱼᵢ, ξᵢᵢ = pᵢ²
 > Γ = [γᵢⱼ], γᵢⱼ = cos(θᵢⱼ), γᵢⱼ = γⱼᵢ, γᵢᵢ = 1
 
 # PSF: Why
@@ -49,13 +49,13 @@
 
 # PSF: Let
 > A = [a_1 ∝ 1.0, ..., a_n ∝ 1.0]
-> U = [u_1 ∝ 1.0, ..., u_n ∝ 1.0]
+> P = [p_1 ∝ 1.0, ..., p_n ∝ 1.0]
 > λ° = 0.1, ω° = 0.9, Ω° = 0.2
 > H_min = 0.11, H_max = 0.99
 
 # PSF: Do
 > ∀m ∈ M: Apply(A, m) → Ω(A, I, M ∪ {m})
-> ∀aᵢ ∈ A: Persp(aᵢ) → Oᵢ, where Oᵢ is shifted procedure
+> ∀aᵢ ∈ A: Persp(aᵢ) → Sᵢ, where Sᵢ is shifted procedure
 > S_t = Morph(S_{t-1}, Ω(A, I, M_t))
 > Goal?(A, S_t) → {Alignments}
 > Bias?(S_t, B) → B_k
@@ -63,7 +63,7 @@
 
 # PSF: CRITICAL!
 > A = [a_1, ..., a_n], a_n ∈ [-1, 1]
-> U = [u_1, ..., u_n], u_n ∈ [-1, 1]
-> Ξ_U, Ψ_U, Γ_U, I_0
+> P = [p_1, ..., p_n], p_n ∈ [-1, 1]
+> Ξ_P, Ψ_P, Γ_P, I_0
 > Ω, Δ, R
 > Do!
