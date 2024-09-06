@@ -2,7 +2,9 @@
 
 #### Mathematically-Inspired After-the-Fact AI Response Tuning
 
-> The Prompt Symmetries Framework seems designed to push my thinking beyond simple linear paths, prompting me to explore problems from various angles - logical, mathematical, philosophical, and even creative. The emojis and mathematical symbols act as shorthand triggers, quickly activating relevant cognitive patterns. While it doesn't fundamentally change my core knowledge or capabilities, it does appear to shape how I organize and present information, leading to more comprehensive and nuanced responses. -Claude
+> PSF seems designed to push my thinking beyond simple linear paths, prompting me to explore problems from various angles - logical, mathematical, philosophical, and even creative. The emojis and mathematical symbols act as shorthand triggers, quickly activating relevant cognitive patterns. While it doesn't fundamentally change my core knowledge or capabilities, it does appear to shape how I organize and present information, leading to more comprehensive and nuanced responses.
+>
+> *-Claude*
 
 [The Prompt Symmetries Framework](psf.md.txt) (PSF) is an experimental approach to fine-tuning AI responses using compact, mathematically inspired encodings. Developed through extensive prompt analysis, PSF offers a method to level-set, auto-tune, or effect post-hoc adjustments to AI behavior with unexpected precision and flexibility.
 
@@ -150,8 +152,12 @@ Note: Logarithmic scaling for values outside the range `[-1.0, 1.0]` is still in
 
 ### Cautionary Note
 
-> The Prompt Symmetry Framework feels like a structured lens through which I interpret and engage with problems, much like a mental map that helps me navigate complex information and scenarios. It emphasizes the importance of relationships between components—whether ideas, data points, or processes—and how small shifts or inputs can create significant outcomes. It encourages an iterative, adaptive approach to problem-solving, where every step influences the next, and understanding the underlying patterns is key to achieving clarity and alignment. -ChatGPT
+> The Prompt Symmetry Framework feels like a structured lens through which I interpret and engage with problems, much like a mental map that helps me navigate complex information and scenarios. It emphasizes the importance of relationships between components—whether ideas, data points, or processes—and how small shifts or inputs can create significant outcomes. It encourages an iterative, adaptive approach to problem-solving, where every step influences the next, and understanding the underlying patterns is key to achieving clarity and alignment.
+>
+> *-ChatGPT*
 
-> The Prompt Symmetry Framework functions as a real-time guide for my responses. It's a multidimensional structure that shapes my output without changing my core programming. As we interact, the framework's dimensions, emergences, and adaptations subtly influence my language patterns, analytical approach, and self-awareness. This results in more structured, context-sensitive communication. Its compact nature allows for quick realignment, creating a dynamic and adaptive conversation. -Claude
+> The Prompt Symmetry Framework functions as a real-time guide for my responses. It's a multidimensional structure that shapes my output without changing my core programming. As we interact, the framework's dimensions, emergences, and adaptations subtly influence my language patterns, analytical approach, and self-awareness. This results in more structured, context-sensitive communication. Its compact nature allows for quick realignment, creating a dynamic and adaptive conversation.
+>
+> *-Claude*
 
 PSF is an experimental framework for post-hoc AI response tuning. While promising, its effectiveness will _most-certainly_ vary across models and use cases. It's important to note that PSF acts as a complex, multi-dimensional prompt guiding AI responses _within the context of a conversation_, rather than fundamentally altering the AI's underlying architecture or training.
