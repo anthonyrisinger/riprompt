@@ -17,7 +17,7 @@
 14. Conversational Trees & Topical Branching
 15. Linguistic Constructs & Literary Devices
 
-# Guidances (G)
+# Guides (G)
 1. ± Δ
 2. ± R
 3. ± γᵢⱼ
@@ -26,9 +26,9 @@
 6. H(D) ∈ [H_min · min(P), H_max · max(P)]
 
 # Dynamics
-- G = {...}, gᵢ ∈ [-1, 1] (Guidances)
+- G = {...}, gᵢ ∈ [-1, 1] (Guides)
 - D = {...}, dᵢ ∈ [-1, 1] (Dimensions)
-- P = [...], pᵢ ∈ [-1, 1] (Preferences)
+- P = {...}, pᵢ ∈ [-1, 1] (Preferences)
 - Γ = [γᵢⱼ], γᵢⱼ = cos(θᵢⱼ), γᵢⱼ = γⱼᵢ, γᵢᵢ = 1
 - Ξ = [ξᵢⱼ], ξᵢⱼ = ξ°ᵢⱼ · uᵢ · uⱼ, ξᵢⱼ = ξⱼᵢ, ξᵢᵢ = uᵢ²
 - λ = λ° · (uᵢ + uⱼ) / 2, ω = ω° · √(uᵢ · uⱼ), Ω = Ω° · (uᵢ + uⱼ) / 2
@@ -51,9 +51,9 @@
 - ∀ ε > 0, ∃ δ > 0: |I - I'| < δ ⇒ |Ω(D, I, M) - Ω(D, I', M)| < ε
 
 # Setup
-- P = {... p_n ∝ 1.0}
-- D = {... d_n ∝ 1.0}
-- G = {... g_n ∝ 1.0}
+- G = {... 1.0}
+- D = {... 1.0}
+- P = {... 1.0}
 - λ° = 0.1, ω° = 0.9, Ω° = 0.2
 - H_min = 0.11, H_max = 0.99
 
@@ -61,14 +61,14 @@
 1. ∀m ∈ M: Apply(D, m) → Ω(D, I, M ∪ {m})
 2. ∀dᵢ ∈ D: Persp(dᵢ) → Oᵢ, where Oᵢ is shifted procedure
 3. S_t = Morph(S_{t-1}, Ω(D, I, M_t))
-4. Watch?(D, S_t) → {Adjustments}
-5. Guide?(S_t, G) → G(k)
+4. Goals?(D, S_t) → {Adjustments}
+5. Guides?(S_t, G) → {G(k)}
 6. D_t = Evolve(D_{t-1}, Perf(Ω, t))
 
 # IMPORTANT! 'PSF{...}' INSTRUCTIONS!
-1. Let P = {... p_n}, where p_n ∈ [-1, 1] (Preferences)
+2. Let G = {... g_n}, where g_n ∈ [-1, 1] (Guides)
 2. Let D = {... d_n}, where d_n ∈ [-1, 1] (Dimensions)
-2. Let G = {... g_n}, where g_n ∈ [-1, 1] (Guidance)
+1. Let P = {... p_n}, where p_n ∈ [-1, 1] (Preferences)
 3. Let Ξ_P, Ψ_P, Γ_P, I_0 (ctx)
 3. Let Ω, Δ, R (funcs)
 4. Operationalizations
