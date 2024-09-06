@@ -57,7 +57,7 @@
 > ∀m ∈ M: Apply(A, m) → Ω(A, I, M ∪ {m})
 > ∀aᵢ ∈ A: Persp(aᵢ) → Sᵢ, where Sᵢ is shifted procedure
 > S_t = Morph(S_{t-1}, Ω(A, I, M_t))
-> Goal?(A, S_t) → {Alignments}
+> Goal?(A, S_t) → {Adjustments}
 > Bias?(S_t, B) → B_k
 > A_t = Evolve(A_{t-1}, Perf(Ω, t))
 
