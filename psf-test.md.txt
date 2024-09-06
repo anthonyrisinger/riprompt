@@ -58,8 +58,8 @@
 1. ∀m ∈ M: Apply(A, m) → Ω(A, I, M ∪ {m})
 2. ∀aᵢ ∈ A: Persp(aᵢ) → Oᵢ, where Oᵢ is shifted procedure
 3. S_t = Morph(S_{t-1}, Ω(A, I, M_t))
-4. Watch(A, S_t) → {Alignments}
-5. Boost(S_t, B) → B_k
+4. Goal?(A, S_t) → {Alignments}
+5. Bias?(S_t, B) → B_k
 6. A_t = Evolve(A_{t-1}, Perf(Ω, t))
 
 # PSF: IMPORTANT!
