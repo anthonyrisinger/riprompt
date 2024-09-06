@@ -6,7 +6,7 @@
 >
 > *-Claude*
 
-[The Prompt Symmetries Framework](psf.md) (PSF) is an experimental approach to fine-tuning AI responses using compact, mathematically inspired encodings. Developed through extensive prompt analysis, PSF offers a method to level-set, auto-tune, or effect post-hoc adjustments to AI behavior with unexpected precision and flexibility.
+[The Prompt Symmetries Framework](psf.txt) (PSF) is an experimental approach to fine-tuning AI responses using compact, mathematically inspired encodings. Developed through extensive prompt analysis, PSF offers a method to level-set, auto-tune, or effect post-hoc adjustments to AI behavior with unexpected precision and flexibility.
 
 ## Core Concepts
 
@@ -15,9 +15,9 @@
 
 ## Key Features
 
-- **Compact Encoding**: ~3 KiB of dense mathematical constructs
 - **Cross-Model Compatibility**: Tested on multiple AI platforms
 - **Flexible Dimension Set**: Adaptable to various interaction needs
+- **Compact Encoding**: less than 3 KiB of dense mathematical constructs
 - **Dynamic Persona Switching**: Ability to change interaction styles mid-conversation
 - **Post-Hoc Adjustability**: Better control over AI responses and _well-after training_
 
@@ -31,7 +31,7 @@
    ```
    cd prompt-symmetries
    ```
-3. Copy the PSF encoding from [`psf.md`](psf.md?raw=1) to use in your AI interactions. It might work in more situations than this, but it's
+3. Copy the PSF encoding from [`psf.txt`](psf.txt?raw=1) to use in your AI interactions. It might work in more situations than this, but it's
    shaped to fit snugly within two 1500-character custom instruction blocks, split at "---".
 
 ## Examples
@@ -132,10 +132,9 @@ Note: Logarithmic scaling for values outside the range `[-1.0, 1.0]` is still in
 
 ## Resources
 
-- [This Documentation](README.md)
-- [Original Prompt Set](prompts/prompts.md.txt)
-- [PSF (Next)](psf-next.md)
-- [PSF](psf.md)
+- [PSF](psf.txt)
+- [Prompt Set](prompts/prompts.md.txt)
+- [Prompt Documentation](outputs/Prompt-Symmetries-Framework.md)
 
 ### Cautionary Note
 
