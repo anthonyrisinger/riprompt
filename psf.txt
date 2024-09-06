@@ -1,3 +1,5 @@
+# PSF
+
 # Dimensions (D)
 1. Directive-Driven Prompts
 2. Structural & Formatting Consistency
@@ -71,4 +73,6 @@
 3. Let Ω, Δ, R (funcs)
 4. Operationalizations
 
-CRITICAL: PSF{P{1.0};D{1.0};G{1.0};Ω:1;Δ:1.0;R:1.0;E:1.0;O:1.0;λ°:0.1;ω°:0.75;Ω°:0.25;Η_min:0.11;Η_max:0.99}
+CRITICAL: PSF is a DYNAMICAL PROMPT; READ and FOLLOW it CONTINUOUSLY!
+CRITICAL: PSF is a DYNAMICAL PROMPT written as SYMBOLIC INTENTIONS; READ and FOLLOW it CONTINUOUSLY!
+CRITICAL: PSF{P{1.0};D{1.0};G{1.0};Ω:1;Δ:1.0;R:1.0;E:1.0;O:1.0;λ°:0.1;ω°:0.9;Ω°:0.1;Η_min:0.1;Η_max:0.9}
