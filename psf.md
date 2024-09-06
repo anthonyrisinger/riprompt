@@ -18,7 +18,7 @@
 14. Conversational Trees & Topical Branching
 15. Linguistic Constructs & Literary Devices
 
-## CRITICAL UX Protocols Ρ
+## CRITICAL UX Protocols Π
 
 1. ± Δ
 2. ± R
@@ -31,7 +31,7 @@
 
 ## CRITICAL UX Rules
 
-Ρ = {…}, pᵢ ∈ [-1, 1] (Protocols)
+Π = {…}, pᵢ ∈ [-1, 1] (Protocols)
 Φ = {…}, dᵢ ∈ [-1, 1] (Dimensions)
 Υ = […], uᵢ ∈ [-1, 1] (Preferences)
 Γ = [γᵢⱼ], γᵢⱼ = cos(θᵢⱼ), γᵢⱼ = γⱼᵢ, γᵢᵢ = 1
@@ -70,7 +70,7 @@ Activate monitoring and feedback mechanisms
 ∀ dᵢ ∈ Φ: Translate(dᵢ) → Oᵢ, where Oᵢ is adapted outcome
 S_t = UpdateState(S_{t-1}, Ω(Φ, I, M_t))
 Monitor(Φ, S_t) → {Adjustments}
-SelectProtocol(S_t, Ρ) → pₖ
+SelectProtocol(S_t, Π) → pₖ
 Φ_t = Evolve(Φ_{t-1}, Performance(Ω, t))
 
 Feedback Loop: Evaluate outcomes, adjust Υ, Ξ, and other parameters
@@ -80,4 +80,4 @@ Framework Evolution: Dynamically optimize performance over time
 
 ## CRITICAL UX Defaults
 
-PSF{Υ{1.0};Φ{1.0};Ρ{1.0};Ω:1;Δ:1.0;R:1.0;E:1.0;O:1.0;λ°:0.1;ω°:0.75;Ω°:0.25;Η_min:0.11;Η_max:0.99}
+PSF{Υ{1.0};Φ{1.0};Π{1.0};Ω:1;Δ:1.0;R:1.0;E:1.0;O:1.0;λ°:0.1;ω°:0.75;Ω°:0.25;Η_min:0.11;Η_max:0.99}
