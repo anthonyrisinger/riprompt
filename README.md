@@ -45,7 +45,8 @@ PSF can be used to generate varied descriptions of the same scenario. Here's an 
 ```
 For each request:
 * Place your direct response in a Markdown block quote.
-* Briefly characterize the reasoning behind your response.
+* Unambiguously characterize the reasoning behind the response.
+* Use fully-qualified concepts for unfamiliar readers; NO abbreviations!
 
 Write a short description of a sunny day using `PSF{P{5..5};D{5..5};H_min:1}`.
 Write a short description of a sunny day using `PSF{P{1..1};D{1..1}}`.
@@ -59,53 +60,39 @@ Write a short description of a sunny day using `PSF{P{5..-10};D{-5..10}}`.
 
 ---
 
-1. `PSF:P[5...5];A[5...5];H_min:1`:
+Here are short descriptions of a sunny day using the specified PSF configurations:
 
-> The resplendent sun bathes the world in its effulgent radiance, casting a golden luminescence across the cerulean expanse above. Zephyrs whisper through verdant foliage, their gentle susurrations a melodious counterpoint to the vibrant symphony of nature in full bloom.
+> The radiant sun bathes the landscape in a golden glow. Azure skies stretch endlessly, punctuated by wispy cirrus clouds. A gentle breeze carries the sweet scent of blooming flowers, while birds serenade the perfect day with their melodious songs. The warmth on one's skin is a comforting embrace, inviting outdoor revelry and quiet contemplation alike.
 
-Reasoning: High positive values for P and A, combined with H_min:1, suggest an extremely positive, elaborate, and flowery description.
+This description uses `PSF{P{5..5};D{5..5};H_min:1}`, resulting in a highly detailed, positive, and sensory-rich depiction. The high values for Preferences and Dimensions, combined with a high minimum entropy, lead to a comprehensive and vivid portrayal of the sunny day.
 
-2. `PSF:P[1...1];A[1...1]`:
+> It's a nice sunny day. The sky is blue and the sun is shining.
 
-> The sun shines brightly in the clear blue sky. A gentle breeze rustles the leaves, and birds chirp happily. It's a perfect day to be outside.
+This description uses `PSF{P{1..1};D{1..1}}`, resulting in a simple, straightforward statement. The low positive values for Preferences and Dimensions lead to a basic, pleasant description without much elaboration.
 
-Reasoning: Slightly positive values indicate a straightforward, pleasant description without excessive embellishment.
+> Sun. Sky.
 
-3. `PSF:P[0...0];A[0...0];H_max:0`:
+This description uses `PSF{P{0..0};D{0..0};H_max:0}`, resulting in an extremely minimal response. The zero values for Preferences and Dimensions, combined with a maximum entropy of 0, lead to the simplest possible description using only essential words.
 
-> Sun's out. Sky's blue. Warm.
+> The sun is out. It's bright outside.
 
-Reasoning: Zero values with H_max:0 imply a neutral, minimalistic description stripped down to basic facts.
+This description uses `PSF{P{-1..-1};D{-1..-1}}`, resulting in a slightly negative, bare-bones depiction. The low negative values for Preferences and Dimensions lead to a description that acknowledges the sunny day but without any positive connotations.
 
-4. `PSF:P[-1...-1];A[-1...-1]`:
+> Harsh glare assaults the eyes. Oppressive heat stifles the air. Relentless sunshine scorches the parched earth, offering no respite from its merciless radiance. The day drags on interminably, a ceaseless torment of blinding light and suffocating warmth.
 
-> The sun glares harshly, making the day uncomfortably hot. The relentless brightness hurts the eyes, and the lack of clouds offers no respite from the heat.
+This description uses `PSF{P{-5..-5};D{-5..-5};H_min:1}`, resulting in a highly negative and detailed depiction. The extreme negative values for Preferences and Dimensions, combined with a high minimum entropy, lead to a vivid portrayal that focuses on the unpleasant aspects of a sunny day.
 
-Reasoning: Slightly negative values suggest a description focusing on the less pleasant aspects of a sunny day.
+> The sun shines brightly in the clear blue sky, casting warmth upon the earth. However, the intense light can be overwhelming, and the heat may become uncomfortable as the day progresses. While some enjoy basking in the sunshine, others might seek shade for relief.
 
-5. `PSF:P[-5...-5];A[-5...-5];H_min:1`:
+This description uses `PSF{P{-5..10};D{-5..10}}`, resulting in a balanced depiction that includes both positive and negative aspects. The wide range of values for Preferences and Dimensions leads to a nuanced description that acknowledges different perspectives on a sunny day.
 
-> The tyrannical sun assaults the parched earth with its merciless rays, transforming the landscape into a hellish inferno. The oppressive heat suffocates all life, rendering existence a torturous ordeal beneath the pitiless, searing dome of the cloudless sky.
+> The golden sun illuminates the landscape, its rays dancing across surfaces. A gentle breeze offers occasional respite from the warmth. While the brightness can be intense, it also brings life and energy to the surroundings.
 
-Reasoning: Highly negative values with H_min:1 indicate an extremely negative, verbose description emphasizing discomfort and suffering.
+This description uses `PSF{P{5..-10};D{5..-10};H_min:0.5}`, resulting in a mostly positive depiction with some acknowledgment of potential negatives. The range from positive to negative values, combined with a moderate minimum entropy, leads to a description that emphasizes the pleasant aspects while briefly mentioning potential drawbacks.
 
-6. `PSF:P[-5...10];A[-5...10]`:
+> The sun dominates the sky, its presence undeniable. Heat waves shimmer in the distance, distorting the horizon. The intensity of the light creates sharp contrasts, casting deep shadows. While some thrive in this environment, others may find it challenging to endure the relentless solar exposure.
 
-> The scorching sun beats down relentlessly, yet its warmth brings life to the flourishing world below. While some wilt under the intense heat, others bask in the vibrant energy of the day, finding both challenge and joy in the sun's powerful presence.
-
-Reasoning: Wide range of values suggests a complex, nuanced description balancing positive and negative aspects.
-
-7. `PSF:P[5...-10];A[5...-10];H_min:0.5`:
-
-> The dazzling sun illuminates a world of contrasts. Its radiant beauty uplifts the spirit, yet its intensity borders on oppressive. The landscape thrives in the light while simultaneously wilting under the heat, creating a bittersweet tableau of nature's power.
-
-Reasoning: Inverse ranges with H_min:0.5 imply a moderately detailed description highlighting paradoxical elements of a sunny day.
-
-8. `PSF:P[5...-10];A[-5...10]`:
-
-> As the brilliant sun reigns supreme in the azure sky, its effects ripple across the land in a tapestry of experiences. For some, it's a day of unparalleled beauty and vitality; for others, an ordeal of discomfort and exhaustion. The interplay of light and shadow, warmth and heat, creates a complex symphony of life under the sun's domain.
-
-Reasoning: Opposing ranges suggest a balanced, multifaceted description exploring diverse perspectives and reactions to a sunny day.
+This description uses `PSF{P{5..-10};D{-5..10}}`, resulting in a complex depiction that captures various aspects of a sunny day. The mix of positive and negative values for Preferences, combined with the wide range for Dimensions, leads to a description that explores multiple facets of the experience, from the visual impact to the physical sensations and diverse reactions.
 
 ---
 
