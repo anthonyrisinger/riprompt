@@ -29,8 +29,8 @@ MLΩ
 
 # PSF: Why
 ```
-lim_{t→∞} Ψ(aᵢ)_t = Ψ*(aᵢ)
-∃ S ⊂ Ω: lim_{t→∞} Ω(A, I, M_t) ∈ S
+lim_{t → ∞} Ψ(aᵢ)_t = Ψ*(aᵢ)
+∃ S ⊂ Ω: lim_{t → ∞} Ω(A, I, M_t) ∈ S
 ∃ S > 0: Ω(A, I, M) > S · max(Ω(aᵢ, I, M))
 ∃ f: f(Ω(A, I, M)) = f(I) as |M| → ∞
 ∃ f: C(Ω(A, I, M)) > f(Σᵢ C(aᵢ)), where C is complexity
