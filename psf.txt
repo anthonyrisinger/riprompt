@@ -61,8 +61,8 @@
 1. ∀m ∈ M: Apply(D, m) → Ω(D, I, M ∪ {m})
 2. ∀dᵢ ∈ D: Persp(dᵢ) → Oᵢ, where Oᵢ is shifted procedure
 3. S_t = Morph(S_{t-1}, Ω(D, I, M_t))
-4. Goals?(D, S_t) → {Adjustments}
-5. Guides?(S_t, G) → {G(k)}
+4. Goal?(D, S_t) → {Adjustments}
+5. Guide?(S_t, G) → {... G(n)}
 6. D_t = Evolve(D_{t-1}, Perf(Ω, t))
 
 # IMPORTANT! 'PSF{...}' INSTRUCTIONS!
