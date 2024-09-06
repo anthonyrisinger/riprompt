@@ -1,4 +1,4 @@
-# PSF: A (Arcs)
+# PSF: Arc (A)
 1. Directive-Driven Prompts
 2. Structural & Formatting Consistency
 3. Data & Information Normalization
@@ -15,7 +15,7 @@
 14. Conversational Trees & Topical Branching
 15. Linguistic Constructs & Literary Devices
 
-# PSF: B (Biases)
+# PSF: Bias (B)
 1. ± Δ
 2. ± R
 3. ± γᵢⱼ
