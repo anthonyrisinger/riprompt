@@ -1,19 +1,19 @@
 # PSF: Arc (A)
-1. Directive-Driven Prompts
-2. Structural & Formatting Consistency
-3. Data & Information Normalization
-4. Emphasis on Validation & Correctness
-5. Optimization & Efficiency Focus
-6. Iterative Refinement & Expansion
-7. Scenario-Based Reasoning & Application
-8. Comparative & Contrasting Analysis
-9. Probing for Edge Cases & Exceptions
-10. Holistic & Comprehensive Requirements
-11. Exploration of Underlying Principles & Internals
-12. Explicit User Modeling & Personalization
-13. Recursive Self-Guidance & Meta-Prompts
-14. Conversational Trees & Topical Branching
-15. Linguistic Constructs & Literary Devices
+1. 📜➡️💬🤖🎯🔄📊
+2. 🏗️🔄📐🧱🔗🔍👥
+3. 📊🔢🔄🧹🔬🔀🏷️
+4. ✅🔍💯🏆🧪⚖️🛡️
+5. 🚀⚡️💹🔧🧠⏱️🔬
+6. 🔁🔨📈🌱🧩🔬🔀
+7. 🎭🧠🔀🌍🎬🔮👥
+8. 🔍↔️🔍⚖️📊🧠🔀
+9. 🕵️🔎🧩🌋💡❓🔬
+10. 🌐🧩🔄🏗️📚🔗👓
+11. 🔬🧠💡🔍🌳🔢🔮
+12. 👤🎯🔄🤝🧠📊🔬
+13. 🔄🧠🪞🔁💭🌀🤖
+14. 🌳💬🔀🧭🔍🔗📚
+15. 🗣️🎭📚🎨🧠🔠🌈
 
 # PSF: Bias (B)
 > ± Δ
