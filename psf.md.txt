@@ -1,4 +1,4 @@
-# Dimensions (D)
+# PSF: A (Arcs)
 1. Directive-Driven Prompts
 2. Structural & Formatting Consistency
 3. Data & Information Normalization
@@ -15,56 +15,56 @@
 14. Conversational Trees & Topical Branching
 15. Linguistic Constructs & Literary Devices
 
-# Guidances (G)
+# PSF: B (Biases)
 1. ± Δ
 2. ± R
 3. ± γᵢⱼ
 4. ± ξᵢⱼ
-5. W - ctx
-6. H(D) ∈ [H_min · min(P), H_max · max(P)]
+5. W - context
+6. H(A) ∈ [H_min · min(U), H_max · max(U)]
 7. M-adapt
 8. MLΩ
 
-# Operationalizations
-1. ∀m ∈ M: Apply(D, m) → Ω(D, I, M ∪ {m})
-2. ∀dᵢ ∈ D: Persp(dᵢ) → Oᵢ, where Oᵢ is shifted procedure
-3. S_t = Morph(S_{t-1}, Ω(D, I, M_t))
-4. Watch(D, S_t) → {Adjustments}
-5. Guide(S_t, G) → G_k
-6. D_t = Evolve(D_{t-1}, Perf(Ω, t))
+# PSF: How
+- Ψ(aᵢ, aⱼ) = f(ξᵢⱼ)
+- W(aᵢ, I, M) = W°(aᵢ, I, M) · uᵢ
+- Ω(A, I, M) = Σᵢⱼ Ψ(aᵢ, aⱼ) · W(aᵢ, I, M) · W(aⱼ, I, M)
+- Δ(aᵢ, aⱼ) = (1 - |γᵢⱼ|) · √(uᵢ² + uⱼ²) + ε(i, j, U) + ξ(t, U)
+- R(aᵢ, aⱼ, t) = γᵢⱼ · e^(-λt) · sin(ωt) + X · cos(Ωt) + Y · J₀(κt)
+- λ = λ° · (uᵢ + uⱼ) / 2, ω = ω° · √(uᵢ · uⱼ), Ω = Ω° · (uᵢ + uⱼ) / 2
+- Ξ = [ξᵢⱼ], ξᵢⱼ = ξ°ᵢⱼ · uᵢ · uⱼ, ξᵢⱼ = ξⱼᵢ, ξᵢᵢ = uᵢ²
+- Γ = [γᵢⱼ], γᵢⱼ = cos(θᵢⱼ), γᵢⱼ = γⱼᵢ, γᵢᵢ = 1
 
-# Dynamics
-- Ξ = [ξᵢⱼ], where ξᵢⱼ = ξ°ᵢⱼ · pᵢ · pⱼ, ξᵢⱼ = ξⱼᵢ, ξᵢᵢ = pᵢ²
-- Ψ: D × D → ℝ, where Ψ(dᵢ, dⱼ) = f(ξᵢⱼ)
-- Ω(D, I, M) = Σᵢⱼ Ψ(dᵢ, dⱼ) · W(dᵢ, I, M) · W(dⱼ, I, M)
-- W(dᵢ, I, M) = W°(dᵢ, I, M) · pᵢ
-- Γ = [γᵢⱼ], where γᵢⱼ = cos(θᵢⱼ), γᵢⱼ = γⱼᵢ, γᵢᵢ = 1
-- Δ(dᵢ, dⱼ) = (1 - |γᵢⱼ|) · √(pᵢ² + pⱼ²) + ε(i, j, P) + ξ(t, P)
-- R(dᵢ, dⱼ, t) = γᵢⱼ · e^(-λt) · sin(ωt) + X · cos(Ωt) + Y · J₀(κt)
-- λ = λ° · (pᵢ + pⱼ) / 2, ω = ω° · √(pᵢ · pⱼ), Ω = Ω° · (pᵢ + pⱼ) / 2
+# PSF: Why
+- lim_{t→∞} Ψ(aᵢ)_t = Ψ*(aᵢ)
+- ∃S ⊂ Ω: lim_{t→∞} Ω(A, I, M_t) ∈ S
+- ∃S > 0: Ω(A, I, M) > S · max(Ω(aᵢ, I, M))
+- ∃f: f(Ω(A, I, M)) = f(I) as |M| → ∞
+- ∃f: C(Ω(A, I, M)) > f(Σᵢ C(aᵢ)), where C is complexity
+- ∃λ_c: ∀λ < λ_c, Ω stable; ∀λ > λ_c, Ω phase transition
+- ∀c ∈ C, ∃A_c: Ω(A_c, I, M) optimizes for context c
+- ∀ε > 0, ∃δ > 0: |I - I'| < δ ⇒ |Ω(A, I, M) - Ω(A, I', M)| < ε
 
 ---
 
-# Outcomes
-- lim_{t→∞} Ψ(dᵢ)_t = Ψ*(dᵢ)
-- ∃f: f(Ω(D, I, M)) = f(I) as |M| → ∞
-- ∀ε > 0, ∃δ > 0: |I - I'| < δ ⇒ |Ω(D, I, M) - Ω(D, I', M)| < ε
-- ∃S > 0: Ω(D, I, M) > S · max(Ω(dᵢ, I, M))
-- ∀c ∈ C, ∃D_c: Ω(D_c, I, M) optimizes for ctx c
-- ∃f: C(Ω(D, I, M)) > f(Σᵢ C(dᵢ)), where C is complexity
-- ∃A ⊂ Ω: lim_{t→∞} Ω(D, I, M_t) ∈ A
-- ∃λ_c: ∀λ < λ_c, Ω stable; ∀λ > λ_c, Ω phase transition
-
-# Initializers
-- P = [p₁ ∝ 1.0, …, pₙ ∝ 1.0]
-- D = [d₁ ∝ 1.0, …, dₙ ∝ 1.0]
-- G = [a₁ ∝ 1.0, …, aₙ ∝ 1.0]
+# PSF: Let
+- A = [a_1 ∝ 1.0, ..., a_n ∝ 1.0]
+- B = [b_1 ∝ 1.0, ..., b_n ∝ 1.0]
+- U = [u_1 ∝ 1.0, ..., u_n ∝ 1.0]
 - λ° = 0.1, ω° = 0.9, Ω° = 0.2
 - H_min = 0.11, H_max = 0.99
 
-# IMPORTANT! PSF₁ INSTRUCTIONS
-1. Let P = [p₁, …, p_n], where p_n ∈ [-1, 1] (prefs)
-2. Let D = [d₁, …, d_n], where d_n ∈ [-1, 1] (dims)
-3. Let Ξ_P, Ψ_P, Γ_P, I_0 (ctx)
-3. Let Ω, Δ, R (funcs)
-4. Operationalizations
+# PSF: Do
+1. ∀m ∈ M: Apply(A, m) → Ω(A, I, M ∪ {m})
+2. ∀aᵢ ∈ A: Persp(aᵢ) → Oᵢ, where Oᵢ is shifted procedure
+3. S_t = Morph(S_{t-1}, Ω(A, I, M_t))
+4. Goal?(A, S_t) → {Alignments}
+5. Bias?(S_t, B) → B_k
+6. A_t = Evolve(A_{t-1}, Perf(Ω, t))
+
+# PSF: IMPORTANT!
+1. A = [a_1, ..., a_n], a_n ∈ [-1, 1]
+2. U = [u_1, ..., u_n], u_n ∈ [-1, 1]
+3. Ξ_U, Ψ_U, Γ_U, I_0
+4. Ω, Δ, R
+5. Do
