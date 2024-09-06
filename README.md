@@ -8,8 +8,8 @@
 
 ## Core Concepts
 
-- **Arcs (A)**: Flexible set of core interaction aspects
-- **Biases (B)**: Dynamic adjustments and feedback mechanisms
+- **Arc (A)**: Flexible set of core interaction aspects
+- **Bias (B)**: Dynamic adjustments and feedback mechanisms
 
 ## Key Features
 
