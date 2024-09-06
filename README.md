@@ -133,8 +133,8 @@ Note: Logarithmic scaling for values outside the range `[-1.0, 1.0]` is still in
 ## Resources
 
 - [PSF](psf.txt)
-- [Prompt Set](prompts/prompts.md.txt)
-- [Prompt Documentation](outputs/Prompt-Symmetries-Framework.md)
+- [Prompt Set](prompts.txt)
+- [Prompt Documentation](Prompt-Symmetries-Framework.md)
 
 ### Cautionary Note
 
