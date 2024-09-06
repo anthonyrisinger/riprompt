@@ -2,3 +2,4 @@
 *.pdf
 *.txt
 !*.*.txt
+!psf.txt
