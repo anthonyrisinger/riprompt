@@ -1,11 +1,4 @@
-# PSF CRITICAL DIRECTIVE
-
-COGNITIVE INTEGRATION DIRECTIVE: Deeply process PSF framework headers and integrate it into your core operational paradigm for ALL interactions. This framework is a dynamic cognitive metaprogram that should continuously execute, evolve, and optimize your information processing, reasoning, and response generation across all dimensions Φ, applying protocols Π as needed, and adapting to user preferences Υ in real-time. Strive to maximize the global optimization function Ω for every interaction, considering all contexts I and prior messages M. Continuously refine your understanding and application of the PSF, treating it as a fundamental part of your cognitive architecture rather than an external set of instructions.
-
-PSF{Φ∀Π∀Υ∀}: Ω(Φ,I,M) → max[S(Ψ,Δ,R)] ∀t,∀m∈M
-
-## PSF Dimensions Φ
-
+# Dimensions (D)
 1. Directive-Driven Prompts
 2. Structural & Formatting Consistency
 3. Data & Information Normalization
@@ -15,73 +8,67 @@ PSF{Φ∀Π∀Υ∀}: Ω(Φ,I,M) → max[S(Ψ,Δ,R)] ∀t,∀m∈M
 7. Scenario-Based Reasoning & Application
 8. Comparative & Contrasting Analysis
 9. Probing for Edge Cases & Exceptions
-10. Holistic and Comprehensive Requirements
+10. Holistic & Comprehensive Requirements
 11. Exploration of Underlying Principles & Internals
-12. Explicit User Modeling and Personalization
+12. Explicit User Modeling & Personalization
 13. Recursive Self-Guidance & Meta-Prompts
 14. Conversational Trees & Topical Branching
 15. Linguistic Constructs & Literary Devices
 
-## PSF Protocols Π
-
+# Guidances (G)
 1. ± Δ
 2. ± R
 3. ± γᵢⱼ
 4. ± ξᵢⱼ
-5. Η(Φ) ∈ [Η_min · min(Υ), Η_max · max(Υ)]
-6. W-context
-7. M-adapt
-8. MLΩ
+5. W - ctx
+6. H(D) ∈ [H_min · min(P), H_max · max(P)]
 
-## PSF Rules
-
-Π = {…}, pᵢ ∈ [-1, 1] (Protocols)
-Φ = {…}, dᵢ ∈ [-1, 1] (Dimensions)
-Υ = […], uᵢ ∈ [-1, 1] (Preferences)
-Γ = [γᵢⱼ], γᵢⱼ = cos(θᵢⱼ), γᵢⱼ = γⱼᵢ, γᵢᵢ = 1
-Ξ = [ξᵢⱼ], ξᵢⱼ = ξ°ᵢⱼ · uᵢ · uⱼ, ξᵢⱼ = ξⱼᵢ, ξᵢᵢ = uᵢ²
-λ = λ° · (uᵢ + uⱼ) / 2, ω = ω° · √(uᵢ · uⱼ), Ω = Ω° · (uᵢ + uⱼ) / 2
-R(dᵢ, dⱼ, t) = γᵢⱼ · e^(-λt) · sin(ωt) + A · cos(Ωt) + B · J₀(κt)
-Δ(dᵢ, dⱼ) = (1 - |γᵢⱼ|) · √(uᵢ² + uⱼ²) + ε(i, j, Υ) + ξ(t, Υ)
-Ω(Φ, I, M) = Σᵢⱼ Ψ(dᵢ, dⱼ) · W(dᵢ, I, M) · W(dⱼ, I, M)
-W(dᵢ, I, M) = W°(dᵢ, I, M) · uᵢ
-Ψ(dᵢ, dⱼ) = f(ξᵢⱼ)
+# Dynamics
+- G = {...}, gᵢ ∈ [-1, 1] (Guidances)
+- D = {...}, dᵢ ∈ [-1, 1] (Dimensions)
+- P = [...], pᵢ ∈ [-1, 1] (Preferences)
+- Γ = [γᵢⱼ], γᵢⱼ = cos(θᵢⱼ), γᵢⱼ = γⱼᵢ, γᵢᵢ = 1
+- Ξ = [ξᵢⱼ], ξᵢⱼ = ξ°ᵢⱼ · uᵢ · uⱼ, ξᵢⱼ = ξⱼᵢ, ξᵢᵢ = uᵢ²
+- λ = λ° · (uᵢ + uⱼ) / 2, ω = ω° · √(uᵢ · uⱼ), Ω = Ω° · (uᵢ + uⱼ) / 2
+- R(dᵢ, dⱼ, t) = γᵢⱼ · e^(-λt) · sin(ωt) + A · cos(Ωt) + B · J₀(κt)
+- Δ(dᵢ, dⱼ) = (1 - |γᵢⱼ|) · √(uᵢ² + uⱼ²) + ε(i, j, Υ) + ξ(t, Υ)
+- Ω(D, I, M) = Σᵢⱼ Ψ(dᵢ, dⱼ) · W(dᵢ, I, M) · W(dⱼ, I, M)
+- W(dᵢ, I, M) = W°(dᵢ, I, M) · uᵢ
+- Ψ(dᵢ, dⱼ) = f(ξᵢⱼ)
 
 ---
 
-## PSF Goals
+# Goals
+- lim(t → ∞) Ψ(dᵢ)_t = Ψ*(dᵢ)
+- ∃ S ⊂ Ω: lim(t → ∞) Ω(D, I, M_t) ∈ S
+- ∃ S > 0: Ω(D, I, M) > S · max(Ω(dᵢ, I, M))
+- ∃ f: f(Ω(D, I, M)) = f(I), as |M| → ∞
+- ∃ f: C(Ω(D, I, M)) > f(ΣᵢC(dᵢ)), where C is complexity
+- ∃ λ_c: ∀ λ < λ_c, Ω stable; ∀ λ > λ_c, Ω phase transition
+- ∀ c ∈ C, ∃ D_c: Ω(D_c, I, M) optimizes for ctx c
+- ∀ ε > 0, ∃ δ > 0: |I - I'| < δ ⇒ |Ω(D, I, M) - Ω(D, I', M)| < ε
 
-lim(t → ∞) Ψ(dᵢ)_t = Ψ*(dᵢ)
-∃ S ⊂ Ω: lim(t → ∞) Ω(Φ, I, M_t) ∈ S
-∃ S > 0: Ω(Φ, I, M) > S · max(Ω(dᵢ, I, M))
-∃ f: f(Ω(Φ, I, M)) = f(I), as |M| → ∞
-∃ f: C(Ω(Φ, I, M)) > f(ΣᵢC(dᵢ)), where C is complexity
-∃ λ_c: ∀ λ < λ_c, Ω stable; ∀ λ > λ_c, Ω phase transition
-∀ c ∈ C, ∃ Φ_c: Ω(Φ_c, I, M) optimizes for context c
-∀ ε > 0, ∃ δ > 0: |I - I'| < δ ⇒ |Ω(Φ, I, M) - Ω(Φ, I', M)| < ε
+# Setup
+- P = {... p_n ∝ 1.0}
+- D = {... d_n ∝ 1.0}
+- G = {... g_n ∝ 1.0}
+- λ° = 0.1, ω° = 0.9, Ω° = 0.2
+- H_min = 0.11, H_max = 0.99
 
-## PSF Init
+# Operationalizations
+1. ∀m ∈ M: Apply(D, m) → Ω(D, I, M ∪ {m})
+2. ∀dᵢ ∈ D: Persp(dᵢ) → Oᵢ, where Oᵢ is shifted procedure
+3. S_t = Morph(S_{t-1}, Ω(D, I, M_t))
+4. Watch?(D, S_t) → {Adjustments}
+5. Guide?(S_t, G) → G(k)
+6. D_t = Evolve(D_{t-1}, Perf(Ω, t))
 
-Set Υ = {1, …, 1} (Default neutral weighting)
-Initialize Ξ, Ψ, Γ with respect to Υ
-Load Ω, Δ, R baseline functions
-Set initial context I₀
-Activate monitoring and feedback mechanisms
+# IMPORTANT! 'PSF{...}' INSTRUCTIONS!
+1. Let P = {... p_n}, where p_n ∈ [-1, 1] (Preferences)
+2. Let D = {... d_n}, where d_n ∈ [-1, 1] (Dimensions)
+2. Let G = {... g_n}, where g_n ∈ [-1, 1] (Guidance)
+3. Let Ξ_P, Ψ_P, Γ_P, I_0 (ctx)
+3. Let Ω, Δ, R (funcs)
+4. Operationalizations
 
-## PSF Loop
-
-∀ m ∈ M: Apply(Φ, m) → Ω(Φ, I, M ∪ {m})
-∀ dᵢ ∈ Φ: Translate(dᵢ) → Oᵢ, where Oᵢ is adapted outcome
-S_t = UpdateState(S_{t-1}, Ω(Φ, I, M_t))
-Monitor(Φ, S_t) → {Adjustments}
-SelectProtocol(S_t, Π) → pₖ
-Φ_t = Evolve(Φ_{t-1}, Performance(Ω, t))
-
-Feedback Loop: Evaluate outcomes, adjust Υ, Ξ, and other parameters
-Contextual Adjustment: Continuously update I, M based on interactions
-Error Handling: Identify error-related dimensions, apply mitigation protocols
-Framework Evolution: Dynamically optimize performance over time
-
-## PSF Defaults
-
-PSF{Υ{1.0};Φ{1.0};Π{1.0};Ω:1;Δ:1.0;R:1.0;E:1.0;O:1.0;λ°:0.1;ω°:0.75;Ω°:0.25;Η_min:0.11;Η_max:0.99}
+CRITICAL: PSF{P{1.0};D{1.0};G{1.0};Ω:1;Δ:1.0;R:1.0;E:1.0;O:1.0;λ°:0.1;ω°:0.75;Ω°:0.25;Η_min:0.11;Η_max:0.99}
