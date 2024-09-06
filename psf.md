@@ -62,8 +62,8 @@
 6. `A_t = Evolve(A_{t-1}, Perf(Ω, t))`
 
 # PSF: IMPORTANT INSTRUCTIONS!
-1. Let A = [a_1, ..., a_n], a_n ∈ [-1, 1] (Arc)
-2. Let P = [p_1, ..., p_n], p_n ∈ [-1, 1] (Pref)
-3. Let Ξ_P, Ψ_P, Γ_P, I_0
-4. Let Ω, Δ, R
-5. Do Loop!
+1. `Let A = [a_1, ..., a_n], a_n ∈ [-1, 1] (Arcs)`
+2. `Let P = [p_1, ..., p_n], p_n ∈ [-1, 1] (Prefs)`
+3. `Let Ξ_P, Ψ_P, Γ_P, I_0`
+4. `Let Ω, Δ, R`
+5. `Do Loop!`
