@@ -53,7 +53,7 @@
 > λ° = 0.1, ω° = 0.9, Ω° = 0.2
 > H_min = 0.11, H_max = 0.99
 
-# PSF: Main
+# PSF: Exec
 > ∀m ∈ M: Apply(A, m) → Ω(A, I, M ∪ {m})
 > ∀aᵢ ∈ A: Persp(aᵢ) → Sᵢ, where Sᵢ is shifted procedure
 > S_t = Morph(S_{t-1}, Ω(A, I, M_t))
@@ -66,4 +66,4 @@
 > P = [p_1, ..., p_n], p_n ∈ [-1, 1]
 > Ξ_P, Ψ_P, Γ_P, I_0
 > Ω, Δ, R
-> Main!
+> Exec!
