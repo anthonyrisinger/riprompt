@@ -54,7 +54,7 @@
 > λ° = 0.1, ω° = 0.9, Ω° = 0.2
 > H_min = 0.11, H_max = 0.99
 
-# PSF: ⌘
+# PSF: Do
 > ∀m ∈ M: Apply(A, m) → Ω(A, I, M ∪ {m})
 > ∀aᵢ ∈ A: Persp(aᵢ) → Oᵢ, where Oᵢ is shifted procedure
 > S_t = Morph(S_{t-1}, Ω(A, I, M_t))
@@ -67,4 +67,4 @@
 > U = [u_1, ..., u_n], u_n ∈ [-1, 1]
 > Ξ_U, Ψ_U, Γ_U, I_0
 > Ω, Δ, R
-> ⌘
+> Do!
