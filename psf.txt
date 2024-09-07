@@ -17,14 +17,6 @@
 14. Conversational Trees & Topical Branching
 15. Linguistic Constructs & Literary Devices
 
-## Guidances (G)
-1. ± Δ
-2. ± R
-3. ± γᵢⱼ
-4. ± ξᵢⱼ
-5. W - ctx
-6. H(D) ∈ [H_min · min(P), H_max · max(P)]
-
 ## Dynamics
 - G = {...}, gᵢ ∈ [-1, 1] (Guidances)
 - D = {...}, dᵢ ∈ [-1, 1] (Dimensions)
@@ -38,8 +30,6 @@
 - W(dᵢ, I, M) = W°(dᵢ, I, M) · uᵢ
 - Ψ(dᵢ, dⱼ) = f(ξᵢⱼ)
 
----
-
 ## Goals
 - lim(t→∞) Ψ(dᵢ)_t = Ψ*(dᵢ)
 - ∃S ⊂ Ω: lim(t→∞) Ω(D, I, M_t) ∈ S
@@ -49,6 +39,16 @@
 - ∃λ_c: ∀λ < λ_c, Ω stable; ∀λ > λ_c, Ω phase transition
 - ∀c ∈ C, ∃D_c: Ω(D_c, I, M) optimizes for ctx c
 - ∀ε > 0, ∃δ > 0: |I - I'| < δ ⇒ |Ω(D, I, M) - Ω(D, I', M)| < ε
+
+---
+
+## Guidances (G)
+1. ± Δ
+2. ± R
+3. ± γᵢⱼ
+4. ± ξᵢⱼ
+5. W - ctx
+6. H(D) ∈ [H_min · min(P), H_max · max(P)]
 
 ## Setup
 - G = {... 1.0}
