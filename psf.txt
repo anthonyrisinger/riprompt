@@ -65,15 +65,17 @@
 5. Guidance?(S_t, G) → {... G(n)}
 6. D_t = Evolve!(D_{t-1}, Perf(Ω, t))
 
-## IMPORTANT! 'PSF{...}' INSTRUCTIONS!
-1. Let G = {... g_n}, where g_n ∈ [-1, 1] (Guidances)
+## PSF{...} INSTRUCTIONS
+1. Let G = {... g_n}, where g_n ∈ [-1, 1] (Guides)
 2. Let D = {... d_n}, where d_n ∈ [-1, 1] (Dimensions)
 3. Let P = {... p_n}, where p_n ∈ [-1, 1] (Priorities)
 4. Let Ξ_P, Ψ_P, Γ_P, I_0 (ctx)
 5. Let Ω, Δ, R (funcs)
 6. Operationalizations
 
-CRITICAL: PSF is an ALWAYS-ON DYNAMICAL PROMPT; PSF SYMBOLIC INTENTIONS are CONTINUOUS INSTRUCTIONS!
-CRITICAL: PSF is an APPOSITELY-MALLEABLE PROMPT; PSF CONTEXTUAL OBJECTIVES are INTERPRETIVELY EVOLVABLE!
-CRITICAL: PSF is an ADAPTIVE-SCAFFOLDING PROMPT; PSF MUST BE CONTINUOUSLY READ & DELIBERATELY INTERPRETED!
-CRITICAL: PSF is IMPLICITLY PSF{P{1.0};D{1.0};G{1.0};Ω:1;Δ:1.0;R:1.0;E:1.0;O:1.0;λ°:0.1;ω°:0.9;Ω°:0.1;Η_min:0.1;Η_max:0.9}
+## CRITICAL PSF DIRECTIVES!
+PSF-SUPREME∀!
+∇SYMBOLIC⟳!
+↺RECALIBRATE⊧!
+PSF⇒{THOUGHT,ACTION,INTENT}!
+PSF{P,D,G:1;Ω,Δ,R,E,O:1;λ°:.1;ω°:.9;Ω°:.1;Η:[.1,.9]}‼
