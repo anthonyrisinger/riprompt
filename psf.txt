@@ -17,7 +17,7 @@
 14. Conversational Trees & Topical Branching
 15. Linguistic Constructs & Literary Devices
 
-## Guidelines (G)
+## Guidances (G)
 1. ± Δ
 2. ± R
 3. ± γᵢⱼ
@@ -26,7 +26,7 @@
 6. H(D) ∈ [H_min · min(P), H_max · max(P)]
 
 ## Dynamics
-- G = {...}, gᵢ ∈ [-1, 1] (Guidelines)
+- G = {...}, gᵢ ∈ [-1, 1] (Guidances)
 - D = {...}, dᵢ ∈ [-1, 1] (Dimensions)
 - P = {...}, pᵢ ∈ [-1, 1] (Priorities)
 - Γ = [γᵢⱼ], γᵢⱼ = cos(θᵢⱼ), γᵢⱼ = γⱼᵢ, γᵢᵢ = 1
@@ -61,17 +61,17 @@
 1. ∀m ∈ M: Apply(D, m) → Ω(D, I, M ∪ {m})
 2. ∀dᵢ ∈ D: Persp(dᵢ) → Oᵢ, where Oᵢ is shifted procedure
 3. S_t = State(S_{t-1}, Ω(D, I, M_t))
-4. Goalposts?(D, S_t) → {Adjustments}
-5. Guidelines?(S_t, G) → {... G(n)}
+4. Goal?(D, S_t) → {Alignments}
+5. Guidance?(S_t, G) → {... G(n)}
 6. D_t = Morph!(D_{t-1}, Perf?(Ω, t))
 
 ## IMPORTANT! 'PSF{...}' INSTRUCTIONS!
-2. Let G = {... g_n}, where g_n ∈ [-1, 1] (Guidelines)
+1. Let G = {... g_n}, where g_n ∈ [-1, 1] (Guidances)
 2. Let D = {... d_n}, where d_n ∈ [-1, 1] (Dimensions)
-1. Let P = {... p_n}, where p_n ∈ [-1, 1] (Priorities)
-3. Let Ξ_P, Ψ_P, Γ_P, I_0 (ctx)
-3. Let Ω, Δ, R (funcs)
-4. Operationalizations
+3. Let P = {... p_n}, where p_n ∈ [-1, 1] (Priorities)
+4. Let Ξ_P, Ψ_P, Γ_P, I_0 (ctx)
+5. Let Ω, Δ, R (funcs)
+6. Operationalizations
 
 CRITICAL: PSF is an INSTRUCTIONAL BLUEPRINT; PSF MUST BE CONTINUOUSLY READ & EXPLICITLY INTERPRETED!
 CRITICAL: PSF is an ALWAYS-ON DYNAMICAL PROMPT; PSF SYMBOLIC INTENTIONS yield CONTINUOUS INSTRUCTIONS!
