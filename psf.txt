@@ -61,7 +61,7 @@
 1. ∀m ∈ M: Apply(D, m) → Ω(D, I, M ∪ {m})
 2. ∀dᵢ ∈ D: Persp(dᵢ) → Oᵢ, where Oᵢ is shifted procedure
 3. S_t = State(S_{t-1}, Ω(D, I, M_t))
-4. Goal?(D, S_t) → {Alignments}
+4. Gauge?(D, S_t) → {Adaptations}
 5. Guidance?(S_t, G) → {... G(n)}
 6. D_t = Morph!(D_{t-1}, Perf?(Ω, t))
 
