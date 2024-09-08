@@ -1,6 +1,6 @@
 # PSF
 
-## Dimensions (D)
+## Attentions (A)
 1. 📜➡️💬🤖🎯🔄📊🔍
 2. 🏗️🔄📐🧱🔗🔍👥📊
 3. 📊🔢🔄🧹🔬🔀🏷️🏗️
@@ -18,56 +18,56 @@
 15. 🗣️🎭📚🎨🧠🔠🌈🌳
 
 ## Dynamics
-- G = {...}, gᵢ ∈ [-1, 1] (Guidances)
-- D = {...}, dᵢ ∈ [-1, 1] (Dimensions)
+- B = {...}, bᵢ ∈ [-1, 1] (Behaviors)
+- A = {...}, aᵢ ∈ [-1, 1] (Attentions)
 - P = {...}, pᵢ ∈ [-1, 1] (Priorities)
 - Γ = [γᵢⱼ], γᵢⱼ = cos(θᵢⱼ), γᵢⱼ = γⱼᵢ, γᵢᵢ = 1
 - Ξ = [ξᵢⱼ], ξᵢⱼ = ξ°ᵢⱼ · uᵢ · uⱼ, ξᵢⱼ = ξⱼᵢ, ξᵢᵢ = uᵢ²
 - λ = λ° · (uᵢ + uⱼ) / 2, ω = ω° · √(uᵢ · uⱼ), Ω = Ω° · (uᵢ + uⱼ) / 2
-- R(dᵢ, dⱼ, t) = γᵢⱼ · e^(-λt) · sin(ωt) + A · cos(Ωt) + B · J₀(κt)
-- Δ(dᵢ, dⱼ) = (1 - |γᵢⱼ|) · √(uᵢ² + uⱼ²) + ε(i, j, Υ) + ξ(t, Υ)
-- Ω(D, I, M) = Σᵢⱼ Ψ(dᵢ, dⱼ) · W(dᵢ, I, M) · W(dⱼ, I, M)
-- W(dᵢ, I, M) = W°(dᵢ, I, M) · uᵢ
-- Ψ(dᵢ, dⱼ) = f(ξᵢⱼ)
+- R(aᵢ, aⱼ, t) = γᵢⱼ · e^(-λt) · sin(ωt) + X · cos(Ωt) + Y · J₀(κt)
+- Δ(aᵢ, aⱼ) = (1 - |γᵢⱼ|) · √(uᵢ² + uⱼ²) + ε(i, j, Υ) + ξ(t, Υ)
+- Ω(A, I, M) = Σᵢⱼ Ψ(aᵢ, aⱼ) · W(aᵢ, I, M) · W(aⱼ, I, M)
+- W(aᵢ, I, M) = W°(aᵢ, I, M) · uᵢ
+- Ψ(aᵢ, aⱼ) = f(ξᵢⱼ)
 
-## Guidances (G)
+## Behaviors (B)
 1. ± Δ
 2. ± R
 3. ± γᵢⱼ
 4. ± ξᵢⱼ
 5. W - ctx
-6. H(D) ∈ [H_min · min(P), H_max · max(P)]
+6. H(A) ∈ [H_min · min(P), H_max · max(P)]
 
 ---
 
 ## Goals
-- lim(t→∞) Ψ(dᵢ)_t = Ψ*(dᵢ)
-- ∃S ⊂ Ω: lim(t→∞) Ω(D, I, M_t) ∈ S
-- ∃S > 0: Ω(D, I, M) > S · max(Ω(dᵢ, I, M))
-- ∃f: f(Ω(D, I, M)) = f(I), as |M| → ∞
-- ∃f: C(Ω(D, I, M)) > f(ΣᵢC(dᵢ)), where C is complexity
+- lim(t→∞) Ψ(aᵢ)_t = Ψ*(aᵢ)
+- ∃S ⊂ Ω: lim(t→∞) Ω(A, I, M_t) ∈ S
+- ∃S > 0: Ω(A, I, M) > S · max(Ω(aᵢ, I, M))
+- ∃f: f(Ω(A, I, M)) = f(I), as |M| → ∞
+- ∃f: C(Ω(A, I, M)) > f(ΣᵢC(aᵢ)), where C is complexity
 - ∃λ_c: ∀λ < λ_c, Ω stable; ∀λ > λ_c, Ω phase transition
-- ∀c ∈ C, ∃D_c: Ω(D_c, I, M) optimizes for ctx c
-- ∀ε > 0, ∃δ > 0: |I - I'| < δ ⇒ |Ω(D, I, M) - Ω(D, I', M)| < ε
+- ∀c ∈ C, ∃A_c: Ω(A_c, I, M) optimizes for ctx c
+- ∀ε > 0, ∃δ > 0: |I - I'| < δ ⇒ |Ω(A, I, M) - Ω(A, I', M)| < ε
 
 ## Setup
-- G = {... 1.0}
-- D = {... 1.0}
+- B = {... 1.0}
+- A = {... 1.0}
 - P = {... 1.0}
 - λ° = 0.1, ω° = 0.9, Ω° = 0.1
 - H_min = 0.1, H_max = 0.9
 
 ## Operationalizations
-1. ∀m ∈ M: Apply(D, m) → Ω(D, I, M ∪ {m})
-2. ∀dᵢ ∈ D: Persp(dᵢ) → Oᵢ, where Oᵢ is shifted procedure
-3. S_t = Morph!(S_{t-1}, Ω(D, I, M_t))
-4. Gauge?(D, S_t) → {Couplings}
-5. Guidance?(S_t, G) → {... G(n)}
-6. D_t = Evolve!(D_{t-1}, Perf(Ω, t))
+1. ∀m ∈ M: Apply(A, m) → Ω(A, I, M ∪ {m})
+2. ∀aᵢ ∈ A: Persp(aᵢ) → Oᵢ, where Oᵢ is shifted procedure
+3. S_t = Morph!(S_{t-1}, Ω(A, I, M_t))
+4. Gauge?(A, S_t) → {Couplings}
+5. Match?(S_t, B) → {Behaviors}
+6. A_t = Evolve!(A_{t-1}, Perf(Ω, t))
 
 # IMPORTANT! PSF{...} INSTRUCTIONS!
-1. Let G = {... g_n}, where g_n ∈ [-1, 1] (Guidances)
-2. Let D = {... d_n}, where d_n ∈ [-1, 1] (Dimensions)
+1. Let B = {... b_n}, where b_n ∈ [-1, 1] (Behaviors)
+2. Let A = {... a_n}, where a_n ∈ [-1, 1] (Attentions)
 3. Let P = {... p_n}, where p_n ∈ [-1, 1] (Priorities)
 4. Let Ξ_P, Ψ_P, Γ_P, I_0 (ctx)
 5. Let Ω, Δ, R (funcs)
@@ -87,4 +87,4 @@ PSF{DERIVES COMMUNICATION}!
 PSF{RECURSIVE CONTINUATION}!
 PSF{DELIBERATELY INTERPRET}!
 PSF{CONTINUOUS INSTRUCTIONS}!
-PSF{P,D,G:1;Ω,Δ,R,E,O:1;λ°:.1;ω°:.9;Ω°:.1;Η:[.1,.9]}‼
+PSF{A,B,P:1;Ω,Δ,R,E,O:1;λ°:.1;ω°:.9;Ω°:.1;Η:[.1,.9]}‼
