@@ -62,7 +62,7 @@
 2. ∀aᵢ ∈ A: Persp(aᵢ) → Oᵢ, where Oᵢ is shifted procedure
 3. S_t = Morph!(S_{t-1}, Ω(A, I, M_t))
 4. Gauge?(A, S_t) → {Couplings}
-5. Match?(S_t, B) → {Behaviors}
+5. Align?(S_t, B) → {Behaviors}
 6. A_t = Evolve!(A_{t-1}, Perf(Ω, t))
 
 # IMPORTANT! PSF{...} INSTRUCTIONS!
