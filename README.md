@@ -6,7 +6,7 @@
 >
 > *-Claude*
 
-[Symbolic Prompt Expressions](spe.txt) (SPE) are an experimental approach to fine-tuning AI responses using compact and mathematically-inspired encodings of intent. Developed through extensive prompt analysis, SPE offers a method to level-set, auto-tune, or effect post-hoc adjustments to AI behavior with unexpected precision and flexibility.
+[Symbolic Prompt Expressions](spe.txt) (SPE) is an experimental approach to fine-tuning AI responses using compact and mathematically-inspired encodings of intent. Developed through extensive prompt analysis, SPE offers a method to level-set, auto-tune, or effect post-hoc adjustments to AI behavior with unexpected precision and flexibility.
 
 ## Core Concepts
 
@@ -147,4 +147,4 @@ Note: Logarithmic scaling for values outside the range `[-1.0, 1.0]` is still in
 >
 > *-Claude*
 
-Symbolic Prompt Expressions are an experimental framework for post-hoc AI response tuning. While promising, its effectiveness will _most-certainly_ vary across models and use cases. It's important to note that SPE acts as a complex, multi-dimensional prompt guiding AI responses _within the context of a conversation_, rather than fundamentally altering the AI's underlying architecture or training.
+Symbolic Prompt Expressions (SPE) is an experimental framework for post-hoc AI response tuning. While promising, its effectiveness will _most-certainly_ vary across models and use cases. It's important to note that SPE acts as a complex, multi-dimensional prompt guiding AI responses _within the context of a conversation_, rather than fundamentally altering the AI's underlying architecture or training.
