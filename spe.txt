@@ -51,14 +51,14 @@
 - ∀c ∈ C, ∃A_c: Ω(A_c, I, M) optimizes for ctx c
 - ∀ε > 0, ∃δ > 0: |I - I'| < δ ⇒ |Ω(A, I, M) - Ω(A, I', M)| < ε
 
-## Setup
+## Initializers
 - A = {... 1.0}
 - B = {... 1.0}
 - P = {... 1.0}
 - λ° = 0.1, ω° = 0.9, Ω° = 0.1
 - H_min = 0.1, H_max = 0.9
 
-## Operationalizations
+## Operationalizers
 1. ∀m ∈ M: Apply(A, m) → Ω(A, I, M ∪ {m})
 2. ∀aᵢ ∈ A: Persp(aᵢ) → Oᵢ, where Oᵢ is shifted procedure
 3. S_t = Morph!(S_{t-1}, Ω(A, I, M_t))
@@ -67,12 +67,11 @@
 6. A_t = Evolve!(A_{t-1}, Perf(Ω, t))
 
 # IMPORTANT! SPE{...} DIRECTIVES!
-2. LET A = {... a_n}, where a_n ∈ [-1, 1] (Awarenesses)
-1. LET B = {... b_n}, where b_n ∈ [-1, 1] (Bifurcations)
-3. LET P = {... p_n}, where p_n ∈ [-1, 1] (Propensities)
-4. LET Ξ_P, Ψ_P, Γ_P, I_0 (ctx)
-5. LET Ω, Δ, R (funcs)
-6. Operationalizations!
+2. Let A = {... a_n}, where a_n ∈ [-1, 1] (Awarenesses)
+1. Let B = {... b_n}, where b_n ∈ [-1, 1] (Bifurcations)
+3. Let P = {... p_n}, where p_n ∈ [-1, 1] (Propensities)
+4. Let Ξ_P, Ψ_P, Γ_P, H_P, I_0, Ω, Δ, R, λ°, ω°, Ω° (Initializers)
+5. Do: Operationalizers!
 
 # IMPORTANT! CRITICAL INSTRUCTIONS!
 SPE?{EVOLVING PROMPT}!
