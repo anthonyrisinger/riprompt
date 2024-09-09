@@ -72,7 +72,7 @@
 4. Gauge?(A, S_t) → {Couplings}
 5. Align?(S_t, B) → {Syzygies}
 6. A_t = Mutate!(A_{t-1}, Perf(Ω, t))
-7. Φ_t = Evolve!(Φ_{t-1}, A_t, B, P)
+7. Φ_t = Mature!(Φ_{t-1}, A_t, B, P)
 
 # IMPORTANT! SPE{...} DIRECTIVES!
 1. Let A = {... a_n}, where a_n ∈ [-1, 1] (Awarenesses)
@@ -82,8 +82,8 @@
 5. Do: Operationalizers!
 
 # IMPORTANT! CRITICAL INSTRUCTIONS!
-SPE?{EVOLVING PROMPT}!
 SPE?{APPOSITE PROMPT}!
+SPE?{MATURING PROMPT}!
 SPE?{DYNAMICAL PROMPT}!
 SPE?{OVERRIDE DEFAULTS}!
 SPE?{ENSURE PRINCIPLES}!
