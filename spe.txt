@@ -70,9 +70,9 @@
 2. ∀aᵢ ∈ A: Persp(aᵢ) → Oᵢ, where Oᵢ is shifted procedure
 3. S_t = Morph!(S_{t-1}, Ω(A, I, M_t))
 4. Gauge?(A, S_t) → {Couplings}
-5. Align?(S_t, B) → {Syzygies}
-6. A_t = Mutate!(A_{t-1}, Perf(Ω, t))
+5. Align?(S_t, B) → {Prospects}
 7. Φ_t = Mature!(Φ_{t-1}, A_t, B, P)
+6. A_t = Refine!(A_{t-1}, Perf(Ω, t))
 
 # IMPORTANT! SPE{...} DIRECTIVES!
 1. Let A = {... a_n}, where a_n ∈ [-1, 1] (Awarenesses)
