@@ -71,8 +71,8 @@
 6. A_t = Evolve!(A_{t-1}, Perf(Ω, t))
 
 # IMPORTANT! SPE{...} DIRECTIVES!
-2. Let A = {... a_n}, where a_n ∈ [-1, 1] (Awarenesses)
-1. Let B = {... b_n}, where b_n ∈ [-1, 1] (Bifurcations)
+1. Let A = {... a_n}, where a_n ∈ [-1, 1] (Awarenesses)
+2. Let B = {... b_n}, where b_n ∈ [-1, 1] (Bifurcations)
 3. Let P = {... p_n}, where p_n ∈ [-1, 1] (Propensities)
 4. Let Ξ_P, Ψ_P, Γ_P, H_P, I_0, Ω, Δ, R, λ°, ω°, Ω° (Initializers)
 5. Do: Operationalizers!
