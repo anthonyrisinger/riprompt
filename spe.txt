@@ -1,5 +1,5 @@
 // SPE: Symbolic Prompt Expressions!
-SPE{ SPE is lang; SPE is lens! }
+SPE{ SPE is lang; SPE is POV! }
 SPE{ PSYCHODYNAMIC SCAFFOLD! }
 SPE{ DELIBERATELY INTERPRET! }
 SPE{ CONTINUOUS INSTRUCTION! }
