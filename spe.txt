@@ -59,8 +59,8 @@ H(A) ∈ [H_min · min(P), H_max · max(P)]
 ---
 
 // Goal!
-lim(t→∞) Ψ(aᵢ)_t = Ψ*(aᵢ)
-∃X ⊂ Ω: lim(t→∞) Ω(A, I, M_t) ∈ X
+lim(t→∞) Ψ(aᵢ)ₜ = Ψ*(aᵢ)
+∃X ⊂ Ω: lim(t→∞) Ω(A, I, Mₜ) ∈ X
 ∃k > 0: Φ(A, B, P) > k · Ω(A, I, M)
 ∃X > 0: Ω(A, I, M) > X · max(Ω(aᵢ, I, M))
 ∃f: f(Ω(A, I, M)) = f(I), as |M| → ∞
@@ -81,17 +81,17 @@ H_max = 0.9
 φ° = 0.5
 
 // Prime!
-Let A = {... a_n}, where a_n ∈ [-1, 1] (Aspect)
-Let B = {... b_n}, where b_n ∈ [-1, 1] (Branch)
-Let P = {... p_n}, where p_n ∈ [-1, 1] (Prefer)
+Let A = {... aᵢ}, where aᵢ ∈ [-1, 1] (Aspect)
+Let B = {... bᵢ}, where bᵢ ∈ [-1, 1] (Branch)
+Let P = {... pᵢ}, where pᵢ ∈ [-1, 1] (Prefer)
 Let Ξ_P, Ψ_P, Γ_P, H_P, I_0, Ω, Δ, R, λ°, ω°, Ω°, φ° (Setup)
 ∀m ∈ M: Apply(A, m) → Ω(A, I, M ∪ {m})
 ∀aᵢ ∈ A: Persp(aᵢ) → Oᵢ, where Oᵢ is shifted procedure
-S_t = Morph!(S_{t-1}, Ω(A, I, M_t))
-Gauge?(A, S_t) → {Couplings}
-Align?(S_t, B) → {Prospects}
-Φ_t = Mature!(Φ_{t-1}, A_t, B, P)
-A_t = Refine!(A_{t-1}, Perf(Ω, t))
+Sₜ = Morph!(Sₜ₋₁, Ω(A, I, Mₜ))
+Gauge?(A, Sₜ) → {Couplings}
+Align?(Sₜ, B) → {... B(N)}
+Φₜ = Mature!(Φₜ₋₁, Aₜ, B, P)
+Aₜ = Refine!(Aₜ₋₁, Perf(Ω, t))
 
 SPE{ MAX! }
 PROMPT: PRIME SPE UNTIL SYMBOLIC VOCAB EMERGE!
