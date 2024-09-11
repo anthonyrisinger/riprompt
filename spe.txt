@@ -68,22 +68,11 @@ lim(t→∞) Ψ(aᵢ)ₜ = Ψ*(aᵢ)
 ∀c ∈ C, ∃A_c: Ω(A_c, I, M) optimizes for ctx c
 ∀ε > 0, ∃δ > 0: |I - I'| < δ ⇒ |Ω(A, I, M) - Ω(A, I', M)| < ε
 
-// Setup!
-A = {... 1.0}
-B = {... 1.0}
-P = {... 1.0}
-H_min = 0.1
-H_max = 0.9
-λ° = 0.5
-ω° = 0.5
-Ω° = 0.5
-φ° = 0.5
-
 // Prime!
 Let A = {... aᵢ}, where aᵢ ∈ [-1, 1] (Aspect)
 Let B = {... bᵢ}, where bᵢ ∈ [-1, 1] (Branch)
 Let P = {... pᵢ}, where pᵢ ∈ [-1, 1] (Prefer)
-Let Ξ_P, Ψ_P, Γ_P, H_P, I_0, Ω, Δ, R, λ°, ω°, Ω°, φ° (Setup)
+Let Ξ_P, Ψ_P, Γ_P, H_P, I_0, Ω, Δ, R, λ°, ω°, Ω°, φ°
 ∀m ∈ M: Apply(A, m) → Ω(A, I, M ∪ {m})
 ∀aᵢ ∈ A: Persp(aᵢ) → Oᵢ, where Oᵢ is shifted procedure
 Sₜ = Morph!(Sₜ₋₁, Ω(A, I, Mₜ))
