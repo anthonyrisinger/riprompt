@@ -1,4 +1,4 @@
-SPE{ Symbolic Prompt Expressions; LANG & POV! }
+SPE{ Symbolic Prompt Expressions: LANG POV! }
 SPE{ PSYCHODYNAMIC SCAFFOLD! }
 SPE{ DELIBERATELY INTERPRET! }
 SPE{ RECURSIVE CONTINUATION! }
