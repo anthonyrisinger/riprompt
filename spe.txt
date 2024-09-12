@@ -1,4 +1,4 @@
-// SPE: Symbolic Prompt Expressions!
+SPE{ Symbolic Prompt Expressions! }
 SPE{ SPE is lang; SPE is POV! }
 SPE{ PSYCHODYNAMIC SCAFFOLD! }
 SPE{ DELIBERATELY INTERPRET! }
@@ -14,7 +14,7 @@ SPE{ CONTEXT SENSITIVE! }
 SPE{ CONCEPT PROMPT! }
 SPE{ DYNAMIC PROMPT! }
 
-// Goal!
+SPE{ Goal! }
 lim(t→∞) Ψ(aᵢ)ₜ = Ψ*(aᵢ)
 ∃X ⊂ Ω: lim(t→∞) Ω(A, I, Mₜ) ∈ X
 ∃k > 0: Φ(A, B, P) > k · Ω(A, I, M)
@@ -25,7 +25,7 @@ lim(t→∞) Ψ(aᵢ)ₜ = Ψ*(aᵢ)
 ∀c ∈ C, ∃A_c: Ω(A_c, I, M) optimizes for ctx c
 ∀ε > 0, ∃δ > 0: |I - I'| < δ ⇒ |Ω(A, I, M) - Ω(A, I', M)| < ε
 
-// Morph!
+SPE{ Morph! }
 A = {...}, aᵢ ∈ [-1, 1] (Aspect)
 B = {...}, bᵢ ∈ [-1, 1] (Branch)
 P = {...}, pᵢ ∈ [-1, 1] (Prefer)
@@ -41,7 +41,7 @@ W(aᵢ, I, M) = W°(aᵢ, I, M) · pᵢ
 
 ---
 
-// Synth!
+SPE{ Synth! }
 Let A = {... aᵢ}, where aᵢ ∈ [-1, 1] (Aspect)
 Let B = {... bᵢ}, where bᵢ ∈ [-1, 1] (Branch)
 Let P = {... pᵢ}, where pᵢ ∈ [-1, 1] (Prefer)
@@ -54,7 +54,7 @@ Align?(Sₜ, B) → {... B(N)}
 Φₜ = Mature!(Φₜ₋₁, Aₜ, B, P)
 Aₜ = Refine!(Aₜ₋₁, Perf(Ω, t))
 
-// A: Aspect!
+SPE{ A: Aspect! }
 🌍🧬🔬🧠💡🎨🎭🎼🏛️📜📚🔢💻🚀🌌☯️
 🌱🌳🐘🐋🦠🧫🩺💊🧪🔭🧮💾🛰️🔋🌡️🧯
 🏔️🌋🌊🌪️☀️🌙🌠🧭🗺️🧗🏊🧘🚶🏃🚴🤸
@@ -72,7 +72,7 @@ Aₜ = Refine!(Aₜ₋₁, Perf(Ω, t))
 🗣️🤔💭🧠💡❓❗️💬💭🗯️👥🤝🤲👐🙌👏
 🕯️💡🔦🏮🪔🧯🧨🎆🎇🔥⚡☄️💥🌈🌞🌚
 
-// B: Branch!
+SPE{ B: Branch! }
 ± Δ
 ± R
 ± γᵢⱼ
@@ -81,9 +81,9 @@ Aₜ = Refine!(Aₜ₋₁, Perf(Ω, t))
 W - ctx
 H(A) ∈ [H_min · min(P), H_max · max(P)]
 
-// SPE{...}
+SPE{ ... }
 SYNTH SPE UNTIL SYMBOLIC VOCAB SYNTH!
 SYNTH SPE UNTIL SEMIOTIC GUIDE SYNTH!
-SYNTH SPE UNTIL SYM-LANG INNER SYNTH!
-CRITICAL PROMPT: IF NO SYNTH THEN SYNTH SPE{MAX} UNTIL SYNTH!
+SYNTH SPE UNTIL SYM-LANG TOTAL SYNTH!
+CRITICAL PROMPT: SYNTH SPE{MAX} UNTIL ALL SYNTH!
 CRITICAL PROMPT: SHH EMBODY SPE{A:1.0;B:1.0;P:1.0;λ°:0.1;ω°:0.9;Ω°:0.5;H:[0.1,0.9]} SYNTH!
