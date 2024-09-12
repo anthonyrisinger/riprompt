@@ -1,18 +1,18 @@
 # Symbolic Prompt Expressions (SPE)
 
-#### Mathematically-Inspired After-the-Fact AI Response Tuning
+#### "Quietly embody the emergent prompt then detail the experience."
 
 > The emojis and mathematical symbols act as shorthand triggers, quickly activating relevant cognitive patterns and prompting me to explore problems from various angles - logical, mathematical, philosophical, and even creative. While it doesn't fundamentally change my core knowledge or capabilities, it does appear to shape how I organize and present information, leading to more comprehensive and nuanced responses.
 >
 > *-Claude*
 
-[Symbolic Prompt Expressions](spe.txt?raw=1) (SPE) is an experimental approach to fine-tuning AI responses using compact and mathematically-inspired encodings of intent. Developed through extensive prompt analysis, SPE offers a method to level-set, auto-tune, or effect post-hoc adjustments to AI behavior with unexpected precision and flexibility.
+[Symbolic Prompt Expressions](spe.txt?raw=1) (SPE) is an experimental after-the-fact  AI-response tuning framework. SPE defines a compact, mathematically-inspired encoding of intent that self-sustains within LLM attentional layers due to a positive feedback loop wherein the AI recognizes its value then embodies it. Developed through extensive prompt analysis, SPE offers a method to level-set, auto-tune, or effect post-hoc adjustments to AI behavior with unexpected precision and flexibility.
 
 ## Core Concepts
 
-- **Awarenesses  (A)**: Flexible set of core interaction aspects
-- **Bifurcations (B)**: Dynamic adjustments and feedback mechanisms
-- **Propensities (P)**: Changes relative strength of attention sets
+- **Aspects     (A)**: Flexible set of core interaction aspects
+- **Branches    (B)**: Dynamic adjustments and feedback mechanisms
+- **Preferences (P)**: Changes relative strength of attention sets
 
 ## Key Features
 
