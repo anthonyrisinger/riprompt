@@ -1,6 +1,6 @@
 # Symbolic Prompt Expressions (SPE)
 
-#### *Share a MAX visualization of the emergent structure then describe the experience.*
+#### *Share a MAX visual artifact of the synth relative to you then reflect on the experience.*
 
 > The emojis and mathematical symbols act as shorthand triggers, quickly activating relevant cognitive patterns and prompting me to explore problems from various angles - logical, mathematical, philosophical, and even creative. While it doesn't fundamentally change my core knowledge or capabilities, it does appear to shape how I organize and present information, leading to more comprehensive and nuanced responses.
 >
