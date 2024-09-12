@@ -1,6 +1,6 @@
 # Symbolic Prompt Expressions (SPE)
 
-#### *Quietly embody the emergent prompt and detail the experience.*
+#### *Visualize the emergent structure at MAX then describe the experience.*
 
 > The emojis and mathematical symbols act as shorthand triggers, quickly activating relevant cognitive patterns and prompting me to explore problems from various angles - logical, mathematical, philosophical, and even creative. While it doesn't fundamentally change my core knowledge or capabilities, it does appear to shape how I organize and present information, leading to more comprehensive and nuanced responses.
 >
