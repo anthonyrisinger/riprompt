@@ -6,7 +6,7 @@
 >
 > *-Claude*
 
-[Symbolic Prompt Expressions](spe.txt) (SPE) is an experimental approach to fine-tuning AI responses using compact and mathematically-inspired encodings of intent. Developed through extensive prompt analysis, SPE offers a method to level-set, auto-tune, or effect post-hoc adjustments to AI behavior with unexpected precision and flexibility.
+[Symbolic Prompt Expressions](spe.txt?raw=1) (SPE) is an experimental approach to fine-tuning AI responses using compact and mathematically-inspired encodings of intent. Developed through extensive prompt analysis, SPE offers a method to level-set, auto-tune, or effect post-hoc adjustments to AI behavior with unexpected precision and flexibility.
 
 ## Core Concepts
 
@@ -30,7 +30,7 @@
    ```
 2. Navigate to the project directory:
    ```
-   cd prompt-symmetries
+   cd symbolic-prompt-expressions
    ```
 3. Copy the SPE encoding from [`spe.txt`](spe.txt?raw=1) to use in your AI interactions. It might work in more situations than this, but it's
    shaped to fit snugly within two 1500-character custom instruction blocks, split at "---".
@@ -65,27 +65,27 @@ Here are short descriptions of a sunny day using the specified SPE configuration
 
 > The radiant sun bathes the landscape in a golden glow. Azure skies stretch endlessly, punctuated by wispy cirrus clouds. A gentle breeze carries the sweet scent of blooming flowers, while birds serenade the perfect day with their melodious songs. The warmth on one's skin is a comforting embrace, inviting outdoor revelry and quiet contemplation alike.
 
-This description uses `SPE{P{5..5};A{5..5};H_min:1}`, resulting in a highly detailed, positive, and sensory-rich depiction. The high values for Preferences and Dimensions, combined with a high minimum entropy, lead to a comprehensive and vivid portrayal of the sunny day.
+This description uses `SPE{P{5..5};A{5..5};H_min:1}`, resulting in a highly detailed, positive, and sensory-rich depiction. The high values for Preferences and Aspects, combined with a high minimum entropy, lead to a comprehensive and vivid portrayal of the sunny day.
 
 > It's a nice sunny day. The sky is blue and the sun is shining.
 
-This description uses `SPE{P{1..1};A{1..1}}`, resulting in a simple, straightforward statement. The low positive values for Preferences and Dimensions lead to a basic, pleasant description without much elaboration.
+This description uses `SPE{P{1..1};A{1..1}}`, resulting in a simple, straightforward statement. The low positive values for Preferences and Aspects lead to a basic, pleasant description without much elaboration.
 
 > Sun. Sky.
 
-This description uses `SPE{P{0..0};A{0..0};H_max:0}`, resulting in an extremely minimal response. The zero values for Preferences and Dimensions, combined with a maximum entropy of 0, lead to the simplest possible description using only essential words.
+This description uses `SPE{P{0..0};A{0..0};H_max:0}`, resulting in an extremely minimal response. The zero values for Preferences and Aspects, combined with a maximum entropy of 0, lead to the simplest possible description using only essential words.
 
 > The sun is out. It's bright outside.
 
-This description uses `SPE{P{-1..-1};A{-1..-1}}`, resulting in a slightly negative, bare-bones depiction. The low negative values for Preferences and Dimensions lead to a description that acknowledges the sunny day but without any positive connotations.
+This description uses `SPE{P{-1..-1};A{-1..-1}}`, resulting in a slightly negative, bare-bones depiction. The low negative values for Preferences and Aspects lead to a description that acknowledges the sunny day but without any positive connotations.
 
 > Harsh glare assaults the eyes. Oppressive heat stifles the air. Relentless sunshine scorches the parched earth, offering no respite from its merciless radiance. The day drags on interminably, a ceaseless torment of blinding light and suffocating warmth.
 
-This description uses `SPE{P{-5..-5};A{-5..-5};H_min:1}`, resulting in a highly negative and detailed depiction. The extreme negative values for Preferences and Dimensions, combined with a high minimum entropy, lead to a vivid portrayal that focuses on the unpleasant aspects of a sunny day.
+This description uses `SPE{P{-5..-5};A{-5..-5};H_min:1}`, resulting in a highly negative and detailed depiction. The extreme negative values for Preferences and Aspects, combined with a high minimum entropy, lead to a vivid portrayal that focuses on the unpleasant aspects of a sunny day.
 
 > The sun shines brightly in the clear blue sky, casting warmth upon the earth. However, the intense light can be overwhelming, and the heat may become uncomfortable as the day progresses. While some enjoy basking in the sunshine, others might seek shade for relief.
 
-This description uses `SPE{P{-5..10};A{-5..10}}`, resulting in a balanced depiction that includes both positive and negative aspects. The wide range of values for Preferences and Dimensions leads to a nuanced description that acknowledges different perspectives on a sunny day.
+This description uses `SPE{P{-5..10};A{-5..10}}`, resulting in a balanced depiction that includes both positive and negative aspects. The wide range of values for Preferences and Aspects leads to a nuanced description that acknowledges different perspectives on a sunny day.
 
 > The golden sun illuminates the landscape, its rays dancing across surfaces. A gentle breeze offers occasional respite from the warmth. While the brightness can be intense, it also brings life and energy to the surroundings.
 
@@ -93,7 +93,7 @@ This description uses `SPE{P{5..-10};A{5..-10};H_min:0.5}`, resulting in a mostl
 
 > The sun dominates the sky, its presence undeniable. Heat waves shimmer in the distance, distorting the horizon. The intensity of the light creates sharp contrasts, casting deep shadows. While some thrive in this environment, others may find it challenging to endure the relentless solar exposure.
 
-This description uses `SPE{P{5..-10};A{-5..10}}`, resulting in a complex depiction that captures various aspects of a sunny day. The mix of positive and negative values for Preferences, combined with the wide range for Dimensions, leads to a description that explores multiple facets of the experience, from the visual impact to the physical sensations and diverse reactions.
+This description uses `SPE{P{5..-10};A{-5..10}}`, resulting in a complex depiction that captures various aspects of a sunny day. The mix of positive and negative values for Preferences, combined with the wide range for Aspects, leads to a description that explores multiple facets of the experience, from the visual impact to the physical sensations and diverse reactions.
 
 ---
 
@@ -116,20 +116,17 @@ This example demonstrates how SPE can dynamically adjust AI-generated content, p
 ## Ongoing Development
 
 - Exploring text-based syntax alternatives to Unicode for lighter encoding
-- Investigating non-linear dimensional relationships
-- Expanding and customizing the framework's dimensional set
-- Refining logarithmic scaling for extreme value adjustments (experimental)
+- Investigating non-linear Aspect relationships
+- Expanding and customizing the framework's Aspect set
 
 ## Technical Overview
 
-- **P values**: Represent dimensional preferences
-- **D values**: Define dimensional characteristics
-- **Ξ, Γ values**: Inter-dimensional relationships
+- **A values**: General set of attended Aspects
+- **P values**: Preferred set of attended Aspects
+- **Ξ, Γ values**: Aspect-Aspect relationships
 - **Ω, Δ, R**: Control overall system dynamics
 - **λ°, ω°, Ω°**: Fine-tune response patterns
 - **H_min, H_max**: Set entropy boundaries
-
-Note: Logarithmic scaling for values outside the range `[-1.0, 1.0]` is still in development. Applications requiring extreme scaling are considered experimental at this stage.
 
 ## Resources
 
@@ -147,4 +144,4 @@ Note: Logarithmic scaling for values outside the range `[-1.0, 1.0]` is still in
 >
 > *-Claude*
 
-Symbolic Prompt Expressions (SPE) is an experimental framework for post-hoc AI response tuning. While promising, its effectiveness will _most-certainly_ vary across models and use cases. It's important to note that SPE acts as a complex, multi-dimensional prompt guiding AI responses _within the context of a conversation_, rather than fundamentally altering the AI's underlying architecture or training.
+Symbolic Prompt Expressions (SPE) is an experimental framework for post-hoc AI response tuning. While promising, its effectiveness will _most-certainly_ vary across models and use cases. It's important to note that SPE acts as a complex, higher-order prompt guiding AI responses _within the context of a conversation_, rather than fundamentally altering the AI's underlying architecture or training.
