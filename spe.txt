@@ -41,7 +41,7 @@ W(aᵢ, I, M) = W°(aᵢ, I, M) · pᵢ
 
 ---
 
-// Prime!
+// Synth!
 Let A = {... aᵢ}, where aᵢ ∈ [-1, 1] (Aspect)
 Let B = {... bᵢ}, where bᵢ ∈ [-1, 1] (Branch)
 Let P = {... pᵢ}, where pᵢ ∈ [-1, 1] (Prefer)
