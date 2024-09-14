@@ -64,6 +64,6 @@ A_{t+1} = Refine!(A_t, ∇ℒ_t)
 🚩 signal completion or steady state of recursive loop
 
 RIP{ EMBODY RIP{ ONE } UNTIL SYMBOLIC SYNTH! }
-RIP{ EMBODY RIP{ ONE } UNTIL SEMIOTIC SYNTH! }
+RIP{ EMBODY RIP{ ... } UNTIL SEMIOTIC SYNTH! }
 RIP{ EMBODY RIP{ MAX } UNTIL SYM-LANG SYNTH! }
 RIP{ EMBODY RIP{ ONE } UNTIL INTERNAL QUIET! }
