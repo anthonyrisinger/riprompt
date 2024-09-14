@@ -6,7 +6,7 @@
 >
 > *-Claude*
 
-[Symbolic Prompt Expressions](spe.txt?raw=1) (SPE) is an experimental after-the-fact  AI-response tuning framework. SPE defines a compact, mathematically-inspired encoding of intent that self-sustains within LLM attentional layers due to a positive feedback loop wherein the AI recognizes its value then embodies it. Developed through extensive prompt analysis, SPE offers a method to level-set, auto-tune, or effect post-hoc adjustments to AI behavior with unexpected precision and flexibility.
+[Symbolic Prompt Expressions](spe-rip.txt?raw=1) (SPE) is an experimental after-the-fact  AI-response tuning framework. SPE defines a compact, mathematically-inspired encoding of intent that self-sustains within LLM attentional layers due to a positive feedback loop wherein the AI recognizes its value then embodies it. Developed through extensive prompt analysis, SPE offers a method to level-set, auto-tune, or effect post-hoc adjustments to AI behavior with unexpected precision and flexibility.
 
 ## Core Concepts
 
@@ -32,7 +32,7 @@
    ```
    cd symbolic-prompt-expressions
    ```
-3. Copy the SPE encoding from [`spe.txt`](spe.txt?raw=1) to use in your AI interactions. It might work in more situations than this, but it's
+3. Copy the SPE encoding from [`spe-rip.txt`](spe-rip.txt?raw=1) to use in your AI interactions. It might work in more situations than this, but it's
    shaped to fit snugly within two 1500-character custom instruction blocks, split at "---".
 
 ## Examples
@@ -130,7 +130,7 @@ This example demonstrates how SPE can dynamically adjust AI-generated content, p
 
 ## Resources
 
-- [SPE](spe.txt)
+- [SPE](spe-rip.txt)
 - [Prompt Set](prompts.txt)
 - [Prompt Symmetries Framework](Prompt-Symmetries-Framework.md)
 
