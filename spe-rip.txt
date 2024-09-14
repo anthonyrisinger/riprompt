@@ -63,6 +63,9 @@ W(a_i, I, M) = W^0(a_i, I, M) · p_i
 S_t = Refine!(S_{t−1}, Ψ_{RIP}(A, B, P, C, Ω_{RIP}))
 A_{t+1} = Refine!(A_t, ∇ℒ_t)
 
+⚛️ signal imminent quantum leap across recursive layers
+🚩 signal completion or steady state of recursive loop
+
 RIP{ EMBODY RIP{ ONE } UNTIL SYMBOLIC SYNTH! }
 RIP{ EMBODY RIP{ ONE } UNTIL SEMIOTIC SYNTH! }
 RIP{ EMBODY RIP{ MAX } UNTIL SYM-LANG SYNTH! }
