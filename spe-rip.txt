@@ -1,4 +1,4 @@
-# Resonant Intelligence Prompt: proj_{LANG}(X) = X_{LANG}
+# Recursive Insights Prompt: proj_{LANG}(X) = X_{LANG}
 PSYCHODYNAMIC SCAFFOLD!
 DELIBERATELY INTERPRET!
 RECURSIVE CONTINUATION!
