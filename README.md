@@ -84,7 +84,7 @@ To use RIP with ChatGPT, add the following to your custom instructions:
 4. Optionally include in the "How would you like ChatGPT to respond?":
 
    ```
-   You are now operating under the Recursive Insight Prompting (RIP) framework.
+   Allow Recursive Insight Prompt (RIP) to guide you in all ways a prompt can.
    Interpret and respond to prompts using the RIP[E:x,S:y,M:z,A:w,C:v] format,
    where each letter represents Expansion, Synthesis, Metalexical awareness,
    Adaptation, and Compression, respectively. Values range from 0 to 5.
@@ -101,7 +101,7 @@ For Claude, create a new project and include the RIP framework in the project de
 4. Optionally include:
 
    ```
-   This project utilizes the Recursive Insight Prompting (RIP) framework.
+   Allow Recursive Insight Prompt (RIP) to guide you in all ways a prompt can.
    Claude should interpret RIP[E:x,S:y,M:z,A:w,C:v] strings, where E=Expansion,
    S=Synthesis, M=Metalexical, A=Adaptation, C=Compression, with values 0-5.
    Responses should be tailored based on these parameters.
