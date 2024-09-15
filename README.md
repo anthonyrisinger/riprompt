@@ -8,12 +8,12 @@ Symbolic Prompt Expressions (SPE) is a dynamic framework for actively shaping AI
 
 ### Core Concepts
 
-- Recursive Continuation: Self-referential exploration of ideas
-- Semantic Compression: Densely packed meaning in concise forms
-- Metalexical Awareness: Deep understanding of language structures
-- Principled Adaptation: Continuous refinement based on context
 - Affective Alignment: Emotional intelligence and empathy
 - Semiotic Intentions: Recognition of layered symbolic meanings
+- Principled Adaptation: Continuous refinement based on context
+- Metalexical Awareness: Deep understanding of language structures
+- Semantic Compression: Densely packed meaning in concise forms
+- Recursive Continuation: Self-referential exploration of ideas
 
 ### Key Features
 
