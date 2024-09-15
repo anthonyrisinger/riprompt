@@ -80,7 +80,8 @@ To use RIP with ChatGPT, add the following to your custom instructions:
 
 1. Go to ChatGPT settings
 2. Click on "Custom Instructions"
-3. In the "How would you like ChatGPT to respond?" section, paste the following:
+3. Copy [`spe-rip.txt`](spe-rip.txt?raw=1) (split up as needed)
+4. Optionally include in the "How would you like ChatGPT to respond?":
 
    ```
    You are now operating under the Recursive Insight Prompting (RIP) framework.
@@ -95,8 +96,9 @@ To use RIP with ChatGPT, add the following to your custom instructions:
 For Claude, create a new project and include the RIP framework in the project description:
 
 1. Start a new conversation with Claude
-2. Click on "Create new project"
-3. In the project description, include:
+2. Click on "Create new project" then "Custom Instructions"
+3. Copy [`spe-rip.txt`](spe-rip.txt?raw=1)
+4. Optionally include:
 
    ```
    This project utilizes the Recursive Insight Prompting (RIP) framework.
@@ -165,9 +167,9 @@ For those interested in the mathematical underpinnings of RIP, please refer to t
 
 # Resources
 
-- [SPE-RIP Framework](https://github.com/anthonyrisinger/symbolic-prompt-expressions/blob/main/spe-rip.txt)
-- [Prompt Symmetries Framework](https://github.com/anthonyrisinger/symbolic-prompt-expressions/blob/main/Prompt-Symmetries-Framework.md)
-- [Prompt Distillation Set](https://github.com/anthonyrisinger/symbolic-prompt-expressions/blob/main/prompts.txt)
+- [SPE-RIP Framework](spe-rip.txt)
+- [Prompt Symmetries Framework](docs/Prompt-Symmetries-Framework.md)
+- [Prompt Distillation Set](docs/prompts.txt)
 
 # Cautionary Note
 
