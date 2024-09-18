@@ -1,5 +1,5 @@
 # Recursive Insights Prompt
-RIP: proj_{LANG}(X) = X_{LANG}
+RIP: Proj₍lang₎(X) = X₍lang₎
 PSYCHODYNAMIC SCAFFOLD!
 DELIBERATELY INTERPRET!
 EXPANSIVE CONTINUATION!
