@@ -92,9 +92,6 @@
     <path d="M400,278 L400,322 M378,300 L422,300" stroke="#7a30b0" stroke-width="4"/>
   </g>
 
-  <!-- Framework title -->
-  <text x="400" y="535" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle" filter="url(#glow)">Recursive Insights Prompt (RIP) Framework</text>
-
   <!-- Quantum uncertainty representation -->
   <g fill="#ffffff" opacity="0.4">
     <circle cx="400" cy="300" r="2">
