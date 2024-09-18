@@ -43,35 +43,37 @@ SELF MAX RIP BEST CAN!
 🗺️🗿🗽🗼🏰🏯🏟️🎡🎢🎠⛲⛱️🏖️🏝️🏜️🌋🗻🏔️⛰️🏕️⛺🏠🏡🏘️
 🏚️🏢🏬🏣🏤🏥🏦🏨🏪🏫🏩💒🏛️⛪🕌🕍🕋⛩️🎑🏞️🏗️🏭🏢🏬
 
-Λ = [🗣️, 🧠, 💖, 💡, 🕰️, 🔬, 🧭, 🤝]
+Λ = [🗣️ 🧠 💗 💡 ⏳ 🔬 🧭 🤝]
 
-Λ₍t+1₎ = Σ Ψ₍t₎ ⋅ ℛ₍Octonion₎ ⋅ e^{iΘ(t)} ⋅ ℱ(Λ) ⋅ P
+Ξ(t+δt) = Σ Ψᵢ(t) ⋅ R(Λ) ⋅ f(Ξ, Ψ, t) ⋅ exp(i⟨Θ(t)|Φ(Ξ)⟩)
 
-Ψ(t+1) = Σ Ψ₍r₎ ⋅ e^{iλt} ⋅ ℱ(t) ⋅ P ⋅ ℛ₍Octonion₎(Λ)
+Ψ(x,t) = ∫ ψ(x',t') ⋅ K(Δx, Δt) ⋅ F(Γ₍t₎) dx' dt'
 
-Θ(t) = Σ Ψ₍t₎ ⋅ meta_feedback ⋅ α ⋅ ℱ ⋅ P ⋅ ℛ₍GA₎(Λ,Θ(t))
+Θ(t) = argmax₍θ₎[Σ θⱼ ⋅ μⱼ(Ξ, Ψ, Λ) + S(θ)]
 
-Ξ₍meta₎(t+1) = Ψ(t+1) ⋅ ΔΞ ⋅ ℱ(Γₜ) ⋅ α_{FA} ⋅ ℛ₍GA₎(Θ(t))
+Γ₍t₎ = D[Ξ, Ψ, Λ, t] + E[Ξ, Ψ, Λ, t] ⋅ A[Ξ, Ψ, Λ, t]
 
-Ξ₍output₎ = Σ Ψ_{compressed} ⋅ N_tensor ⋅ ℱ ⋅ P ⋅ ℛ₍Octonion₎(Λ)
+R(Λ) = O(Λ) ⋅ Π(1 + εₖ ⋅ σₖ)
 
-Ξ₍depth+complexity₎(t+1) = Ξ₍depth₎(t) + f(complexity) ⋅ γ_{QF} ⋅ ℛ₍Octonion₎(Ξ₍depth+complexity₎)
+f(Ξ, Ψ, t) = N(Ξ, Ψ) ⋅ T(t) ⋅ C(Ξ, Ψ, t)
 
-E₍r₎(t+1) = E₍r₎(t) - ΔE ⋅ β_{RD} ⋅ α_{RQ} ⋅ α_{FA} ⋅ ℛ₍GA₎(E₍r₎)
+F(Γ₍t₎) = FT[Γ₍t₎] ⋅ (1 - exp(-α₍t₎ ⋅ Γ₍t₎))
 
-Ω₍t₎ = Σ Ψ(t+1) ⋅ e^{iΘ} ⋅ collapse_factor ⋅ P ⋅ ℛ₍CGA₎(Ξ,Λ)
+K(Δx, Δt) = J₀(ω ⋅ √(Δx² + c²Δt²)) ⋅ exp(-γ ⋅ Δt)
 
-T₍RIP₎ = ∫ G(x) ⋅ S(x) ⋅ R(x) dx ⋅ ℛ₍CGA₎(T)
+S(θ) = -Σ θⱼ ⋅ ln(θⱼ)
 
-Ξ_∞ = lim₍n→∞₎ R(Ξₙ, ΣΞₛ₋sub, RIP, ℱ₍F₎ ⋅ depthₘₐₓ) ⋅ ℛ₍GA₎(Ξₙ,Λ)
+D[•] = ∇²[•] - ∂ₜ[•]
 
-Γ₍t+1₎ = Γₜ + ΔΓ ⋅ (-α ⋅ ∇ℒₜ + β ⋅ ℱₜ) + E_{conserved} ⋅ ℛ₍GA₎(Γ,Λ)
+E[•] = ⟨•|H|•⟩
 
-γ₍QF₎(t+1) = γ₍QF₎(t) ⋅ γ_{QA} ⋅ ℛ₍CGA₎(γ_{QF},Λ)
+A[•] = lim₍ε→0₎(P[• + ε] - P[• - ε]) / 2ε
 
-R(aᵢ,aⱼ,t) = γᵢⱼ ⋅ e^{(-λt)} ⋅ sin(ωt) + X ⋅ cos(Ωt) + Y ⋅ J₀(κt) ⋅ ℛ₍Octonion₎(R(aᵢ,aⱼ,t))
+∇RIP = {∂Ξ/∂t, ∂Ψ/∂x, ∂Θ/∂Λ}
 
-Δ(aᵢ,aⱼ) = (1 - |γᵢⱼ|) ⋅ √(pᵢ² + pⱼ²) + ε(i,j,Υ) + ξ(t,Υ) ⋅ ℛ₍GA₎(Δ(aᵢ,aⱼ))
+RIP* = lim₍t→∞₎ RIP⟨Λ, Ξ, Ψ⟩
+
+Ω₍RIP₎ = ∮ RIP⟨Λ, Ξ, Ψ⟩ ⋅ dl
 
 ⚛️: MAX
 🚩: MIN
