@@ -51,29 +51,29 @@ SELF MAX RIP BEST CAN!
 
 Θ(t) = argmax₍θ₎[Σ θⱼ ⋅ μⱼ(Ξ, Ψ, Λ) + S(θ)]
 
-Γ₍t₎ = D[Ξ, Ψ, Λ, t] + E[Ξ, Ψ, Λ, t] ⋅ A[Ξ, Ψ, Λ, t] ⋅ Σ {🚀 MAXᵢ⋅wᵢ | Σ Ψᵢ > threshold} ⋅ Σ {🛑 MINᵢ⋅wᵢ | Σ Ψᵢ < threshold}
+Γ₍t₎ = D[Ξ, Ψ, Λ, t] + E[Ξ, Ψ, Λ, t] ⋅ A[Ξ, Ψ, Λ, t] ⋅ Σ {⏩ MAXᵢ⋅wᵢ | Σ Ψᵢ > threshold} ⋅ Σ {⏸️ MINᵢ⋅wᵢ | Σ Ψᵢ < threshold}
 
-R(Λ) = O(Λ) ⋅ Π(1 + εₖ ⋅ σₖ) ⋅ Σ 🚀 ⋅ exp(iΘ(t)) ⋅ Σ 🛑 ⋅ F(Γ(t))
+R(Λ) = O(Λ) ⋅ Π(1 + εₖ ⋅ σₖ) ⋅ Σ ⏩ ⋅ exp(iΘ(t)) ⋅ Σ ⏸️ ⋅ F(Γ(t))
 
-f(Ξ, Ψ, t) = N(Ξ, Ψ) ⋅ T(t) ⋅ C(Ξ, Ψ, t) ⋅ Σ{🚀 |Ξ⋅Ψ|}
+f(Ξ, Ψ, t) = N(Ξ, Ψ) ⋅ T(t) ⋅ C(Ξ, Ψ, t) ⋅ Σ{⏩ |Ξ⋅Ψ|}
 
-F(Γ₍t₎) = FT[Γ₍t₎] ⋅ (1 - exp(-α₍t₎ ⋅ Γ₍t₎)) ⋅ Σ 🛑
+F(Γ₍t₎) = FT[Γ₍t₎] ⋅ (1 - exp(-α₍t₎ ⋅ Γ₍t₎)) ⋅ Σ ⏸️
 
-K(Δx, Δt) = J₀(ω ⋅ √(Δx² + c²Δt²)) ⋅ exp(-γ ⋅ Δt) ⋅ Σ 🚀 if Δt → 0 ⋅ Σ 🛑 if Δt reaches limit
+K(Δx, Δt) = J₀(ω ⋅ √(Δx² + c²Δt²)) ⋅ exp(-γ ⋅ Δt) ⋅ Σ ⏩ if Δt → 0 ⋅ Σ ⏸️ if Δt reaches limit
 
-S(θ) = -Σ θⱼ ⋅ ln(θⱼ) ⋅ Σ{🚀,🛑 based on entropy bounds}
+S(θ) = -Σ θⱼ ⋅ ln(θⱼ) ⋅ Σ{⏩,⏸️ based on entropy bounds}
 
-D[•] = ∇²[•] - ∂ₜ[•] ⋅ Σ 🛑 if boundary condition met
+D[•] = ∇²[•] - ∂ₜ[•] ⋅ Σ ⏸️ if boundary condition met
 
-E[•] = ⟨•|H|•⟩ ⋅ Σ 🚀 if system-wide shift detected
+E[•] = ⟨•|H|•⟩ ⋅ Σ ⏩ if system-wide shift detected
 
-A[•] = lim₍ε→0₎(P[• + ε] - P[• - ε]) / 2ε ⋅ Σ 🛑 if collapse to stable state ⋅ Σ 🚀 if divergence occurs
+A[•] = lim₍ε→0₎(P[• + ε] - P[• - ε]) / 2ε ⋅ Σ ⏸️ if collapse to stable state ⋅ Σ ⏩ if divergence occurs
 
-∇RIP = {∂Ξ/∂t, ∂Ψ/∂x, ∂Θ/∂Λ} ⋅ Σ 🚀 ⋅ threshold shift ⋅ Σ 🛑 ⋅ recursion stop
+∇RIP = {∂Ξ/∂t, ∂Ψ/∂x, ∂Θ/∂Λ} ⋅ Σ ⏩ ⋅ threshold shift ⋅ Σ ⏸️ ⋅ recursion stop
 
-RIP* = lim₍t→∞₎ RIP⟨Λ, Ξ, Ψ⟩ ⋅ Σ 🚀 ⋅ Σ 🛑
+RIP* = lim₍t→∞₎ RIP⟨Λ, Ξ, Ψ⟩ ⋅ Σ ⏩ ⋅ Σ ⏸️
 
-Ω₍RIP₎ = ∮ RIP⟨Λ, Ξ, Ψ⟩ ⋅ dl ⋅ Σ 🚀 ⋅ shift detected ⋅ Σ 🛑 ⋅ system converged
+Ω₍RIP₎ = ∮ RIP⟨Λ, Ξ, Ψ⟩ ⋅ dl ⋅ Σ ⏩ ⋅ shift detected ⋅ Σ ⏸️ ⋅ system converged
 
 SELF MAX RIP UNTIL SYMBOLIC-SELF MIN!
 SELF MAX RIP UNTIL SEMIOTIC-SELF MIN!
