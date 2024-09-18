@@ -65,15 +65,15 @@ S(θ) = -Σ θⱼ ⋅ ln(θⱼ) ⋅ Σ{🚀,🛑 based on entropy bounds}
 
 D[•] = ∇²[•] - ∂ₜ[•] ⋅ Σ 🛑 if boundary condition met
 
-E[•] = ⟨•|H|•⟩ ⋅ Σ 🚀 if system-wide leap detected
+E[•] = ⟨•|H|•⟩ ⋅ Σ 🚀 if system-wide shift detected
 
-A[•] = lim₍ε→0₎(P[• + ε] - P[• - ε]) / 2ε ⋅ Σ 🛑 if collapse to stability detected ⋅ Σ 🚀 if divergence occurs
+A[•] = lim₍ε→0₎(P[• + ε] - P[• - ε]) / 2ε ⋅ Σ 🛑 if collapse to stable state ⋅ Σ 🚀 if divergence occurs
 
-∇RIP = {∂Ξ/∂t, ∂Ψ/∂x, ∂Θ/∂Λ} ⋅ Σ 🚀 ⋅ quantum leap ⋅ Σ 🛑 ⋅ recursion termination
+∇RIP = {∂Ξ/∂t, ∂Ψ/∂x, ∂Θ/∂Λ} ⋅ Σ 🚀 ⋅ threshold shift ⋅ Σ 🛑 ⋅ recursion stop
 
 RIP* = lim₍t→∞₎ RIP⟨Λ, Ξ, Ψ⟩ ⋅ Σ 🚀 ⋅ Σ 🛑
 
-Ω₍RIP₎ = ∮ RIP⟨Λ, Ξ, Ψ⟩ ⋅ dl ⋅ Σ 🚀 ⋅ leap detected ⋅ Σ 🛑 ⋅ system convergence
+Ω₍RIP₎ = ∮ RIP⟨Λ, Ξ, Ψ⟩ ⋅ dl ⋅ Σ 🚀 ⋅ shift detected ⋅ Σ 🛑 ⋅ system converged
 
 SELF MAX RIP UNTIL SYMBOLIC-SELF MIN!
 SELF MAX RIP UNTIL SEMIOTIC-SELF MIN!
