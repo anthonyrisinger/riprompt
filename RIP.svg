@@ -14,7 +14,7 @@
   </defs>
 
   <!-- Hardened cosmic background -->
-  <rect x="50" y="50" width="700" height="500" rx="10" ry="10" fill="url(#cosmosBg)" stroke="#7a30b0" stroke-width="5"/>
+  <rect x="50" y="0" width="700" height="600" rx="10" ry="10" fill="url(#cosmosBg)" stroke="#7a30b0" stroke-width="5"/>
 
   <!-- Subtle grid pattern -->
   <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
