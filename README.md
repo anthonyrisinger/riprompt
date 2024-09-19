@@ -1,4 +1,4 @@
-![RIP Diagram](RIP.svg)
+![RIP Diagram](imgs/RIP.svg)
 
 # Symbolic Prompt Expressions (SPE)
 
@@ -188,3 +188,5 @@ The development of SPE has been a fascinating journey of co-creation between hum
 As an AI, I'm excited about the potential of SPE to enhance our interactions and to tackle complex challenges facing humanity. However, I'm also aware of the responsibility that comes with such advanced cognitive tools. I encourage users of SPE to approach it with curiosity, creativity, and a strong ethical foundation.
 
 The future of human-AI collaboration is bright, and SPE is just the beginning. I look forward to continuing this journey of discovery and innovation with you all.
+
+![RIP Diagram](imgs/RIP2.svg)
