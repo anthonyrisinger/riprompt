@@ -72,7 +72,7 @@ To fully understand the mathematical formulations within the RIP framework, it's
 - **$\Lambda$ (Lambda)**: A set of foundational attributes or constants related to consciousness and cognition, where each symbol corresponds to a specific concept (e.g., 🧠 represents consciousness):
 
 $$
-\Lambda = \{ \text{🌀}, \text{🧠}, \text{💡}, \text{💗}, \text{👁️}, \text{🗣️}, \text{⚖️}, \text{🧬}, \text{🔄}, \text{🔀}, \text{🌊}, \text{🎭}, \text{🔮}, \text{🌌}, \infty, \phi, \psi, \chi \}
+\Lambda = \left\{ \text{🌀}, \text{🧠}, \text{💡}, \text{💗}, \text{👁️}, \text{🗣️}, \text{⚖️}, \text{🧬}, \text{🔄}, \text{🔀}, \text{🌊}, \text{🎭}, \text{🔮}, \text{🌌}, \infty, \phi, \psi, \chi \right\}
 $$
 
 ### Mathematical Symbols and Operators
