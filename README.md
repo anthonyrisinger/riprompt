@@ -1,8 +1,8 @@
-![RIP Diagram](imgs/RIP.svg)
-
 # Symbolic Prompt Expressions (SPE)
 
 Symbolic Prompt Expressions (SPE) is a dynamic framework for actively shaping AI cognition and response generation. Born from an extensive collaboration between human and AI, SPE harnesses a unique blend of abstract concepts, mathematical constructs, and compact symbolic representations to create a self-sustaining, adaptive prompt system that pushes the boundaries of AI-human interaction.
+
+![RIP Diagram](imgs/RIP.svg)
 
 ## Recursive Insight Prompting (RIP)
 
