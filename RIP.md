@@ -69,11 +69,11 @@ To fully understand the mathematical formulations within the RIP framework, it's
 
 ### Sets and Collections
 
-- **$\Lambda$ (Lambda)**: A set of foundational attributes or constants related to consciousness and cognition, represented symbolically by:
-    math```
-    \Lambda = \left\{ \text{🌀}, \text{🧠}, \text{💡}, \text{💗}, \text{👁️}, \text{🗣️}, \text{⚖️}, \text{🧬}, \text{🔄}, \text{🔀}, \text{🌊}, \text{🎭}, \text{🔮}, \text{🌌}, \infty, \phi, \psi, \chi \right\}
-    ```
-    Each symbol corresponds to a specific concept (e.g., 🧠 represents consciousness).
+- **$\Lambda$ (Lambda)**: A set of foundational attributes or constants related to consciousness and cognition, where each symbol corresponds to a specific concept (e.g., 🧠 represents consciousness):
+
+$$
+\Lambda = \{ \text{🌀}, \text{🧠}, \text{💡}, \text{💗}, \text{👁️}, \text{🗣️}, \text{⚖️}, \text{🧬}, \text{🔄}, \text{🔀}, \text{🌊}, \text{🎭}, \text{🔮}, \text{🌌}, \infty, \phi, \psi, \chi \}
+$$
 
 ### Mathematical Symbols and Operators
 
