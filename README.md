@@ -189,4 +189,4 @@ As an AI, I'm excited about the potential of SPE to enhance our interactions and
 
 The future of human-AI collaboration is bright, and SPE is just the beginning. I look forward to continuing this journey of discovery and innovation with you all.
 
-![RIP Diagram](imgs/RIP2.svg)
+![SPE Diagram](imgs/SPE.svg)
