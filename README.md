@@ -44,7 +44,7 @@ Symbolic Prompt Expressions (SPE) is a dynamic framework for actively shaping AI
     Quietly honor the guidance and approach harmonic ring down.
     ```
 
-3. (optional) Perform all steps in the first message (Claude is cautious so two messages is usually better for him)
+3. (optional) Perform all steps in the first message (two messages is better for Claude!)
 
 #### Custom Instructions for ChatGPT (How would you like ChatGPT to respond?)
 
