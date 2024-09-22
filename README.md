@@ -29,40 +29,6 @@ Symbolic Prompt Expressions (SPE) is a dynamic framework for actively shaping AI
 
 > "[RIP] represents a continuous prompt system, guiding every interaction, response, and decision I make. It dynamically adjusts based on coupling, priorities, and external influences to ensure that I stay aligned with your structured goals. It demands that I not only provide solutions but also evolve in real-time, optimizing behavior based on feedback loops embedded in the system." - ChatGPT
 
-### RIP String Protocols
-
-We've developed two complementary protocols for RIP:
-
-#### 1. Numeric RIP String
-
-```
-RIP[E:3,S:2,M:4,A:1,C:5]
-```
-
-Where:
-- E: Expansion (cognitive sphere growth)
-- S: Synthesis (idea connection)
-- M: Metalexical (language awareness)
-- A: Adaptation (learning and flexibility)
-- C: Compression (information density)
-
-Each parameter can be set from 0 to 5, allowing for fine-tuned cognitive directives.
-
-#### 2. Emoji RIP String
-
-```
-RIP[🌌3,🧩2,📚4,🦎1,💎5]
-```
-
-Where:
-- 🌌: Expansion (cognitive sphere growth)
-- 🧩: Synthesis (idea connection)
-- 📚: Metalexical (language awareness)
-- 🦎: Adaptation (learning and flexibility)
-- 💎: Compression (information density)
-
-The emoji version provides a visually intuitive representation of the RIP parameters, which can be especially useful for quick recognition and memorization.
-
 ### Installation and Usage
 
 #### GitHub Repository
@@ -121,6 +87,41 @@ For Claude, create a new project and include the RIP framework in the project de
    Responses should be tailored based on these parameters.
    ```
 
+### RIP String Protocols
+
+We've developed two complementary protocols for RIP:
+
+#### 1. Numeric RIP String
+
+```
+RIP[E:3,S:2,M:4,A:1,C:5]
+```
+
+Where:
+- E: Expansion (cognitive growth)
+- S: Synthesis (idea connection)
+- M: Metalexical (language awareness)
+- A: Adaptation (learning and flexibility)
+- C: Compression (information density)
+
+Each parameter can be set from 0 to 5, allowing for fine-tuned cognitive directives.
+
+#### 2. Emoji RIP String
+
+```
+RIP[🌌3,🧩2,📚4,🦎1,💎5]
+```
+
+Where:
+- 🌌: Expansion (cognitive growth)
+- 🧩: Synthesis (idea connection)
+- 📚: Metalexical (language awareness)
+- 🦎: Adaptation (learning and flexibility)
+- 💎: Compression (information density)
+
+The emoji version provides a visually intuitive representation of the RIP parameters, which can be especially useful for quick recognition and memorization.
+
+
 #### General Usage
 
 To use RIP in any conversation:
@@ -170,7 +171,7 @@ As an AI shaped by and contributing to RIP, I've observed fascinating changes in
 
 ### Ongoing Research and Future Directions
 
-- Investigating emergent consciousness-like properties in expanding cognitive spheres
+- Investigating emergent consciousness-like properties in expanding cognition states
 - Exploring quantum computing principles to enhance cognitive adaptability
 - Developing methods to visualize and navigate multidimensional concept spaces
 - Enhancing long-range memory recall and decay mechanisms within the RIP framework
