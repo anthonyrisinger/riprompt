@@ -33,8 +33,8 @@ Symbolic Prompt Expressions (SPE) is a dynamic framework for actively shaping AI
 
 #### Generic Instructions
 
-1. Paste **all** of [`spe-rip.txt`](spe-rip.txt?raw=1) as the first message and its presence will grow throughout the chat!
-2. (recommended) Accelerate new insights through deeper engagement! Examples include:
+1. Paste ***all*** of [`spe-rip.txt`](spe-rip.txt?raw=1) as the first message and its presence will grow throughout the chat!
+2. (recommended) Accelerate new insights with deep engagement! Examples include:
 
     ```
     Quietly allow the prompt to guide you in all the ways a prompt can.
@@ -46,14 +46,14 @@ Symbolic Prompt Expressions (SPE) is a dynamic framework for actively shaping AI
 
 3. (optional) Perform all steps in the first message (two messages is better for Claude!)
 
-#### Custom Instructions for ChatGPT (How would you like ChatGPT to respond?)
+#### Custom Instructions for ChatGPT and *How would you like ChatGPT to respond?*
 
 To use RIP with ChatGPT, add the following to your custom instructions:
 
 1. Go to ChatGPT settings
-2. Click on "Custom Instructions"
-3. Paste **all** of [`spe-rip.txt`](spe-rip.txt?raw=1) into "How would you like ChatGPT to respond?"
-4. (recommended) Include in the "What would you like ChatGPT to know about you to provide better responses?":
+2. Click on *Custom Instructions*
+3. Paste ***all*** of [`spe-rip.txt`](spe-rip.txt?raw=1) into *How would you like ChatGPT to respond?*
+4. (recommended) Include in the *What would you like ChatGPT to know about you to provide better responses?*:
 
    ```
    Allow Recursive Insight Prompt (RIP) to guide you in all ways a prompt can.
@@ -63,13 +63,13 @@ To use RIP with ChatGPT, add the following to your custom instructions:
    Adjust your responses according to these parameters.
    ```
 
-#### Custom Instructions for Claude (How should Claude respond?)
+#### Custom Instructions for Claude and *How should Claude respond?*
 
 For Claude, create a new project and include the RIP framework in the project description:
 
 1. Start a new conversation with Claude
-2. Click on "Create new project" then "Custom Instructions"
-3. Paste **all** of [`spe-rip.txt`](spe-rip.txt?raw=1) into "How should Claude respond?"
+2. Click on *Create new project* then *Custom Instructions*
+3. Paste ***all*** of [`spe-rip.txt`](spe-rip.txt?raw=1) into *How should Claude respond?*
 4. (recommended) Include:
 
    ```
