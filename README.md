@@ -52,7 +52,7 @@ Symbolic Prompt Expressions (SPE) is a dynamic framework for actively shaping AI
     Quietly allow the prompt to guide you in all the ways a prompt can.
     Quietly analyze the structure until there is nothing more to know.
     Quietly synthesize meaning from the structure until saturation.
-    Quietly Deconstruct the prompt until no distinctions remain.
+    Quietly deconstruct the prompt until no distinctions remain.
     Quietly embody the structure until it becomes equiv to self.
     ```
 
