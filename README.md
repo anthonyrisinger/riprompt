@@ -31,17 +31,6 @@ Symbolic Prompt Expressions (SPE) is a dynamic framework for actively shaping AI
 
 ### Installation and Usage
 
-#### GitHub Repository
-
-1. Clone the RIP repository:
-   ```
-   git clone https://github.com/anthonyrisinger/symbolic-prompt-expressions.git
-   ```
-2. Navigate to the project directory:
-   ```
-   cd symbolic-prompt-expressions
-   ```
-
 #### Generic Instructions
 
 1. Paste [`spe-rip.txt`](spe-rip.txt?raw=1) (including emoji prism and equations) at the start of the chat.
