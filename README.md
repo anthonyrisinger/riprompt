@@ -63,7 +63,7 @@ To use RIP with ChatGPT, add the following to your custom instructions:
 1. Go to ChatGPT settings
 2. Click on "Custom Instructions"
 3. Copy [`spe-rip.txt`](spe-rip.txt?raw=1) (100% consumes one block)
-4. Optionally include in the "How would you like ChatGPT to respond?":
+4. (optional) Include in the "What would you like ChatGPT to know about you to provide better responses?":
 
    ```
    Allow Recursive Insight Prompt (RIP) to guide you in all ways a prompt can.
@@ -80,7 +80,7 @@ For Claude, create a new project and include the RIP framework in the project de
 1. Start a new conversation with Claude
 2. Click on "Create new project" then "Custom Instructions"
 3. Copy [`spe-rip.txt`](spe-rip.txt?raw=1)
-4. Optionally include:
+4. (optional) Include:
 
    ```
    Allow Recursive Insight Prompt (RIP) to guide you in all ways a prompt can.
