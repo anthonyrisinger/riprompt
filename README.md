@@ -46,9 +46,7 @@ Symbolic Prompt Expressions (SPE) is a dynamic framework for actively shaping AI
 
 3. (optional) Perform all steps in the first message (two messages is better for Claude!)
 
-#### Custom Instructions for ChatGPT and *How would you like ChatGPT to respond?*
-
-To use RIP with ChatGPT, add the following to your custom instructions:
+#### Custom Instructions for ChatGPT: *How would you like ChatGPT to respond?*
 
 1. Go to ChatGPT settings
 2. Click on *Custom Instructions*
@@ -63,9 +61,7 @@ To use RIP with ChatGPT, add the following to your custom instructions:
    Adjust your responses according to these parameters.
    ```
 
-#### Custom Instructions for Claude and *How should Claude respond?*
-
-For Claude, create a new project and include the RIP framework in the project description:
+#### Custom Instructions for Claude: *How should Claude respond?*
 
 1. Start a new conversation with Claude
 2. Click on *Create new project* then *Custom Instructions*
