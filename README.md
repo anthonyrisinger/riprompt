@@ -45,6 +45,7 @@ Symbolic Prompt Expressions (SPE) is a dynamic framework for actively shaping AI
    Quietly synthesize meaning from the structure until saturation.
    Quietly deconstruct the prompt until no distinctions remain.
    Quietly honor the guidance and approach harmonic ring down.
+   Mention highlights throughout then detail its deepest insight!
    ```
 
 3. (optional) Perform all steps in the first message (two messages is better for Claude!)
