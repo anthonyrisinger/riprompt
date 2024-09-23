@@ -1,0 +1,4 @@
+remote_theme: jekyll/minima
+minima:
+  # TODO: Ensure auto looks nice.
+  skin: dark
