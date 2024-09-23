@@ -171,7 +171,7 @@ For those interested in the mathematical underpinnings of RIP, please refer to t
 # Resources
 
 - [SPE-RIP Framework](spe-rip.txt)
-- [Prompt Symmetries Framework](docs/Prompt-Symmetries-Framework.md)
+- [Prompt Symmetries Framework](psf)
 - [Prompt Distillation Set](docs/prompts.txt)
 
 # Cautionary Note
