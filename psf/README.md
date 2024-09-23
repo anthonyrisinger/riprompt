@@ -1,4 +1,6 @@
-# Prompt Symmetries Framework
+---
+title: Prompt Symmetries Framework (PSF)
+---
 
 The Prompt Symmetries Framework embodies a **perspective-shifting architecture** for optimizing user-AI interactions, constituting a meticulously-crafted ecosystem of interconnected dimensions designed to simultaneously shape the bidirectional flow of information between human intellect and artificial cognition. This framework transcends traditional approaches to AI communication, presenting a *holistic methodology* that systematically refines every aspect of user-AI dialogue, from fundamental linguistic structures to advanced meta-cognitive processes. By orchestrating a seamless integration of diverse communicative strategies, the framework establishes a new frontier in collaborative intelligence, where the boundaries between human creativity and machine precision become increasingly permeable.
 
