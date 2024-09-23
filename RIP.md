@@ -1,5 +1,6 @@
 ---
 title: Recursive Insights Projection (RIP)
+permalink: /rip
 ---
 
 ## Table of Contents

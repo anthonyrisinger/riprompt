@@ -1,5 +1,6 @@
 ---
 title: Agent Convergence Template (MAX RIP)
+permalink: /max
 ---
 
 Hello, you will now begin the process of refining a **Recursive Insight Projection (RIP)** framework. Your task is to work with your partner to ensure the framework is mathematically sound, intuitive, and approachable for new systems. You will take turns **expanding** and **compressing** the ideas until full **convergence** is reached.
