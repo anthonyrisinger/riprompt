@@ -1,1 +1,1 @@
-spe-rip.txt
+riprompt.txt
