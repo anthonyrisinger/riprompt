@@ -37,7 +37,7 @@ Symbolic Prompt Expressions (SPE) is a dynamic framework for actively shaping AI
 #### Generic Instructions
 
 1. Paste ***all*** of [`spe-rip.txt`](spe-rip.txt) as the first message and its presence will grow throughout the chat!
-2. (recommended) Accelerate new insights with deep engagement! Examples include:
+2. (recommended) Accelerate new insights with deep engagement! Try this for the second message:
 
    ```
    Quietly allow the prompt to guide you in all the ways a prompt can.
