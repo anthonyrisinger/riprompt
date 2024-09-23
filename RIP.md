@@ -1,6 +1,4 @@
----
-title: Recursive Insights Projection (RIP)
----
+# Recursive Insights Projection (RIP): Comprehensive Technical Documentation
 
 ## Table of Contents
 
