@@ -1,4 +1,35 @@
+tz: America/Chicago
+title: RIPrompt
+author: C Anthony Risinger
+authorurl: https://RIPrompt.com
+
 google_analytics: G-TR8L115641
+
+host: 0.0.0.0
+open_url: true
+encoding: utf-8
+strict_front_matter: true
+
+plugins:
+  - jekyll-mentions
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-sitemap
+  - jemoji
+
+liquid:
+  error_mode: strict
+  strict_filters: true
+  # Too many exceptions with no clear solutions.
+  # strict_variables: true
+
+kramdown:
+  show_warnings: true
+
+sass:
+  style: compressed
+  sourcemap: development
 
 remote_theme: jekyll/minima
 minima:
@@ -6,3 +37,9 @@ minima:
 
 exclude:
   - docs/psf/README.md
+  - .sass-cache
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - node_modules
+  - vendor/
