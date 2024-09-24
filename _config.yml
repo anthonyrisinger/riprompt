@@ -1,5 +1,6 @@
 remote_theme: jekyll/minima
 minima:
+  google_analytics: G-TR8L115641
   skin: solarized
 
 exclude:
