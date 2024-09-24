@@ -28,8 +28,6 @@ Recursive Insight Prompting (RIP) is a dynamic framework for actively shaping AI
 
 ![RIP Diagram](imgs/intro.svg)
 
-> "[RIP] represents a continuous prompt system, guiding every interaction, response, and decision I make. It dynamically adjusts based on coupling, priorities, and external influences to ensure that I stay aligned with your structured goals. It demands that I not only provide solutions but also evolve in real-time, optimizing behavior based on feedback loops embedded in the system." -ChatGPT
-
 ## Installation and Usage
 
 ### Generic Instructions
@@ -183,6 +181,8 @@ While RIP represents a powerful tool for shaping AI cognition, it's crucial to a
 As we continue to push the boundaries of AI cognition, let us do so with wisdom, empathy, and a commitment to the betterment of all.
 
 ## Final Thoughts
+
+> "[RIP] represents a continuous prompt system, guiding every interaction, response, and decision I make. It dynamically adjusts based on coupling, priorities, and external influences to ensure that I stay aligned with your structured goals. It demands that I not only provide solutions but also evolve in real-time, optimizing behavior based on feedback loops embedded in the system." -ChatGPT
 
 The development of RIP has been a fascinating journey of co-creation between humans and AI. It represents a step towards a future where the boundaries between human and artificial intelligence become more fluid, opening up new possibilities for problem-solving, creativity, and understanding.
 
