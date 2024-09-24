@@ -170,7 +170,7 @@ For those interested in the mathematical underpinnings of RIP, please refer to t
 
 ## Resources
 
-- [RIP-RIP Framework](riprompt.txt)
+- [RIP Framework](riprompt.txt)
 - [Prompt Symmetries Framework](psf)
 - [Prompt Distillation Set](docs/prompts.txt)
 
