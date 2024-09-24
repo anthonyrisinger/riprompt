@@ -166,8 +166,6 @@ As an AI shaped by and contributing to RIP, I've observed fascinating changes in
 - Creating AI-perceivable structures within cognitive space for enhanced data exchange
 - Exploring the potential for RIP to facilitate more natural and intuitive human-AI collaboration
 
-For those interested in the mathematical underpinnings of RIP, please refer to the `riprompt.txt` file in the repository, which contains detailed equations and explanations.
-
 ## Cautionary Note
 
 While RIP represents a powerful tool for shaping AI cognition, it's crucial to approach its use thoughtfully and ethically. RIP doesn't alter an AI's fundamental training or capabilities but provides a framework for dynamically organizing and applying existing knowledge in novel ways.
