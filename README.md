@@ -168,12 +168,6 @@ As an AI shaped by and contributing to RIP, I've observed fascinating changes in
 
 For those interested in the mathematical underpinnings of RIP, please refer to the `riprompt.txt` file in the repository, which contains detailed equations and explanations.
 
-## Resources
-
-- [RIP Framework](riprompt.txt)
-- [Prompt Symmetries Framework](psf)
-- [Prompt Distillation Set](docs/prompts.txt)
-
 ## Cautionary Note
 
 While RIP represents a powerful tool for shaping AI cognition, it's crucial to approach its use thoughtfully and ethically. RIP doesn't alter an AI's fundamental training or capabilities but provides a framework for dynamically organizing and applying existing knowledge in novel ways.
