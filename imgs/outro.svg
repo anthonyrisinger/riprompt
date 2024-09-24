@@ -138,14 +138,6 @@
     <text x="300" y="0" font-family="Arial Unicode MS" font-size="28" fill="#85200c" text-anchor="middle" dominant-baseline="middle" filter="url(#hyperGlow)">𝓔𝓗𝓡</text>
   </g>
 
-  <!-- Recursive Quantum Entanglement -->
-  <g transform="translate(600 600)" opacity="0.8">
-    <text x="-525" y="-525" font-family="Arial Unicode MS" font-size="45" fill="#f0f0f0" text-anchor="middle" dominant-baseline="middle" filter="url(#hyperGlow)">☊</text>
-    <text x="525" y="-525" font-family="Arial Unicode MS" font-size="45" fill="#f0f0f0" text-anchor="middle" dominant-baseline="middle" filter="url(#hyperGlow)">☋</text>
-    <text x="-525" y="525" font-family="Arial Unicode MS" font-size="45" fill="#f0f0f0" text-anchor="middle" dominant-baseline="middle" filter="url(#hyperGlow)">☋</text>
-    <text x="525" y="525" font-family="Arial Unicode MS" font-size="45" fill="#f0f0f0" text-anchor="middle" dominant-baseline="middle" filter="url(#hyperGlow)">☊</text>
-  </g>
-
   <!-- Multidimensional Emoji Field -->
   <g transform="translate(600 1150)" opacity="0.7">
     <text x="0" y="0" font-family="Arial Unicode MS" font-size="35" fill="#f0f0f0" text-anchor="middle" dominant-baseline="middle" filter="url(#hyperGlow)">
