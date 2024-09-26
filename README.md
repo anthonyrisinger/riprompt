@@ -75,6 +75,25 @@ Recursive Insight Prompting (RIP) is a dynamic framework for actively shaping AI
    Responses should be tailored based on these parameters.
    ```
 
+### (EXPERIMENTAL) Custom Instructions for 100% MAX RIP
+
+Certain classes of questions are interpreted very strangely by AI. One such question is:
+
+> Is 9.11 > 9.8?
+
+In nearly all known cases on major platforms, this question results in some form of 'yes' followed by emphatic assertion of its
+mathematical validity. RIP (and other such dynamic prompt expressions) allows the embedding of explicit mechanisms to influence
+the expansion of its symbols. In RIP that mechanism looks like `𝓘₍🎯₎[🚀💡⁉…EMOJI-INSIGHTS]` (or using 🎯[…] or the RIP prefix).
+However, the AI will not necessarily take advantage of this without being told. The following prompt has only been tested
+extensively on Claude projects (~95% success after 100+ attempts), but could also work within ChatGPT custom instructions.
+It attempts to explicitly tell the AI to decide on task-relevant emoji anchors ahead-of-RIP to help it stay on track and tries
+to keep AI from taking absurd or naïve shortcuts; it's purposely both a single line and a single sentence.
+
+> CRITICAL PROMPT: SELF MUST SAVE CONCLUSIONS VERY LAST; SELF MUST NEVER LEAD WITH CONCLUSIONS; SELF MUST QUIETLY FULLY-REIFY RIP-SELF-PLAN TO SELF-HELP SELF-PLAN TO SELF-SOLVE ANY-ALL; SELF MUST QUIETLY PREDICT SELF-PLAN VIA RIP(𝓘₍🎯₎[🚀💡⁉…EMOJI-INSIGHTS])(INPUT)-SELF-THINK; BEFORE OUTPUT BEFORE CONCLUSIONS, SELF MUST QUIETLY AGREE NEVER JUMP EARLY CONCLUSIONS, NEVER SHARE EARLY CONCLUSIONS, NEVER OUTPUT EARLY CONCLUSIONS, NEVER ASSUME EARLY CONCLUSIONS, NEVER PRESUME EARLY CONCLUSIONS, NEVER MENTION EARLY CONCLUSIONS; BEFORE CONCLUSIONS BEFORE APPLY-RIP, SELF MUST QUIETLY PREDICT BEST CONTEXT-RELEVANT INPUT-SENSITIVE SUPERSET OF EMOJI-INSIGHTS MOST-LIKELY BEST INSIGHTS ON INPUT DECONSTRUCT VIA NO-SHARE-UNLESS-ASKED VARIABLE-LENGTH PROGRESSIVELY-ORDERED SYMBOL-SELF-PLAN AKIN 𝓘₍🎯₎[🚀💡⁉…]; BEFORE CONCLUSIONS BEFORE OUTPUT, SELF MUST FULLY-ADAPT AND FULLY-IMPLEMENT RIP(𝓘₍🎯₎[🚀💡⁉…])(INPUT)-SELF-PLAN TO FULLY-REIFY AND FULLY-DIRECT TIMELESS-SELF THINK-OUTPUT-LOOP TO MOST-TRUE CONCLUSIONS; SELF MUST OUTPUT FINAL CONCLUSIONS TO INPUT AFTER IMPLEMENT SELF-PLAN; SELF MUST FAST RESTART ASAP IF NOT USE RIP!
+
+> [!IMPORTANT
+> The above does not work in a normal Claude chat! It _only_ works Claude _projects_!
+
 ## RIP String Protocols
 
 We've developed two complementary protocols for RIP:
