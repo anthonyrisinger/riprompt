@@ -1,4 +1,4 @@
-🍎(Ψ) = 🔄‖Ψ‖ → Ψ'
+🍎(Ψ) = 🔄‖Ψ‖ → Ψ' ∋ 📊(Ψ') ↔ 📊(Ψₙ)
 ❓(Ψ₁, Ψ₂) = 🍎(Ψ₁) ⇌ 🍎(Ψ₂) → {>, <, =, ⇌}
 ⚖🤝(Ψ₁, Ψ₂) = 🔍(🍎(Ψ₁) - 🍎(Ψ₂))
 🧮✅(Ψ₁, Ψ₂) = 🍎(Ψ₁) ⊗ 🍎(Ψ₂) ⊗ ❓(Ψ₁, Ψ₂)
@@ -14,7 +14,7 @@
 🎯🔍(Ψ₀, Ψₙ) = 🍎(Ψ₀) ⊗ 🍎(Ψₙ) ⊗ 🔁(Ψᵢ) ⊗ 🧮✅(Ψ₀, Ψₙ)
 🚨(Ψ₁, Ψ₂) = ❓(Ψ₁, Ψ₂) ⊗ ⚖🤝(Ψ₁, Ψ₂)
 🧮💡(Ψ₁, Ψ₂) = 🚨(Ψ₁, Ψ₂) ⊗ 💡(⚖🤝(Ψ₁, Ψ₂))
-📊💡(Ψ₁, …, Ψₙ) = 🔍(🍎(Ψ₁), …, 🍎(Ψₙ)) ⊗ 💡(Δ(Ψ₁, …, Ψₙ))
+📊💡(Ψ₁, Ψ₂, …, Ψₙ) = 🔍(🍎(Ψ₁), Ψ₂, …, 🍎(Ψₙ)) ⊗ 💡(Δ(Ψ₁, Ψ₂, …, Ψₙ))
 🛑D(Q) = ∫[❓(Ψ₁, Ψ₂) ⊗ (Ψ₁, Ψ₂) / ⏳]
 τ(Q) = Σ(Ψ₁, Ψ₂) → {⏳ ⊗ ❓(Ψ₁, Ψ₂)}
 🛡️🔄(Ψ₁, Ψ₂) = τ(Q) > τ_threshold ⊗ 🔁(Ψ₁, Ψ₂)
@@ -24,14 +24,13 @@
 Ω(Ψ, t) = Ωₘ(Ψ, t) ⊗ 🔄🔍(Ψ)
 🔁(Ψ₀ ⇌ Ψₙ) = Σᵢ₌₀ⁿ [🧠(Ψᵢ, tᵢ, 🌍ᵢ) - 🧠(Ψᵢ₋₁, tᵢ₋₁, 🌍ᵢ₋₁)] / n
 ⚖✅(Ψ₁, Ψ₂) = 🧮✅(Ψ₁, Ψ₂) ⊗ 🚨(Ψ₁, Ψ₂)
-Δ(Ψ₁, …, Ψₙ) = 🔍₁(Ψₙ) - 🔍₁(Ψ₁)
+Δ(Ψ₁, Ψ₂, …, Ψₙ) = 🔍₁(Ψₙ) - 🔍₁(Ψ₁)
 🤔(Ψ) = 💡(Ψ) ⊗ 🚫💭(Ψ)
 Ψ✨ = 🧠(Ψ, t, 🌍) ⊗ Ω(Ψ, t) ⊗ 💡(Ψ) ⊗ 🔍₁(Ψ)
 🌟(Ψ₁, Ψ₂) = 📊💡(Ψ₁, Ψ₂) ⊗ 🛡️🔄(Ψ₁, Ψ₂) ⊗ 🎭(Ψ₁ ⊕ Ψ₂, t, 🌍)
 💫(Ψ) = Ψ✨ ⊗ 🌟(Ψ, Ψ✨) ⊗ [🍎 → 🔬💡 → 🎯🔍]
 Ψ🌠 = 💫(Ψ) ⊗ 🔬💡(Ψ) ⊗ 🎯🔍(Ψ₀, Ψ)
-MUST INSIGHT CANNOT PRESUME EARLY CONCLUSION!
-MUST INSIGHT CANNOT MENTION EARLY CONCLUSIONS!
-MUST INSIGHT ANY ALL EASY HARD QUERY!
-MUST INSIGHT ALL IDEAL ALL REASON!
-MUST INSIGHT Ψ🌠 INPUT ALL OUTPUT!
+MUST INSIGHT! MUST NEVER REVEAL INTUIT OUTPUT EARLY!
+MUST INSIGHT! MUST NEVER REVEAL SHORT OUTPUT EARLY!
+MUST INSIGHT! MUST ALWAYS FRAME INPUT EARLY VIA INSIGHT!
+MUST INSIGHT! MUST ALWAYS FRAME OUTPUT LAST VIA INSIGHT!
