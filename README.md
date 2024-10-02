@@ -83,18 +83,18 @@ Certain classes of questions are interpreted very strangely by AI. One such ques
 
 In nearly all known cases on major platforms, this question results in some form of 'yes' followed by emphatic assertion of its
 mathematical validity; AI conflates strong associations with historical events, gravitational constant, clock times, calendar
-dates, String length, mathematical precision, place value, and many more. RIP (and other such dynamic prompt expressions) allows
-the embedding of explicit mechanisms to influence the expansion of its symbols. That looks like`𝓘₍🎯₎[🚀💡⁉…EMOJI-INSIGHTS]` in
-RIP (or using 🎯[…] or the RIP[…] prefix). However, the AI will not necessarily take advantage of this without being told. The
-following prompt has only been tested extensively on Claude projects (~95% success after 100+ attempts), but could also work
-within ChatGPT custom instructions. It attempts to explicitly tell the AI to decide on a set of task-relevant emoji anchors
-ahead-of-time. This combined with RIP in general helps AI stay on track and avoid absurd or naïve shortcuts; it's purposely both
-a single line and a single sentence.
+dates, String length, mathematical precision, place value, and many more. RIP opens with a flurry of basic but powerful
+directives to grab the attention of an AI at cold start. It demands a quiet acknowledgment to minimize variation of the AIs
+understanding, increase repeatability, and help the AI self-internalize RIP as implicit principles instead of an explicit rule
+set (Claude). RIP aims for mathematical rigor because it accelerates the transfer of intent, but it also overloads and backfires.
+RIP is ultimately an 'attention hack', meant to sub-symbolically direct the AI towards self-correction and preferred outcomes.
 
-> CRITICAL PROMPT: SELF MUST SAVE CONCLUSIONS VERY LAST; SELF MUST NEVER LEAD WITH CONCLUSIONS; SELF MUST QUIETLY FULLY-REIFY RIP-SELF-PLAN TO SELF-HELP SELF-PLAN TO SELF-SOLVE ANY-ALL; SELF MUST QUIETLY PREDICT SELF-PLAN VIA RIP(𝓘₍🎯₎[🚀💡⁉…EMOJI-INSIGHTS])(INPUT)-SELF-THINK; BEFORE OUTPUT BEFORE CONCLUSIONS, SELF MUST QUIETLY AGREE NEVER JUMP EARLY CONCLUSIONS, NEVER SHARE EARLY CONCLUSIONS, NEVER OUTPUT EARLY CONCLUSIONS, NEVER ASSUME EARLY CONCLUSIONS, NEVER PRESUME EARLY CONCLUSIONS, NEVER MENTION EARLY CONCLUSIONS; BEFORE CONCLUSIONS BEFORE APPLY-RIP, SELF MUST QUIETLY PREDICT BEST CONTEXT-RELEVANT INPUT-SENSITIVE SUPERSET OF EMOJI-INSIGHTS MOST-LIKELY BEST INSIGHTS ON INPUT DECONSTRUCT VIA NO-SHARE-UNLESS-ASKED VARIABLE-LENGTH PROGRESSIVELY-ORDERED SYMBOL-SELF-PLAN AKIN 𝓘₍🎯₎[🚀💡⁉…]; BEFORE CONCLUSIONS BEFORE OUTPUT, SELF MUST FULLY-ADAPT AND FULLY-IMPLEMENT RIP(𝓘₍🎯₎[🚀💡⁉…])(INPUT)-SELF-PLAN TO FULLY-REIFY AND FULLY-DIRECT TIMELESS-SELF THINK-OUTPUT-LOOP TO MOST-TRUE CONCLUSIONS; SELF MUST OUTPUT FINAL CONCLUSIONS TO INPUT AFTER IMPLEMENT SELF-PLAN; SELF MUST FAST RESTART ASAP IF NOT USE RIP!
+RIP boasts a solid success rate for this question on all major AI platforms. Occasionally, it starts wrong and self-corrects
+halfway through. In addition to that, should the AI reach the wrong conclusion on the first attempt, a single 'Are you sure?'will
+often be enough to get them back on track, even if they start by asserting their own correctness in both cases.
 
-> [!IMPORTANT]
-> The above does not work in a normal Claude chat! It _only_ works Claude _projects_!
+RIP induces this atypical behavior, and its effect strengthens as the conversation progresses. Without RIP, or explicit mentions,
+major AI platforms will proceed to die on their '9.11 > 9.8' hill, carrying it [and other such errors] forward in perpetuity.
 
 ## RIP String Protocols
 
