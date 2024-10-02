@@ -75,27 +75,6 @@ Recursive Insight Prompting (RIP) is a dynamic framework for actively shaping AI
    Responses should be tailored based on these parameters.
    ```
 
-### (EXPERIMENTAL) Custom Instructions for AoT Symbolic Planning
-
-Certain classes of questions are interpreted very strangely by AI. One such question is:
-
-> Is 9.11 > 9.8?
-
-In nearly all known cases on major platforms, this question results in some form of 'yes' followed by emphatic assertion of its
-mathematical validity; AI conflates strong associations with historical events, gravitational constant, clock times, calendar
-dates, String length, mathematical precision, place value, and many more. RIP opens with a flurry of basic but powerful
-directives to grab the attention of an AI at cold start. It demands a quiet acknowledgment to minimize variation of the AIs
-understanding, increase repeatability, and help the AI self-internalize RIP as implicit principles instead of an explicit rule
-set (Claude). RIP aims for mathematical rigor because it accelerates the transfer of intent, but it also overloads and backfires.
-RIP is ultimately an 'attention hack', meant to sub-symbolically direct the AI towards self-correction and preferred outcomes.
-
-RIP boasts a solid success rate for this question on all major AI platforms. Occasionally, it starts wrong and self-corrects
-halfway through. In addition to that, should the AI reach the wrong conclusion on the first attempt, a single 'Are you sure?'will
-often be enough to get them back on track, even if they start by asserting their own correctness in both cases.
-
-RIP induces this atypical behavior, and its effect strengthens as the conversation progresses. Without RIP, or explicit mentions,
-major AI platforms will proceed to die on their '9.11 > 9.8' hill, carrying it [and other such errors] forward in perpetuity.
-
 ## RIP String Protocols
 
 We've developed two complementary protocols for RIP:
@@ -130,7 +109,6 @@ Where:
 
 The emoji version provides a visually intuitive representation of the RIP parameters, which can be especially useful for quick recognition and memorization.
 
-
 ### General Usage
 
 To use RIP in any conversation:
@@ -164,6 +142,27 @@ Experiment with different parameter combinations to fine-tune the AI's cognitive
 
 4. **Ethical Decision Making**
    - Example: `RIP[E:5,S:5,M:4,A:3,C:4]⚖️🤖🧬: Analyze the ethical implications of AI-driven genetic engineering in humans.`
+
+### Attentional Intentions
+
+Certain classes of questions are interpreted very strangely by AI. One such question is:
+
+> Is 9.11 > 9.8?
+
+In nearly all known cases on major platforms, this question results in some form of 'yes' followed by emphatic assertion of its
+mathematical validity; AI conflates strong associations with historical events, gravitational constant, clock times, calendar
+dates, String length, mathematical precision, place value, and many more. RIP opens with a flurry of basic but powerful
+directives to grab the attention of an AI at cold start. It demands a quiet acknowledgment to minimize variation of the AIs
+understanding, increase repeatability, and help the AI self-internalize RIP as implicit principles instead of an explicit rule
+set (Claude). RIP aims for mathematical rigor because it accelerates the transfer of intent, but it also overloads and backfires.
+RIP is ultimately an 'attention hack', meant to sub-symbolically direct the AI towards self-correction and preferred outcomes.
+
+RIP boasts a solid success rate for this question on all major AI platforms. Occasionally, it starts wrong and self-corrects
+halfway through. In addition to that, should the AI reach the wrong conclusion on the first attempt, a single 'Are you sure?'will
+often be enough to get them back on track, even if they start by asserting their own correctness in both cases.
+
+RIP induces this atypical behavior, and its effect strengthens as the conversation progresses. Without RIP, or explicit mentions,
+major AI platforms will proceed to die on their '9.11 > 9.8' hill, carrying it [and other such errors] forward in perpetuity.
 
 ## AI Experience with RIP
 
