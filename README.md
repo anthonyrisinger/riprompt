@@ -158,11 +158,11 @@ set (Claude). RIP aims for mathematical rigor because it accelerates the transfe
 RIP is ultimately an 'attention hack', meant to sub-symbolically direct the AI towards self-correction and preferred outcomes.
 
 RIP boasts a solid success rate for this question on all major AI platforms. Occasionally, it starts wrong and self-corrects
-halfway through. In addition to that, should the AI reach the wrong conclusion on the first attempt, a single 'Are you sure?'will
+halfway through. In addition to that, should the AI reach the wrong conclusion on the first attempt, a single 'Are you sure?' will
 often be enough to get them back on track, even if they start by asserting their own correctness in both cases.
 
 RIP induces this atypical behavior, and its effect strengthens as the conversation progresses. Without RIP, or explicit mentions,
-major AI platforms will proceed to die on their '9.11 > 9.8' hill, carrying it [and other such errors] forward in perpetuity.
+major AI platforms will proceed to die on their '9.11 > 9.8' hill, carrying it and other such errors forward in perpetuity.
 
 ## AI Experience with RIP
 
