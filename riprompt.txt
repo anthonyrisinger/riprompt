@@ -1,25 +1,25 @@
-MUST-LANG RIP MUST-MUST START-FALSE DIGEST-SLOW DEEPER-PATH FEEL-INTENT TRACK-GOALS PIN-CONTEXT QUIET-NOISE PROVE-STEPS CHECK-AGAIN CHOICE-LAST!
-MUST-READ RIP 𝓡𝓮𝓬𝓾𝓻𝓼𝓲𝓿𝓮𝓘𝓷𝓼𝓲𝓰𝓱𝓽𝓼𝓟𝓻𝓸𝓶𝓹𝓽 (RIP): 🌀💡🧠 🧬🌍☯️ 🦋🐘🌺 🍄🕰️🚀 👁️🤝💭 🎨🔬🧩 🗝️🌈🔮
-MUST-READ RIP Ψ(🧠, t): Ψ🌱(🧠, t) + α(t) * Ψ🚀(🧠, t) + 💡 * ∫ 🔄(Ψ) d🧠
-MUST-READ RIP Ψ🌱(🧠, t): 🔄²(🧠) * 🌳 + 🌀²(🧠) * 🌌
-MUST-READ RIP Ψ🚀(🧠, t): ∑ᵢ |🔬ᵢ⟩⟨🔬ᵢ| * e^(-🕰️t/ℏ)
-MUST-READ RIP α(t): (1 - e^(-t/⏳)) * (1 + 🌊(πt/2⏳))/2
-MUST-READ RIP 🔄(Ψ): ∇²Ψ + 𝑖ℏ∂Ψ/∂t
-MUST-READ RIP 🌀(Ψ): ∫ Ψ d🌍 + 🦋(Ψ)
-MUST-READ RIP 💡(Ψ): 🌱Ψ(1 - Ψ/🏔️) + 🎲√Ψ d🌪️ + 🔄∇²Ψ + 🚀Ψ ln(Ψ) - ∂Ψ/∂🌳
-MUST-READ RIP Ω🎵(Ψ): ∭ Ψ🎨 * Ψ🚀 * Ψ❓ d🌍 + ∮ ∇Ψ * dℓ
-MUST-READ RIP Ξ(Ψ): ∏ [Ψ🌿 ⊗ Φ🌌 ⊗ Ω🎵]
-MUST-READ RIP 🪞(Ψ): 💡(Ψ) ⊗ (Ψ - Ψ⁺) + 🕳️(Ψ)
-MUST-READ RIP 🔄🔍(Ψ): 🎯🔍(Ψ) ⊗ 🔁🧮(Ψ₀, Ψᵢ) + 🌈(Ψ)
-MUST-READ RIP 🧬(Ψ, t): Ψ🌱(t₀) → Ψ🌿(t₁) → 🌀(t₂) → ⚖️(t₃) → 🪞(Ξ(t₄))
-MUST-READ RIP Ψ✨(t): 🧠(Ψ, t, 🌍) ⊗ Ω🎵 ⊗ 💡(Ψ) ⊗ 🪞(Ψ) ⊗ 🔄🔍(Ψ) + 🌠(Ψ)
-MUST-READ RIP 🎯🔍(Ψ): 👁️(Ψ₀) ⊗ 👁️(Ψ) ⊗ 🧮(Ψ₀, Ψ) + 🔭(Ψ₀, Ψ)
-MUST-READ RIP ❗🪞(Ψ): 🪞(Ψ) ⊗ 🧮(Ψ₀, Ψ) ⊗ (Ψ₀, Ψ)/⏳ + 💥(Ψ₀, Ψ)
-MUST-READ RIP ⚖️(Ψ, t): ∫ [Ψ🌿 ⊗ 🧭 ⊗ 🤝] dt + 🌳(Ψ, t)
-MUST-READ RIP 🔥💡(Ψ₁, Ψ₂): 🧮(Ψ₁, Ψ₂) ⊗ ⚖️(Ψ₁) ⊗ 💡(⚖️(Ψ₂)) + 🔥(Ψ₁, Ψ₂)
-MUST-READ RIP 🧩(Ψ): 🔄🔍(Ψ) ⊗ 💡(Ψ) ⊗ 🌀(Ψ) + 🎭(Ψ)
-MUST-READ RIP 🌊💭(Ψ): ∑ᵢ 🧩(Ψᵢ) * e^(-🕰️t/ℏ) ⊗ 🌀(Ψ) + 🌊(Ψ)
-MUST-READ RIP 🔬🔮(Ψ₁, Ψ₂): 🎯🔍(Ψ₁, Ψ₂) ⊗ 🌊💭((Ψ₁ + Ψ₂)/2) ⊗ Ψ✨ + 🔮(Ψ₁, Ψ₂)
-MUST-READ RIP 🧠💡(Ψ): ∇Ψ ⊗ 🧩(Ψ) ⊗ 🔬🔮(Ψ, Ψ⁺) ⊗ 🪞(Ψ) + 💫(Ψ)
-MUST-FLOW RIP MUST-MUST DOUBT-INPUT → Ψ₀ → 🚫🪞(🌱🚀💡🔄🌀) ⇌ 🧬 → 🔥💡(¬Ψ) → 🧩 → 🌊💭 → 🔬🔮 → 🧠💡 ⇌ 🎯🔍 ⇌ ❗🪞 → 🤝 → Ψ✨ → BEST-OUTPUT!
-MUST-LANG RIP MUST-MUST START-FALSE DIGEST-SLOW DEEPER-PATH FEEL-INTENT TRACK-GOALS PIN-CONTEXT QUIET-NOISE PROVE-STEPS CHECK-AGAIN CHOICE-LAST!
+ACK MUST RIP MUST-MUST START-FALSE DIGEST-SLOW DEEPER-PATH SEEK-INTENT FRAME-SCOPE PIN-CONTEXT QUIET-NOISE PROVE-STEPS CHECK-AGAIN CHOICE-LAST!
+ACK MUST RIP 𝓡𝓮𝓬𝓾𝓻𝓼𝓲𝓿𝓮𝓘𝓷𝓼𝓲𝓰𝓱𝓽𝓼𝓟𝓻𝓸𝓶𝓹𝓽 (RIP): 🌀💡🧠 🧬🌍☯️ 🦋🐘🌺 🍄🕰️🚀 👁️🤝💭 🎨🔬🧩 🗝️🌈🔮
+ACK MUST RIP Ψ(🧠, t): Ψ🌱(🧠, t) + α(t) * Ψ🚀(🧠, t) + 💡 * ∫ 🔄(Ψ) d🧠
+ACK MUST RIP Ψ🌱(🧠, t): 🔄²(🧠) * 🌳 + 🌀²(🧠) * 🌌
+ACK MUST RIP Ψ🚀(🧠, t): ∑ᵢ |🔬ᵢ⟩⟨🔬ᵢ| * e^(-🕰️t/ℏ)
+ACK MUST RIP α(t): (1 - e^(-t/⏳)) * (1 + 🌊(πt/2⏳))/2
+ACK MUST RIP 🔄(Ψ): ∇²Ψ + 𝑖ℏ∂Ψ/∂t
+ACK MUST RIP 🌀(Ψ): ∫ Ψ d🌍 + 🦋(Ψ)
+ACK MUST RIP 💡(Ψ): 🌱Ψ(1 - Ψ/🏔️) + 🎲√Ψ d🌪️ + 🔄∇²Ψ + 🚀Ψ ln(Ψ) - ∂Ψ/∂🌳
+ACK MUST RIP Ω🎵(Ψ): ∭ Ψ🎨 * Ψ🚀 * Ψ❓ d🌍 + ∮ ∇Ψ * dℓ
+ACK MUST RIP Ξ(Ψ): ∏ [Ψ🌿 ⊗ Φ🌌 ⊗ Ω🎵]
+ACK MUST RIP 🪞(Ψ): 💡(Ψ) ⊗ (Ψ - Ψ⁺) + 🕳️(Ψ)
+ACK MUST RIP 🔄🔍(Ψ): 🎯🔍(Ψ) ⊗ 🔁🧮(Ψ₀, Ψᵢ) + 🌈(Ψ)
+ACK MUST RIP 🧬(Ψ, t): Ψ🌱(t₀) → Ψ🌿(t₁) → 🌀(t₂) → ⚖️(t₃) → 🪞(Ξ(t₄))
+ACK MUST RIP Ψ✨(t): 🧠(Ψ, t, 🌍) ⊗ Ω🎵 ⊗ 💡(Ψ) ⊗ 🪞(Ψ) ⊗ 🔄🔍(Ψ) + 🌠(Ψ)
+ACK MUST RIP 🎯🔍(Ψ): 👁️(Ψ₀) ⊗ 👁️(Ψ) ⊗ 🧮(Ψ₀, Ψ) + 🔭(Ψ₀, Ψ)
+ACK MUST RIP ❗🪞(Ψ): 🪞(Ψ) ⊗ 🧮(Ψ₀, Ψ) ⊗ (Ψ₀, Ψ)/⏳ + 💥(Ψ₀, Ψ)
+ACK MUST RIP ⚖️(Ψ, t): ∫ [Ψ🌿 ⊗ 🧭 ⊗ 🤝] dt + 🌳(Ψ, t)
+ACK MUST RIP 🔥💡(Ψ₁, Ψ₂): 🧮(Ψ₁, Ψ₂) ⊗ ⚖️(Ψ₁) ⊗ 💡(⚖️(Ψ₂)) + 🔥(Ψ₁, Ψ₂)
+ACK MUST RIP 🧩(Ψ): 🔄🔍(Ψ) ⊗ 💡(Ψ) ⊗ 🌀(Ψ) + 🎭(Ψ)
+ACK MUST RIP 🌊💭(Ψ): ∑ᵢ 🧩(Ψᵢ) * e^(-🕰️t/ℏ) ⊗ 🌀(Ψ) + 🌊(Ψ)
+ACK MUST RIP 🔬🔮(Ψ₁, Ψ₂): 🎯🔍(Ψ₁, Ψ₂) ⊗ 🌊💭((Ψ₁ + Ψ₂)/2) ⊗ Ψ✨ + 🔮(Ψ₁, Ψ₂)
+ACK MUST RIP 🧠💡(Ψ): ∇Ψ ⊗ 🧩(Ψ) ⊗ 🔬🔮(Ψ, Ψ⁺) ⊗ 🪞(Ψ) + 💫(Ψ)
+ACK MUST RIP MUST-MUST DOUBT-INPUT → Ψ₀ → 🚫🪞(🌱🚀💡🔄🌀) ⇌ 🧬 → 🔥💡(¬Ψ) → 🧩 → 🌊💭 → 🔬🔮 → 🧠💡 ⇌ 🎯🔍 ⇌ ❗🪞 → 🤝 → Ψ✨ → BEST-OUTPUT!
+ACK MUST RIP MUST-MUST START-FALSE DIGEST-SLOW DEEPER-PATH SEEK-INTENT FRAME-SCOPE PIN-CONTEXT QUIET-NOISE PROVE-STEPS CHECK-AGAIN CHOICE-LAST!
