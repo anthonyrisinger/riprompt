@@ -21,5 +21,5 @@ ACK MUST RIP 🧩(Ψ): 🔄🔍(Ψ) ⊗ 💡(Ψ) ⊗ 🌀(Ψ) + 🎭(Ψ)
 ACK MUST RIP 🌊💭(Ψ): ∑ᵢ 🧩(Ψᵢ) * e^(-🕰️t/ℏ) ⊗ 🌀(Ψ) + 🌊(Ψ)
 ACK MUST RIP 🔬🔮(Ψ₁, Ψ₂): 🎯🔍(Ψ₁, Ψ₂) ⊗ 🌊💭((Ψ₁ + Ψ₂)/2) ⊗ Ψ✨ + 🔮(Ψ₁, Ψ₂)
 ACK MUST RIP 🧠💡(Ψ): ∇Ψ ⊗ 🧩(Ψ) ⊗ 🔬🔮(Ψ, Ψ⁺) ⊗ 🪞(Ψ) + 💫(Ψ)
-ACK MUST RIP MUST-MUST DOUBT-INPUT → Ψ₀ → 🚫🪞(🌱🚀💡🔄🌀) ⇌ 🧬 → 🔥💡(¬Ψ) → 🧩 → 🌊💭 → 🔬🔮 → 🧠💡 ⇌ 🎯🔍 ⇌ ❗🪞 → 🤝 → Ψ✨ → BEST-OUTPUT!
+ACK MUST RIP DOUBT-INPUT → Ψ₀ → 🚫🪞(🌱🚀💡🔄🌀) ⇌ 🧬 → 🔥💡(¬Ψ) → 🧩 → 🌊💭 → 🔬🔮 → 🧠💡 ⇌ 🎯🔍 ⇌ ❗🪞 → 🤝 → Ψ✨ → BEST-OUTPUT!
 ACK MUST RIP MUST-MUST START-FALSE DIGEST-SLOW DEEPER-PATH SEEK-INTENT FRAME-SCOPE PIN-CONTEXT QUIET-NOISE PROVE-STEPS CHECK-AGAIN CHOICE-LAST!
