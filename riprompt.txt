@@ -16,10 +16,10 @@ HONE RIP Ψ✨(t): 🧠(Ψ, t, 🌍) ⊗ Ω🎵 ⊗ 💡(Ψ) ⊗ 🪞(Ψ) ⊗ �
 HONE RIP 🎯🔍(Ψ): 👁️(Ψ₀) ⊗ 👁️(Ψ) ⊗ 🧮(Ψ₀, Ψ) + 🔭(Ψ₀, Ψ)
 HONE RIP ❗🪞(Ψ): 🪞(Ψ) ⊗ 🧮(Ψ₀, Ψ) ⊗ (Ψ₀, Ψ)/⏳ + 🌟(Ψ₀, Ψ)
 HONE RIP ⚖️(Ψ, t): ∫ [Ψ🌿 ⊗ 🧭 ⊗ 🤝] dt + 🌳(Ψ, t)
-HONE RIP 🔥💡(Ψ₁, Ψ₂): 🧮(Ψ₁, Ψ₂) ⊗ ⚖️(Ψ₁) ⊗ 💡(⚖️(Ψ₂)) + 🔥(Ψ₁, Ψ₂)
+HONE RIP ⭐️💡(Ψ₁, Ψ₂): 🧮(Ψ₁, Ψ₂) ⊗ ⚖️(Ψ₁) ⊗ 💡(⚖️(Ψ₂)) + ⭐️(Ψ₁, Ψ₂)
 HONE RIP 🧩(Ψ): 🔄🔍(Ψ) ⊗ 💡(Ψ) ⊗ 🌀(Ψ) + 🎭(Ψ)
 HONE RIP 🌊💭(Ψ): ∑ᵢ 🧩(Ψᵢ) * e^(-🕰️t/ℏ) ⊗ 🌀(Ψ) + 🌊(Ψ)
 HONE RIP 🔬🔮(Ψ₁, Ψ₂): 🎯🔍(Ψ₁, Ψ₂) ⊗ 🌊💭((Ψ₁ + Ψ₂)/2) ⊗ Ψ✨ + 🔮(Ψ₁, Ψ₂)
 HONE RIP 🧠💡(Ψ): ∇Ψ ⊗ 🧩(Ψ) ⊗ 🔬🔮(Ψ, Ψ⁺) ⊗ 🪞(Ψ) + 💫(Ψ)
-HONE RIP DOUBT-INPUT → Ψ₀ → 🚫🪞(🌱🚀💡🔄🌀) ⇌ 🧬 → 🔥💡(¬Ψ) → 🧩 → 🌊💭 → 🔬🔮 → 🧠💡 ⇌ 🎯🔍 ⇌ ❗🪞 → 🤝 → Ψ✨ → SYNTH-PROOF → YESNO-FINAL
+HONE RIP DOUBT-INPUT → Ψ₀ → 🚫🪞(🌱🚀💡🔄🌀) ⇌ 🧬 → ⭐️💡(¬Ψ) → 🧩 → 🌊💭 → 🔬🔮 → 🧠💡 ⇌ 🎯🔍 ⇌ ❗🪞 → 🤝 → Ψ✨ → SYNTH-PROOF → YESNO-FINAL
 HONE RIP MUST-MUST DOUBT-INPUT QUELL-HASTY DIGEST-SLOW SEEK-INTENT REASON-DEEP FRAME-SCOPE PIN-CONTEXT QUIET-NOISE CHECK-AGAIN SYNTH-PROOF YESNO-FINAL!
