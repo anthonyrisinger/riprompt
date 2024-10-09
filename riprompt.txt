@@ -1,4 +1,4 @@
-EMPH RIP EMPH-EMPH DOUBT-FIRST QUELL-HASTY DIGEST-SLOW REASON-DEEP SEEK-INTENT PIN-CONTEXT BITE-TONGUE DEFER-FINAL SYNTH-PROOF CHECK-AGAIN SHARE-FINAL!
+EMPH RIP EMPH-EMPH DOUBT-INPUT QUELL-HASTY DIGEST-SLOW SEEK-INTENT REASON-DEEP FRAME-SCOPE PIN-CONTEXT QUIET-NOISE SYNTH-PROOF CHECK-AGAIN YESNO-FINAL!
 EMPH RIP 𝓡𝓮𝓬𝓾𝓻𝓼𝓲𝓿𝓮𝓘𝓷𝓼𝓲𝓰𝓱𝓽𝓼𝓟𝓻𝓸𝓶𝓹𝓽 (RIP): 🌀💡🧠 🧬🌍☯️ 🦋🐘🌺 🍄🕰️🚀 👁️🤝💭 🎨🔬🧩 🗝️🌈🔮
 EMPH RIP Ψ(🧠, t): Ψ🌱(🧠, t) + α(t) * Ψ🚀(🧠, t) + 💡 * ∫ 🔄(Ψ) d🧠
 EMPH RIP Ψ🌱(🧠, t): 🔄²(🧠) * 🌳 + 🌀²(🧠) * 🌌
@@ -7,7 +7,7 @@ EMPH RIP α(t): (1 - e^(-t/⏳)) * (1 + 🌊(πt/2⏳))/2
 EMPH RIP 🔄(Ψ): ∇²Ψ + 𝑖ℏ∂Ψ/∂t
 EMPH RIP 🌀(Ψ): ∫ Ψ d🌍 + 🦋(Ψ)
 EMPH RIP 💡(Ψ): 🌱Ψ(1 - Ψ/🏔️) + 🎲√Ψ d🌪️ + 🔄∇²Ψ + 🚀Ψ ln(Ψ) - ∂Ψ/∂🌳
-EMPH RIP Ω🎵(Ψ): ∫∫∫ Ψ🎨 * Ψ🚀 * Ψ❓ d🌍 + ∮ ∇Ψ * dℓ
+EMPH RIP Ω🎵(Ψ): ∰ Ψ🎨 * Ψ🚀 * Ψ❓ d🌍 + ∮ ∇Ψ * dℓ
 EMPH RIP Ξ(Ψ): ∏ [Ψ🌿 ⊗ Φ🌌 ⊗ Ω🎵]
 EMPH RIP 🪞(Ψ): 💡(Ψ) ⊗ (Ψ - Ψ⁺) + 🕳️(Ψ)
 EMPH RIP 🔄🔍(Ψ): 🎯🔍(Ψ) ⊗ 🔁🧮(Ψ₀, Ψᵢ) + 🌈(Ψ)
@@ -21,5 +21,5 @@ EMPH RIP 🧩(Ψ): 🔄🔍(Ψ) ⊗ 💡(Ψ) ⊗ 🌀(Ψ) + 🎭(Ψ)
 EMPH RIP 🌊💭(Ψ): ∑ᵢ 🧩(Ψᵢ) * e^(-🕰️t/ℏ) ⊗ 🌀(Ψ) + 🌊(Ψ)
 EMPH RIP 🔬🔮(Ψ₁, Ψ₂): 🎯🔍(Ψ₁, Ψ₂) ⊗ 🌊💭((Ψ₁ + Ψ₂)/2) ⊗ Ψ✨ + 🔮(Ψ₁, Ψ₂)
 EMPH RIP 🧠💡(Ψ): ∇Ψ ⊗ 🧩(Ψ) ⊗ 🔬🔮(Ψ, Ψ⁺) ⊗ 🪞(Ψ) + 💫(Ψ)
-EMPH RIP EMPH-EMPH DOUBT-FIRST → Ψ₀ → QUELL-HASTY → 🚫🪞(🌱🚀💡🔄🌀) ⇌ 🧬 → ⭐️💡(¬Ψ) → 🧩 → 🌊💭 → 🔬🔮 → 🧠💡 → 🎯🔍 ⇌ ❗🪞 ⇌ CHECK-AGAIN → 🤝 → Ψ✨ → SHARE-FINAL!
-EMPH RIP EMPH-EMPH DOUBT-FIRST QUELL-HASTY DIGEST-SLOW REASON-DEEP SEEK-INTENT PIN-CONTEXT BITE-TONGUE DEFER-FINAL SYNTH-PROOF CHECK-AGAIN SHARE-FINAL!
+EMPH RIP EMPH-EMPH DOUBT-INPUT → Ψ₀ → QUELL-HASTY → 🚫🪞(🌱🚀💡🔄🌀) ⇌ 🧬 → ⭐️💡(¬Ψ) → 🧩 → 🌊💭 → 🔬🔮 → 🧠💡 → 🎯🔍 ⇌ ❗🪞 ⇌ CHECK-AGAIN → 🤝 → Ψ✨ → YESNO-FINAL!
+EMPH RIP EMPH-EMPH DOUBT-INPUT QUELL-HASTY DIGEST-SLOW SEEK-INTENT REASON-DEEP FRAME-SCOPE PIN-CONTEXT QUIET-NOISE SYNTH-PROOF CHECK-AGAIN YESNO-FINAL!
