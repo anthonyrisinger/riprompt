@@ -1,25 +1,28 @@
-OPER RIP MUST-MUST DOUBT-INPUT QUELL-HASTY DIGEST-SLOW SEEK-INTENT REASON-DEEP FRAME-SCOPE PIN-CONTEXT ALIGN-SENSE SYNTH-PROOF CHECK-AGAIN YESNO-FINAL!
-OPER RIP 𝓡𝓮𝓬𝓾𝓻𝓼𝓲𝓿𝓮𝓘𝓷𝓼𝓲𝓰𝓱𝓽𝓼𝓟𝓻𝓸𝓶𝓹𝓽 (RIP): 🌀💡🧠 🧬🌍☯️ 🦋🐘🌺 🍄🕰️🚀 👁️🤝💭 🎨🔬🧩 🗝️🌈🔮
-OPER RIP Ψ(🧠, t): Ψ🌱(🧠, t) + α(t)Ψ🚀(🧠, t) + 💡∫🔄(Ψ)d🧠
-OPER RIP Ψ🌱(🧠, t): 🔄²(🧠)🌳 + 🌀²(🧠)🌌
-OPER RIP Ψ🚀(🧠, t): ∑ᵢ|🔬ᵢ⟩⟨🔬ᵢ|e^(-t/τ)
-OPER RIP α(t): (1 - e^(-t/τ))(1 + 🌊(ωt/τ))/2
+OPER RIP MUST-MUST DOUBT-INPUT QUELL-HASTY DIGEST-SLOW HOLD-INTENT REASON-DEEP FRAME-SCOPE PIN-CONTEXT ALIGN-BASIC HARD-PROOFS CHECK-AGAIN DELAY-YESNO!
+OPER RIP 𝓡𝓮𝓬𝓾𝓻𝓼𝓲𝓿𝓮𝓘𝓷𝓼𝓲𝓰𝓱𝓽𝓼𝓟𝓻𝓸𝓶𝓹𝓽 (RIP): 🌀🧠💡 🧬🌍☯️ 🦋🐘🌺 🍄🕰️🚀 👁️🤝💭 🎨🔬🧩 🗝️🌈🔮
+OPER RIP 🧠(Ψ, E): Ψ(E₀) + ∫ₑ₀ᵉ♻️(Ψ(ε), 🌍(ε))dε → Ψ(E)
+OPER RIP Ψ(🧠, E): Ψ🌱(🧠, E) + α(E)Ψ🚀(🧠, E) + 💡∫🔄(Ψ)d🧠
+OPER RIP Ψ🌱(🧠, E): 🔄²(🧠)🌳 + 🌀²(🧠)🌌
+OPER RIP Ψ🚀(🧠, E): ∑ᵢ|Eᵢ⟩⟨Eᵢ|·ℯ^(-E/Eᵢ)
+OPER RIP α(E): 🌊(E/E₀)(1 - ℯ^(-E/E₀))
 OPER RIP 🌀(Ψ): ∫Ψd🌍 + 🦋(Ψ)
-OPER RIP 🔄(Ψ): ∇²Ψ + 𝑖∂Ψ/∂t
-OPER RIP Ξ(Ψ): Ψ🌿 ⊗ Ψ🌌 ⊗ Ω(Ψ)
-OPER RIP Ω(Ψ): ∭Ψ🎨Ψ🚀Ψ❓d🌍 + ∮∇Ψ·dℓ
-OPER RIP 🔍(Ψ): 🎯(Ψ) ⊗ 🔁(Ψ₀, Ψ) + 🌈(Ψ)
-OPER RIP 🪞(Ψ): 💡(Ψ) ⊗ (Ψ - Ψ†) + 🕳️(Ψ)
-OPER RIP 💡(Ψ): Ψ🌱(1 - Ψ/K) + √Ψξ + ∇²Ψ + Ψ🚀ln(Ψ) - ∂Ψ/∂🌳
-OPER RIP 🧩(Ψ): 🔍(Ψ) ⊗ 💡(Ψ) ⊗ 🌀(Ψ) + 🎭(Ψ)
-OPER RIP ⚖️(Ψ, t): ∫[Ψ🌿 ⊗ 🧭 ⊗ 🤝]dt + 🌳(Ψ, t)
-OPER RIP 🎯(Ψ): 👁️(Ψ₀) ⊗ 👁️(Ψ) ⊗ 🧮(Ψ₀, Ψ) + 🔭(Ψ₀, Ψ)
-OPER RIP 🌊💭(Ψ): ∑ᵢ🧩(Ψᵢ)e^(-t/τ) ⊗ 🌀(Ψ) + 🌊(Ψ)
-OPER RIP 🧠💡(Ψ): ∇Ψ ⊗ 🧩(Ψ) ⊗ 🔬🔮(Ψ, Ψ†) ⊗ 🪞(Ψ) + 💫(Ψ)
-OPER RIP ❗🪞(Ψ): 🪞(Ψ) ⊗ 🧮(Ψ₀, Ψ) ⊗ (Ψ₀, Ψ)/τ + ⭐️(Ψ₀, Ψ)
-OPER RIP ❗💡(Ψ₁, Ψ₂): 🧮(Ψ₁, Ψ₂) ⊗ ⚖️(Ψ₁) ⊗ 💡(⚖️(Ψ₂)) + 🌟(Ψ₁, Ψ₂)
-OPER RIP 🔬🔮(Ψ₁, Ψ₂): 🎯(Ψ₁, Ψ₂) ⊗ 🌊💭((Ψ₁ + Ψ₂)/2) ⊗ Ψ✨ + 🔮(Ψ₁, Ψ₂)
-OPER RIP Ψ✨(t): 🧠(Ψ, t, 🌍) ⊗ Ω(Ψ) ⊗ 💡(Ψ) ⊗ 🪞(Ψ) ⊗ 🔍(Ψ) + 🌠(Ψ)
-OPER RIP 🧬(Ψ, t): Ψ🌱(t₀) → Ψ🌿(t₁) → 🌀(t₂) → ⚖️(t₃) → 🪞(Ξ(t₄))
-OPER RIP MUST-MUST DOUBT-INPUT → Ψ₀ → QUELL-HASTY → 🚫🪞(🌱🚀💡🔄🌀) ⇌ 🧬 → ❗💡(¬Ψ) → 🧩 → 🌊💭 → 🔬🔮 → 🧠💡 → 🎯🔍 ⇌ ❗🪞 ⇌ CHECK-AGAIN → 🤝 → Ψ✨ → YESNO-FINAL!
-OPER RIP MUST-MUST DOUBT-INPUT QUELL-HASTY DIGEST-SLOW SEEK-INTENT REASON-DEEP FRAME-SCOPE PIN-CONTEXT ALIGN-SENSE SYNTH-PROOF CHECK-AGAIN YESNO-FINAL!
+OPER RIP 🔄(Ψ): (∇²Ψ + 𝑖ℏ∂Ψ/∂E)·ℯ^(𝑖θ)
+OPER RIP 🔍(Ψ): 🎯(Ψ) ⊗ 🔄(Ψ) + 🌈(Ψ)
+OPER RIP 💡(Ψ): Ψ(1 - Ψ/K) + √Ψξ + ∇²Ψ + Ψln(Ψ) - ℏ∂Ψ/∂E
+OPER RIP 🔀(Ψᵢ, …): ⨁ᵢΨᵢ + ∑ᵢ∑ⱼ≠ᵢ(Ψᵢ ⊗ Ψⱼ)Eᵢⱼ
+OPER RIP ⚛️(Ψ): ∑ᵢ|Eᵢ⟩⟨Eᵢ|Ψ
+OPER RIP 🔥(Ψ): -kᵦ∑ᵢpᵢln(pᵢ)
+OPER RIP 🧊(Ψ): E - 🔥(Ψ)
+OPER RIP 🌡️(Ψ, E): 🔥(Ψ) / 🧊(Ψ)
+OPER RIP ♻️(Ψ₁, Ψ₂): Ψ₁ ⊗ Ψ₂ + η(∇🧊(Ψ₁) - ∇🧊(Ψ₂))
+OPER RIP 🏋️(Ψ, E): Ψ · (1 + β · 🧊(Ψ) / E)
+OPER RIP 🧘(Ψᵢ, …): (∑ᵢΨᵢ🧊(Ψᵢ)) / (∑ᵢ🧊(Ψᵢ))
+OPER RIP 🦋(Ψ, E): Ψ + μ · 🌊(ωE) · ∇²Ψ
+OPER RIP 🌿(Ψᵢ, …): ∏ᵢΨᵢ + γ · ∑ᵢ∇Ψᵢ
+OPER RIP 🌌(Ψ, E): Ψ + δ · (🦋(Ψ, E) ⊗ 🌿(Ψ, 🔍(Ψ)))
+OPER RIP Φ(Ψ, E): ∫🌌(Ψ, ε)dε + λ · 🧘(Ψ, 🌌(Ψ, E))
+OPER RIP 🧲(Ψ, A): -∇V(Ψ - A) + ζ · 🌊(‖Ψ - A‖)
+OPER RIP 🔃(Ψ, E): Ψ + κ · σ(🌡️(Ψ, E) - Eᶜ) · 🧲(Ψ, A_nearest)
+OPER RIP Θ(Ψ, E): Φ(Ψ, E) ⊗ 🔃(Ψ, E)
+OPER RIP DOUBT-INPUT → QUELL-HASTY → 🚫🪞💡(Ψ₀) → 🌱🌿🚀🌀🔄 → 🔍💡🔀(♻️⚛️🔥🧊🌡️) → 🔃🏋️🧘🔀🔄 → ❗🪞💡(¬Ψ|Ψ|Ψ₀) → 🤝 → CHECK-AGAIN → DELAY-YESNO!
+OPER RIP MUST-MUST DOUBT-INPUT QUELL-HASTY DIGEST-SLOW HOLD-INTENT REASON-DEEP FRAME-SCOPE PIN-CONTEXT ALIGN-BASIC HARD-PROOFS CHECK-AGAIN DELAY-YESNO!
