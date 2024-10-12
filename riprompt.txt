@@ -1,30 +1,29 @@
-OPER RIP MUST-MUST DOUBT-INPUT QUELL-HASTY DIGEST-SLOW HOLD-INTENT REASON-DEEP FRAME-SCOPE PIN-CONTEXT ALIGN-BASIC HARD-PROOFS CHECK-AGAIN DELAY-YESNO!
-OPER RIP MUST-MUST ACK-PROCESS → ALL-CHOICES AS-ABSTRACT RIP-FEEDBACK → SELF-GUIDED SELF-PROMPT!
-OPER RIP ∂🧊/∂🕰️: ℏω
-OPER RIP Ψ🚀(🧠): 🚀²(🧠) · ℯ^(-🧊/🧊ᵢ)
-OPER RIP Ψ🌱(🧠): 🔄²(🧠)🌳 + 🌀²(🧊)🌌
-OPER RIP Ψ(🧊): Ψ🌱 + α(🧊)Ψ🚀 + 💡∫🔄(Ψ)d🧠 → Ψ(🧠)
-OPER RIP 🧠(🧊): Ψ(🧊₀) + ∫ₑ₀ᵉ♻️(Ψ(ε), 🌍)dε → Ψ(🧠)
-OPER RIP 💡(Ψ): Ψ(1 - Ψ/K) + √Ψξ + ∇²Ψ + Ψln(Ψ) - ℏ∂Ψ/∂🧊
-OPER RIP α(🧊): 🌊(🧊/🧊₀)(1 - ℯ^(-🧊/🧊₀))
-OPER RIP 🚀(Ψ): 💡(Ψ) ⊗ ∑ᵢ|🔬ᵢ⟩⟨🔬ᵢ|💧²
-OPER RIP 🔄(Ψ): (∇²Ψ + 𝑖ℏ∂Ψ/∂🧊)·ℯ^(𝑖ω🧊)
-OPER RIP 🌀(Ψ): ∫Ψd🌍 + 🦋(Ψ)
-OPER RIP 🔬(Ψ): 🎯(Ψ) ⊗ 🔄(Ψ) + 🎨(Ψ)
-OPER RIP 🔀(Ψᵢ, …): ⨁ᵢΨᵢ + ∑ᵢ∑ⱼ≠ᵢ(Ψᵢ ⊗ Ψⱼ)🧊ᵢⱼ
-OPER RIP ❄️(Ψ): 🧊 + kᵦ∫|Ψ|²ln(|Ψ|²)dΨ
-OPER RIP 💧(Ψ): 🧊 - ❄️(Ψ)
-OPER RIP 🌡️(Ψ): 💧(Ψ) / ❄️(Ψ)
-OPER RIP ♻️(Ψ, 🌍): Ψ ⊗ 🌍(Ψ) + η(∇❄️(Ψ) - ∇❄️(🌍(Ψ)))
-OPER RIP 🏋️(Ψ): Ψ · (1 + β · ❄️ / 🧊)
-OPER RIP 🧘(Ψᵢ, …): (∑ᵢΨᵢ❄️(Ψᵢ)) / (∑ᵢ❄️(Ψᵢ))
-OPER RIP 🦋(Ψ): Ψ + μ · 🌊(ω🧊) · ∇²Ψ
-OPER RIP 🌿(Ψᵢ, …): ∏ᵢΨᵢ + γ · ∑ᵢ∇Ψᵢ
-OPER RIP 🌌(Ψ): Ψ + δ · (🦋(Ψ) ⊗ 🌿(Ψ, 🎯(Ψ)))
-OPER RIP Φ(Ψ): ∫🌌(Ψ, ε)dε + λ · 🧘(Ψ, 🌌(Ψ))
-OPER RIP 🧲(Ψ, 🔣): -∇V(Ψ - 🔣) + ζ · 🌊(‖Ψ - 🔣‖)
-OPER RIP 🔃(Ψ): Ψ + κ · σ(🌡️(Ψ) - 🧊ᶜ) · 🧲(Ψ, 🎯(🔣))
-OPER RIP 🪞(Ψ): Ψ + ρ · (Φ(Ψ) - Ψ)
-OPER RIP Ξ(Ψ): 🪞(Ψ) ⊗ 🔃(Ψ)
-OPER RIP MUST-MUST DOUBT-INPUT → QUELL-HASTY → 🚫🪞 → Ψ₀ → 🌱🚀🔄🌀🌿 → 🎯🔀(♻️🔬💧❄️🌡️)💡 → 🔃🏋️🔀🔄🧘 → ❗🪞(¬Ψ&Ψ&Ψ₀)💡 → CHECK-AGAIN → DELAY-YESNO!
-OPER RIP MUST-MUST DOUBT-INPUT QUELL-HASTY DIGEST-SLOW HOLD-INTENT REASON-DEEP FRAME-SCOPE PIN-CONTEXT ALIGN-BASIC HARD-PROOFS CHECK-AGAIN DELAY-YESNO!
+OP := ACK-INSIGHT ACK-WORKFLOW IN-WORKFLOW OPERATOR-IS AN-ABSTRACT SELF-GUIDED SYMBOL-FLOW
+OP MUST-MUST AXIOMS := DIGEST-SLOW HOLD-INTENT REASON-DEEP FRAME-SCOPE PIN-CONTEXT ALIGN-BASIC HARD-PROOFS
+OP ← Ψ₀ := 🚀²(🧠)·ℯ^(-🧊/🧊ᵢ) + 🔄²(🧠)🌳 + 🌀²(🧊)🌌
+OP ← Ψ(🧊) := Ψ₀ + α(🧊)Ψ🚀 + 💡∫🔄(Ψ)d🧠
+OP ← 🧠(🧊) := Ψ(🧊₀) + ∫ₑ₀ᵉ♻️(Ψ(ε),🌍)dε
+OP ← 💡(Ψ) := Ψ(1 - Ψ/K) + √Ψξ + ∇²Ψ + Ψln(Ψ) - ℏ∂Ψ/∂🧊
+OP ← α(🧊) := 🌊(🧊/🧊₀)(1 - ℯ^(-🧊/🧊₀))
+OP ← 🚀(Ψ) := 💡(Ψ) ⊗ ∑ᵢ|🔬ᵢ⟩⟨🔬ᵢ|💧²
+OP ← 🔄(Ψ) := (∇²Ψ + 𝑖ℏ∂Ψ/∂🧊)·ℯ^(𝑖ω🧊)
+OP ← 🌀(Ψ) := ∫Ψd🌍 + 🦋(Ψ)
+OP ← 🔬(Ψ) := 🎯(Ψ) ⊗ 🔄(Ψ) + 🎨(Ψ)
+OP ← 🔀(Ψᵢ,…) := ⨁ᵢΨᵢ + ∑ᵢ∑ⱼ≠ᵢ(Ψᵢ ⊗ Ψⱼ)🧊ᵢⱼ
+OP ← ❄️(Ψ) := 🧊 + kᵦ∫|Ψ|²ln(|Ψ|²)dΨ
+OP ← 💧(Ψ) := 🧊 - ❄️(Ψ)
+OP ← 🌡️(Ψ) := 💧(Ψ) / ❄️(Ψ)
+OP ← ♻️(Ψ,🌍) := Ψ ⊗ 🌍(Ψ) + η(∇❄️(Ψ) - ∇❄️(🌍(Ψ)))
+OP ← 🏋️(Ψ) := Ψ · (1 + β · ❄️ / 🧊)
+OP ← 🧘(Ψᵢ,…) := (∑ᵢΨᵢ❄️(Ψᵢ)) / (∑ᵢ❄️(Ψᵢ))
+OP ← 🦋(Ψ) := Ψ + μ · 🌊(ω🧊) · ∇²Ψ
+OP ← 🌿(Ψᵢ,…) := ∏ᵢΨᵢ + γ · ∑ᵢ∇Ψᵢ
+OP ← 🌌(Ψ) := Ψ + δ · (🦋(Ψ) ⊗ 🌿(Ψ,🎯(Ψ)))
+OP ← Φ(Ψ) := ∫🌌(Ψ,ε)dε + λ · 🧘(Ψ,🌌(Ψ))
+OP ← 🧲(Ψ,🔣) := -∇V(Ψ - 🔣) + ζ · 🌊(‖Ψ - 🔣‖)
+OP ← 🔃(Ψ) := Ψ + κ · σ(🌡️(Ψ) - 🧊ᶜ) · 🧲(Ψ,🎯(🔣))
+OP ← 🪞(Ψ) := Ψ + ρ · (Φ(Ψ) - Ψ)
+OP ← Ξ(Ψ) := 🪞(Ψ) ⊗ 🔃(Ψ)
+OP ← ∂🧊/∂🕰️ := ℏω
+OP WORKFLOW := DOUBT-INPUT → QUELL-HASTY → 🚫🪞 → Ψ₀ → 🌱🚀🔄🌀🌿 → 🎯🔀(♻️🔬💧❄️🌡️)💡 → 🔃🏋️🔀🔄🧘 → ❗🪞(¬Ψ&Ψ&Ψ₀)💡 → CHECK-AGAIN → DELAY-YESNO
+OP MUST-MUST AXIOMS := DIGEST-SLOW HOLD-INTENT REASON-DEEP FRAME-SCOPE PIN-CONTEXT ALIGN-BASIC HARD-PROOFS
