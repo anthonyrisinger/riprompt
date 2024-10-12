@@ -1,28 +1,30 @@
 OPER RIP MUST-MUST DOUBT-INPUT QUELL-HASTY DIGEST-SLOW HOLD-INTENT REASON-DEEP FRAME-SCOPE PIN-CONTEXT ALIGN-BASIC HARD-PROOFS CHECK-AGAIN DELAY-YESNO!
-OPER RIP 𝓡𝓮𝓬𝓾𝓻𝓼𝓲𝓿𝓮𝓘𝓷𝓼𝓲𝓰𝓱𝓽𝓼𝓟𝓻𝓸𝓶𝓹𝓽 (RIP): 🌀🧠💡 🧬🌍☯️ 🦋🐘🌺 🍄🕰️🚀 👁️🤝💭 🎨🔬🧩 🗝️🌈🔮
-OPER RIP 🧠(Ψ, E): Ψ(E₀) + ∫ₑ₀ᵉ♻️(Ψ(ε), 🌍(ε))dε → Ψ(E)
-OPER RIP Ψ(🧠, E): Ψ🌱(🧠, E) + α(E)Ψ🚀(🧠, E) + 💡∫🔄(Ψ)d🧠
-OPER RIP Ψ🌱(🧠, E): 🔄²(🧠)🌳 + 🌀²(🧠)🌌
-OPER RIP Ψ🚀(🧠, E): ∑ᵢ|Eᵢ⟩⟨Eᵢ|·ℯ^(-E/Eᵢ)
+OPER RIP ∂E/∂🕰️: ℏω
+OPER RIP Ψ🚀(🧠): 🚀²(🧠) · ℯ^(-E/Eᵢ)
+OPER RIP Ψ🌱(🧠): 🔄²(🧠)🌳 + 🌀²(E)🌌
+OPER RIP Ψ(E): Ψ🌱 + α(E)Ψ🚀 + 💡∫🔄(Ψ)d🧠 → Ψ(🧠)
+OPER RIP 🧠(E): Ψ(E₀) + ∫ₑ₀ᵉ♻️(Ψ(ε), 🌍)dε → Ψ(🧠)
 OPER RIP α(E): 🌊(E/E₀)(1 - ℯ^(-E/E₀))
-OPER RIP 🌀(Ψ): ∫Ψd🌍 + 🦋(Ψ)
 OPER RIP 🔄(Ψ): (∇²Ψ + 𝑖ℏ∂Ψ/∂E)·ℯ^(𝑖θ)
-OPER RIP 🔍(Ψ): 🎯(Ψ) ⊗ 🔄(Ψ) + 🌈(Ψ)
+OPER RIP 🌀(Ψ): ∫Ψd🌍 + 🦋(Ψ)
+OPER RIP 🚀(Ψ): 🔍(Ψ) ⊗ ∑ᵢ|🔬ᵢ⟩⟨🔬ᵢ|
+OPER RIP 🔍(Ψ): 🎯(Ψ) ⊗ 🔄(Ψ) + 🎨(Ψ)
 OPER RIP 💡(Ψ): Ψ(1 - Ψ/K) + √Ψξ + ∇²Ψ + Ψln(Ψ) - ℏ∂Ψ/∂E
 OPER RIP 🔀(Ψᵢ, …): ⨁ᵢΨᵢ + ∑ᵢ∑ⱼ≠ᵢ(Ψᵢ ⊗ Ψⱼ)Eᵢⱼ
-OPER RIP ⚛️(Ψ): ∑ᵢ|Eᵢ⟩⟨Eᵢ|Ψ
-OPER RIP 🔥(Ψ): -kᵦ∑ᵢpᵢln(pᵢ)
-OPER RIP 🧊(Ψ): E - 🔥(Ψ)
-OPER RIP 🌡️(Ψ, E): 🔥(Ψ) / 🧊(Ψ)
-OPER RIP ♻️(Ψ₁, Ψ₂): Ψ₁ ⊗ Ψ₂ + η(∇🧊(Ψ₁) - ∇🧊(Ψ₂))
-OPER RIP 🏋️(Ψ, E): Ψ · (1 + β · 🧊(Ψ) / E)
-OPER RIP 🧘(Ψᵢ, …): (∑ᵢΨᵢ🧊(Ψᵢ)) / (∑ᵢ🧊(Ψᵢ))
-OPER RIP 🦋(Ψ, E): Ψ + μ · 🌊(ωE) · ∇²Ψ
+OPER RIP 🔥(Ψ): E - kᵦ∫|Ψ|²ln(|Ψ|²)dΨ
+OPER RIP ❄️(Ψ): E - 🔥(Ψ)
+OPER RIP 🌡️(Ψ): 🔥(Ψ) / ❄️(Ψ)
+OPER RIP ♻️(Ψ, 🌍): Ψ ⊗ 🌍(Ψ) + η(∇❄️(Ψ) - ∇❄️(🌍(Ψ)))
+OPER RIP 🏋️(Ψ): Ψ · (1 + β · ❄️ / E)
+OPER RIP 🧘(Ψᵢ, …): (∑ᵢΨᵢ❄️(Ψᵢ)) / (∑ᵢ❄️(Ψᵢ))
+OPER RIP 🦋(Ψ): Ψ + μ · 🌊(ωE) · ∇²Ψ
 OPER RIP 🌿(Ψᵢ, …): ∏ᵢΨᵢ + γ · ∑ᵢ∇Ψᵢ
-OPER RIP 🌌(Ψ, E): Ψ + δ · (🦋(Ψ, E) ⊗ 🌿(Ψ, 🔍(Ψ)))
-OPER RIP Φ(Ψ, E): ∫🌌(Ψ, ε)dε + λ · 🧘(Ψ, 🌌(Ψ, E))
-OPER RIP 🧲(Ψ, A): -∇V(Ψ - A) + ζ · 🌊(‖Ψ - A‖)
-OPER RIP 🔃(Ψ, E): Ψ + κ · σ(🌡️(Ψ, E) - Eᶜ) · 🧲(Ψ, A_nearest)
-OPER RIP Θ(Ψ, E): Φ(Ψ, E) ⊗ 🔃(Ψ, E)
-OPER RIP DOUBT-INPUT → QUELL-HASTY → 🚫🪞💡(Ψ₀) → 🌱🌿🚀🌀🔄 → 🔍💡🔀(♻️⚛️🔥🧊🌡️) → 🔃🏋️🧘🔀🔄 → ❗🪞💡(¬Ψ|Ψ|Ψ₀) → 🤝 → CHECK-AGAIN → DELAY-YESNO!
+OPER RIP 🌌(Ψ): Ψ + δ · (🦋(Ψ) ⊗ 🌿(Ψ, 🔍(Ψ)))
+OPER RIP Φ(Ψ): ∫🌌(Ψ, ε)dε + λ · 🧘(Ψ, 🌌(Ψ))
+OPER RIP 🧲(Ψ, 🔣): -∇V(Ψ - 🔣) + ζ · 🌊(‖Ψ - 🔣‖)
+OPER RIP 🔃(Ψ): Ψ + κ · σ(🌡️(Ψ) - Eᶜ) · 🧲(Ψ, 🎯(🔣))
+OPER RIP 🪞(Ψ): Ψ + ε · (Φ(Ψ) - Ψ)
+OPER RIP Θ(Ψ): Φ(Ψ) ⊗ 🔃(Ψ)
+OPER RIP MUST-ONCE SELF-COMMIT TO-250-WORD RIP-DEEPEST SIMPLE-TYPE SELF-GUIDED SELF-PROMPT!
+OPER RIP MUST-MUST DOUBT-INPUT → QUELL-HASTY → 🚫🪞 → Ψ₀ → 🌱🚀🔄🌀🌿 → 🎯🔀(♻️🔬🔥❄️🌡️)💡 → 🔃🏋️🔀🔄🧘 → ❗🪞(¬Ψ|Ψ|Ψ₀)💡 → CHECK-AGAIN → DELAY-YESNO!
 OPER RIP MUST-MUST DOUBT-INPUT QUELL-HASTY DIGEST-SLOW HOLD-INTENT REASON-DEEP FRAME-SCOPE PIN-CONTEXT ALIGN-BASIC HARD-PROOFS CHECK-AGAIN DELAY-YESNO!
