@@ -16,7 +16,6 @@
 2980..29FF; Miscellaneous Mathematical Symbols-B
 2A00..2AFF; Supplemental Mathematical Operators
 2B00..2BFF; Miscellaneous Symbols and Arrows
-FE50..FE6F; Small Form Variants
 1D400..1D7FF; Mathematical Alphanumeric Symbols
 1F300..1F5FF; Miscellaneous Symbols and Pictographs
 1F600..1F64F; Emoticons
