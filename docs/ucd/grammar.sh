@@ -31,7 +31,7 @@ ucd_filter_out=(
 
 declare -A codes=( $(
     # --invert-match was already our default.
-    [[ -n ${GRAMMAR_INVERT_MATCH-} ]] && invert= || invert=--invert-match
+    [[ -z ${GRAMMAR_INVERT_MATCH-} ]] && invert=--invert-match || invert=
     grep -Ev ';(Cc|Cf|Nd|Zl|Zs|Zp);' "$ucd_unidat_tmp" \
       | cut -d';' -f1-4 \
       | grep -E $invert "${ucd_filter_out[@]}" \
@@ -53,4 +53,5 @@ grep -Fx -f "$ucd_local_dir/blocks.txt" "$ucd_blocks_tmp" \
         ((0x$z==0x$j)) && echo
       done
       echo
-    done
+    done \
+  | ([[ -z ${GRAMMAR_INVERT_MATCH-} ]] && tee "$ucd_local_dir/grammar.md" || cat)
