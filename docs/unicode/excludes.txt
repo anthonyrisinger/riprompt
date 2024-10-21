@@ -1,0 +1,12 @@
+.+;APOSTROPHE.+
+.+;ASTERISK;.+
+.+;CEDILLA.+
+.+;FEMININE.+
+.+;HYPHEN\W.+
+.+;LATIN (SMALL|CAPITAL) LETTER.+
+.+;MACRON.+
+.+;MASCULINE.+
+.+;QUOTATION.+
+.+;SPACE.+
+.+;VULGAR.+
+.+<control>.+
