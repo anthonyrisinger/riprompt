@@ -3,7 +3,6 @@
 2070..209F; Superscripts and Subscripts
 20D0..20FF; Combining Diacritical Marks for Symbols
 2100..214F; Letterlike Symbols
-2150..218F; Number Forms
 2190..21FF; Arrows
 2200..22FF; Mathematical Operators
 2300..23FF; Miscellaneous Technical
