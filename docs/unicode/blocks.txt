@@ -1,3 +1,4 @@
+0300..036F; Combining Diacritical Marks
 2000..206F; General Punctuation
 2070..209F; Superscripts and Subscripts
 20D0..20FF; Combining Diacritical Marks for Symbols
