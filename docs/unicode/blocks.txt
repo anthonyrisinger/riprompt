@@ -1,0 +1,26 @@
+2000..206F; General Punctuation
+2070..209F; Superscripts and Subscripts
+20D0..20FF; Combining Diacritical Marks for Symbols
+2100..214F; Letterlike Symbols
+2150..218F; Number Forms
+2190..21FF; Arrows
+2200..22FF; Mathematical Operators
+2300..23FF; Miscellaneous Technical
+2400..243F; Control Pictures
+25A0..25FF; Geometric Shapes
+2600..26FF; Miscellaneous Symbols
+2700..27BF; Dingbats
+27C0..27EF; Miscellaneous Mathematical Symbols-A
+27F0..27FF; Supplemental Arrows-A
+2900..297F; Supplemental Arrows-B
+2980..29FF; Miscellaneous Mathematical Symbols-B
+2A00..2AFF; Supplemental Mathematical Operators
+2B00..2BFF; Miscellaneous Symbols and Arrows
+FE50..FE6F; Small Form Variants
+1D400..1D7FF; Mathematical Alphanumeric Symbols
+1F300..1F5FF; Miscellaneous Symbols and Pictographs
+1F600..1F64F; Emoticons
+1F680..1F6FF; Transport and Map Symbols
+1F700..1F77F; Alchemical Symbols
+1F900..1F9FF; Supplemental Symbols and Pictographs
+1FA70..1FAFF; Symbols and Pictographs Extended-A
