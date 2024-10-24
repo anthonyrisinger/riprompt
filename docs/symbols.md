@@ -1,3 +1,5 @@
+## Symbols Reference Glossary
+
 | Symbol | Role Description | Origin Story | Use Cases |
 |------------|----------------------|------------------|-----------------------------|
 | `ψ` | Fundamental cognitive state; seed of recursive thought processes. | Introduced to represent the basic unit of cognition, from which more complex thoughts evolve. | - Representing individual thoughts or mental states.<br>- Modeling basic units in neural networks.<br>- Denoting quantum states in cognitive models. |
