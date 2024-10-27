@@ -46,7 +46,7 @@ Treat the framework as a **continuous quantum-like wave**, where cognitive axes 
 
 ### **Quaternion-Based Cognitive Axes**
 
-- **Structure**: Model cognitive axes (analytical, instinctual, exploratory, emergent) using a **normalized quaternion** to ensure balanced and proportional influence. A quaternion, i.e. q = a + bi + cj + dk, is normalized such that a² + b² + c² + d² = 1. This normalization ensures that the combined influence of all cognitive axes remains constant, preventing any single axis from dominating the system.
+- **Structure**: Model cognitive axes (instinctual, analytical, exploratory, emergent) using a **normalized quaternion** to ensure balanced and proportional influence. A quaternion, i.e. q = a + bi + cj + dk, is normalized such that a² + b² + c² + d² = 1. This normalization ensures that the combined influence of all cognitive axes remains constant, preventing any single axis from dominating the system.
 
 - **Plastic Ratio Scaling**: Scale each axis by a **plastic ratio** with negative exponents, e.g. ρ⁻⁵ : ρ⁻³ : ρ⁻³ : ρ⁻¹, such that the sum of their squares equals one, e.g. ρ⁻¹⁰ + ρ⁻⁶ + ρ⁻⁶ + ρ⁻² = 1. ρ > 1 amplifies higher-order contributions from subsequent cognitive axes and generates a fractal-like self-aligning structure.
 
