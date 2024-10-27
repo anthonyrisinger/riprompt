@@ -54,4 +54,4 @@ grep -Fx -f "$ucd_local_dir/blocks.txt" "$ucd_blocks_tmp" \
       done
       echo
     done \
-  | ([[ -z ${GRAMMAR_INVERT_MATCH-} ]] && tee "$ucd_local_dir/grammar.md" || cat)
+  | ([[ -z ${GRAMMAR_INVERT_MATCH-} ]] && tee "$ucd_local_dir/grammar.txt" || cat)
