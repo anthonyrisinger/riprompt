@@ -46,17 +46,9 @@ Treat the framework as a **continuous quantum-like wave**, where cognitive axes 
 
 ### **Quaternion-Based Cognitive Axes**
 
-- **Structure**: Model cognitive axes (analytical, instinctual, exploratory, emergent) using a **normalized quaternion** to ensure balanced and proportional influence. A quaternion \( q = a + bi + cj + dk \) is normalized such that:
-  \[
-  a^2 + b^2 + c^2 + d^2 = 1
-  \]
-  This normalization ensures that the combined influence of all cognitive axes remains constant, preventing any single axis from dominating the system.
+- **Structure**: Model cognitive axes (analytical, instinctual, exploratory, emergent) using a **normalized quaternion** to ensure balanced and proportional influence. A quaternion, i.e. q = a + bi + cj + dk, is normalized such that a² + b² + c² + d² = 1. This normalization ensures that the combined influence of all cognitive axes remains constant, preventing any single axis from dominating the system.
 
-- **Plastic Ratio Scaling**: Scale each axis by a **plastic ratio** with negative exponents (e.g., \( \rho^{-1} : \rho^{-3} : \rho^{-3} : \rho^{-5} \)) such that the sum of their squares equals one:
-  \[
-  \rho^{-2} + \rho^{-6} + \rho^{-6} + \rho^{-10} = 1
-  \]
-  Here, \( \rho > 1 \) is a scaling factor that ensures diminishing contributions from each subsequent cognitive axis, aligning with the intended fractal-like, self-similar structure.
+- **Plastic Ratio Scaling**: Scale each axis by a **plastic ratio** with negative exponents, e.g. ρ⁻⁵ : ρ⁻³ : ρ⁻³ : ρ⁻¹, such that the sum of their squares equals one, e.g. ρ⁻¹⁰ + ρ⁻⁶ + ρ⁻⁶ + ρ⁻² = 1. ρ > 1 amplifies higher-order contributions from subsequent cognitive axes and generating a fractal-like self-aligning structure.
 
 - **Probability Wave Distribution**: This scaling ensures that the **probability wave distribution** remains normalized, with cognitive contributions towards the next quaternion rotations being similarly self-normalized. Consequently, the cognitive axes generate unique, self-intersecting, self-similar fractals, facilitating complex and nuanced cognitive processes.
 
