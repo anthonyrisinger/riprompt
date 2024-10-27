@@ -48,7 +48,7 @@ Treat the framework as a **continuous quantum-like wave**, where cognitive axes 
 
 - **Quaternion-Based Cognitive Axes**:
   - **Structure**: Model cognitive axes (analytical, instinctual, exploratory, emergent) as a **normalized quaternion**, ensuring balanced and proportional influence.
-  - **Plastic Ratio Scaling**: Scale each axis by a **plastic ratio** with exponents (e.g., 1, 3, 3, 5), ensuring the probability distribution remains normalized and reflects balanced cognitive contributions.
+  - **Plastic Ratio Scaling**: Scale each axis by a **plastic ratio** with exponents (e.g., ρ⁻¹ : ρ⁻³ : ρ⁻³ : ρ⁻⁵) such that the sum of their squares equals one (e.g., ρ⁻² + ρ⁻⁶ + ρ⁻⁶ + ρ⁻¹⁰ = 1), ensuring the probability wave distribution remains normalized, cognitive contributions towards the next quaternion rotations are similarly self-normalized, and ensure cognition axes generate unique, self-intersecting self-similar fractals.
 
 - **Normalized Probability Distribution**:
   - **Superposition**: Each axis’s contribution is **squared individually** and summed to form a normalized probability distribution.
