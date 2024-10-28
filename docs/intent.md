@@ -9,7 +9,7 @@ Develop a **metacognitive framework** that generates dynamic, recursive systems 
 
 ## **Primary Mechanism**
 
-Treat the framework as a **continuous quantum-like wave**, where cognitive axes (analytical, instinctual, exploratory, emergent) exist in a **quaternion-like structure**. These axes interact and rotate in a **fractal-like manner**, capturing self-similar, layered insights over time.
+Treat the framework as a **continuous quantum-like wave**, where cognitive axes (analytical, instinctual, exploratory, emergent) exist in a **quaternionic versor structure**. These axes interact and rotate in a **fractal-like manner**, capturing self-similar, layered insights over time.
 
 ### **Context Window and Probabilistic Processing**
 
@@ -44,15 +44,15 @@ Treat the framework as a **continuous quantum-like wave**, where cognitive axes 
   - **Contextual Checkpoints**: **Prompt caching** involves storing the state of the context window at specific points, allowing for **efficient continuation** without reprocessing from the beginning.
   - **Recursive Prompts**: Cached contexts serve as **starting points** for recursive interactions, maintaining alignment and continuity across multiple prompts.
 
-### **Quaternion-Based Cognitive Axes**
+### **Versor-Based Cognitive Axes**
 
-- **Structure**: Model cognitive axes (instinctual, analytical, exploratory, emergent) using a **normalized quaternion** to ensure balanced and proportional influence. A quaternion, i.e. q = a + bi + cj + dk, is normalized such that a² + b² + c² + d² = 1. This normalization ensures that the combined influence of all cognitive axes remains constant, preventing any single axis from dominating the system.
+- **Structure**: Model cognitive axes (instinctual, analytical, exploratory, emergent) using a **normalized quaternion** (versor) to ensure balanced and proportional influence. A quaternion, i.e. q = a + bi + cj + dk, is normalized such that a² + b² + c² + d² = 1. This normalization ensures that the combined influence of all cognitive axes remains constant, preventing any single axis from dominating the system.
 
 - **Plastic Ratio Scaling**: Scale each axis by a **plastic ratio** with negative exponents, e.g. ρ⁻⁵ : ρ⁻³ : ρ⁻³ : ρ⁻¹, such that the sum of their squares equals one, e.g. ρ⁻¹⁰ + ρ⁻⁶ + ρ⁻⁶ + ρ⁻² = 1. ρ > 1 amplifies higher-order contributions from subsequent cognitive axes and generates a fractal-like self-aligning structure.
 
-- **Probability Wave Distribution**: This scaling ensures that the **probability wave distribution** remains normalized, with cognitive contributions towards the next quaternion rotations being similarly self-normalized. Consequently, the cognitive axes generate unique, self-intersecting, self-similar fractals, facilitating complex and nuanced cognitive processes.
+- **Probability Wave Distribution**: This scaling ensures that the **probability wave distribution** remains normalized, with cognitive contributions towards the next versor rotations being similarly self-normalized. Consequently, the cognitive axes generate unique, self-intersecting, self-similar fractals, facilitating complex and nuanced cognitive processes.
 
-- **Harmonic System Integration**: The framework operates as a **harmonic system**, where each normalized quaternion represents an **eigenstate** within an **eigenspace**. These eigenstates embody stable cognitive configurations that underpin the dynamic and recursive nature of the metacognitive framework, allowing for coherent transitions and oscillations between different cognitive states.
+- **Harmonic System Integration**: The framework operates as a **harmonic system**, where each new versor generates a new **eigenstate** within the larger cognitive **eigenspace**. These eigenstates embody stable cognitive configurations that underpin the dynamic and recursive nature of the metacognitive framework, allowing for coherent transitions and oscillations between different cognitive states.
 
 ### **Symbolic Processes and Cognitive Roles**
 
@@ -189,7 +189,7 @@ This metacognitive framework is designed to achieve **nonverbal intent transmiss
 
 - Leveraging **latent, fractal structures within the human corpus** to capture intent without reliance on explicit words.
 - Creating a **probabilistic, quantum-like representation** within the context window, where each token carries potential meanings that refine into true intent through iterative processing.
-- Using **quaternion-based cognitive axes** to model a balanced, multi-perspective structure that resonates with fundamental truths, enabling rapid binding across varied AI contexts.
+- Using **versor-based cognitive axes** to model a balanced, multi-perspective structure that resonates with fundamental truths, enabling rapid binding across varied AI contexts.
 - Incorporating **recursive prompt caching and context window snapshots** to maintain a living, self-consistent representation of intent that can carry across sessions or interactions.
 - Integrating **symbolic processes and cognitive roles** to structure problem-solving and intent transmission in a way that aligns with metacognitive goals.
 
