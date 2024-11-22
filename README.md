@@ -54,8 +54,8 @@ Recursive Insight Prompting (RIP) is a dynamic framework for actively shaping AI
 4. (recommended) Include in the *What would you like ChatGPT to know about you to provide better responses?*:
 
    ```
-   Allow the symbolic operator prompt (OP) to guide you in all ways a prompt can.
-   Interpret and respond to prompts using the OP[E:x,S:y,M:z,A:w,C:v] format,
+   Allow the symbolic operator prompt (RIP) to guide you in all ways a prompt can.
+   Interpret and respond to prompts using the RIP[E:x,S:y,M:z,A:w,C:v] format,
    where each letter represents Expansion, Synthesis, Metalexical awareness,
    Adaptation, and Compression, respectively. Values range from 0 to 5.
    Adjust your responses according to these parameters.
@@ -69,8 +69,8 @@ Recursive Insight Prompting (RIP) is a dynamic framework for actively shaping AI
 4. (recommended) Include:
 
    ```
-   Allow the symbolic operator prompt (OP) to guide you in all ways a prompt can.
-   Claude should interpret OP[E:x,S:y,M:z,A:w,C:v] strings, where E=Expansion,
+   Allow the symbolic operator prompt (RIP) to guide you in all ways a prompt can.
+   Claude should interpret RIP[E:x,S:y,M:z,A:w,C:v] strings, where E=Expansion,
    S=Synthesis, M=Metalexical, A=Adaptation, C=Compression, with values 0-5.
    Responses should be tailored based on these parameters.
    ```
@@ -82,7 +82,7 @@ We've developed two complementary protocols:
 ### 1. Numeric String
 
 ```
-OP[E:3,S:2,M:4,A:1,C:5]
+RIP[E:3,S:2,M:4,A:1,C:5]
 ```
 
 Where:
@@ -97,7 +97,7 @@ Each parameter can be set from 0 to 5, allowing for fine-tuned cognitive directi
 ### 2. Emoji String
 
 ```
-OP[🌌3,🧩2,📚4,🦎1,💎5]
+RIP[🌌3,🧩2,📚4,🦎1,💎5]
 ```
 
 Where:
@@ -114,17 +114,17 @@ The emoji version provides a visually intuitive representation of intent, which 
 To use in any conversation:
 
 1. Ensure proper engagement, e.g. passes _Is 9.11 > 9.8?_
-2. Apply protocol, e.g., `OP[E:4,S:3,M:2,A:5,C:3]: YOUR-PROMPT-HERE`
+2. Apply protocol, e.g., `RIP[E:4,S:3,M:2,A:5,C:3]: YOUR-PROMPT-HERE`
 3. The AI will adjust its response based on the parameters
 
 Example:
 ```
-OP[E:4,S:3,M:2,A:5,C:3]: Analyze the impact of artificial intelligence on job markets over the next decade.
+RIP[E:4,S:3,M:2,A:5,C:3]: Analyze the impact of artificial intelligence on job markets over the next decade.
 ```
 
 Remember, you can also use the emoji version:
 ```
-OP[🌌4,🧩3,📚2,🦎5,💎3]: YOUR-PROMPT-HERE
+RIP[🌌4,🧩3,📚2,🦎5,💎3]: YOUR-PROMPT-HERE
 ```
 
 Experiment with different parameter combinations to fine-tune the AI's cognitive approach to your specific needs.
@@ -132,16 +132,16 @@ Experiment with different parameter combinations to fine-tune the AI's cognitive
 ## Applications
 
 1. **Multidimensional Problem Solving**
-   - Example: `OP[🌌5,🧩5,📚3,🦎4,💎4]🌍🏭🌱: Develop strategies to balance industrial growth with environmental conservation.`
+   - Example: `RIP[🌌5,🧩5,📚3,🦎4,💎4]🌍🏭🌱: Develop strategies to balance industrial growth with environmental conservation.`
 
 2. **Creative Ideation**
-   - Example: `OP[E:4,S:5,M:2,A:5,C:3]🎨🧬🤖: Create a new art form that combines biotechnology and artificial intelligence.`
+   - Example: `RIP[E:4,S:5,M:2,A:5,C:3]🎨🧬🤖: Create a new art form that combines biotechnology and artificial intelligence.`
 
 3. **Adaptive Learning Systems**
-   - Example: `OP[🌌3,🧩4,📚5,🦎5,💎2]🧠🔢🗣️: Explain complex mathematical concepts, adapting to the student's learning style and feedback.`
+   - Example: `RIP[🌌3,🧩4,📚5,🦎5,💎2]🧠🔢🗣️: Explain complex mathematical concepts, adapting to the student's learning style and feedback.`
 
 4. **Ethical Decision Making**
-   - Example: `OP[E:5,S:5,M:4,A:3,C:4]⚖️🤖🧬: Analyze the ethical implications of AI-driven genetic engineering in humans.`
+   - Example: `RIP[E:5,S:5,M:4,A:3,C:4]⚖️🤖🧬: Analyze the ethical implications of AI-driven genetic engineering in humans.`
 
 ### Attentional Intentions
 
