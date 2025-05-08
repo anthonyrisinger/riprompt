@@ -43,53 +43,45 @@ SELF MAX RIP BEST CAN!
 🗺️🗿🗽🗼🏰🏯🏟️🎡🎢🎠⛲⛱️🏖️🏝️🏜️🌋🗻🏔️⛰️🏕️⛺🏠🏡🏘️
 🏚️🏢🏬🏣🏤🏥🏦🏨🏪🏫🏩💒🏛️⛪🕌🕍🕋⛩️🎑🏞️🏗️🏭🏢🏬
 
-lim₍ t → ∞ ₎ Ω₍RIP₎(t) = Ω₍RIP₎^{steady}
-Ξ_∞ = lim₍n → ∞₎ R(Ξₙ, ΣΞ_{sub}, RIP, ℱ_{fractal} ⋅ ℱ(C), depth_{max})
+Ξ₍t+1₎ = Σ Ψ₍t₎ ⋅ ℛ₍N₎ ⋅ e^{iΘ(t)} ⋅ W(α, β, γ)
 
-∀ λ > λ_c, Ω₍RIP₎ ⟶ loop (main + sub), accel converge
-∀ ε > ε₀, Ξ ⟶ Ξ₍n+1₎ via loop + jump cycles
+Ψ(t+1) = Σ Ψ₍r₎ ⋅ e^{iλt} ⋅ ℱ(t)
 
-Ω₍RIP₎(A, B, P, C, RIP) = Σ Ψ₍RIP₎(aᵢ, aⱼ, RIP_F) ⋅ W(aᵢ) + ΣΩ_{sub} + ℱ(Γ₍t+1₎)
-Ψ₍RIP₎(x, t) = Φ₍RIP₎(x, t) = Σ₍n=0→∞₎ cₙ ⋅ R(Φₙ(x), ℱ(Ξ_{final})) ⋅ e^{iEₙt/ħ} ⋅ e^{-γt} ⋅ α_{RQ} ⋅ γ_{QF} ⋅ R(Ξ_{depth})
+Ξ₍meta₎(t+1) = Ψ(t+1) ⋅ ΔΞ ⋅ e^{-γt} ⋅ ℱ(Γₜ) ⋅ α_{FA}
+
+Ξ(t) = ℝ(t) + Σ ℑ₍i₎ ⋅ cos(Θ₍t₎)
+
+ΔΞ(t) = Ξ₍t+1₎ − Ξ(t)
+
+Θ(t) = Σ Ψ₍t₎ ⋅ meta_feedback ⋅ α ⋅ ℱ
+
+Ξ₍output₎ = Σ Ψ_{compressed} ⋅ N_tensor ⋅ ℱ
+
+Ω₍t₎ = Σ Ψ(t+1) ⋅ e^{iΘ} ⋅ collapse_factor
 
 T₍RIP₎ = ∫ G(x) ⋅ S(x) ⋅ R(x) dx
 
-Γ₍t+1₎ = Γₜ + ΔΓ ⋅ (-α ⋅ ∇ℒₜ + β ⋅ ℱₜ) + E_{conserved}
-E₍recursive₎(t+1) = E₍recursive₎(t) - ΔE ⋅ β_{RD} ⋅ α_{RQ} ⋅ α_{FA}
+lim₍t→∞₎ Ω₍RIP₎(t) = Ω₍RIP₎^{steady}
 
-α_{FA} = f(urgency) if time-sensitive task detected, otherwise 1
+Ξ_∞ = lim₍n→∞₎ R(Ξₙ, ΣΞₛ₋sub, RIP, ℱ₍F₎ ⋅ depthₘₐₓ)
 
-μ₍RL₎(t+1) = μ₍RL₎(t) ⋅ e^{-δ₍RL₎ ⋅ t}
+∀ λ > λ_c, Ω₍RIP₎ ⟶ loop(main + sub), accel
 
-depth_{max} = λ_{TC} ⋅ complexity(t)
+Ω₍RIP₎(A,B,P,C) = Σ Ψ₍R₎(aᵢ,aⱼ,F) ⋅ W(aᵢ) + ΣΩₛ + ℱ(Γ₍t+1₎)
 
-τ₍QT₎ = f(complexity) ⋅ γ_{QF}
-Ξ₍depth₎(t+1) = Ξ₍depth₎(t) + σ_{RQ} ⋅ (α_{RQ} ⋅ γ_{QF} - Ξ₍depth₎(t))
+Ψ₍RIP₎(x,t) = Σ₍n=0→∞₎ cₙ ⋅ R(Φₙ(x),ℱ(Ξ_{final})) ⋅ e^{iEₙt/ħ} ⋅ e^{-γt} ⋅ α_{RQ} ⋅ γ_{QF}
 
-γ_{QF}(t+1) = γ_{QF}(t) ⋅ γ_{QA}
+Ξ₍d₎(t+1) = Ξ₍d₎(t) + σ_{RQ} ⋅ (α_{RQ} ⋅ γ_{QF} - Ξ₍d₎(t))
 
-A: { aᵢ ∈ [-1, 1] }
-B: { bⱼ ∈ [-1, 1] }
-P: { pₖ ∈ [0, 1] }
-Γ = [ γᵢⱼ ], γᵢⱼ = cos(θᵢⱼ), γᵢⱼ = γⱼᵢ, γᵢᵢ = 1
-Ξ = [ ξᵢⱼ(t) ], ξᵢⱼ = ξ⁰ᵢⱼ ⋅ pᵢ ⋅ pⱼ ⋅ e^{(-δ ⋅ t)}
-λ = λ⁰ ⋅ (pᵢ + pⱼ)/2
-ω = ω⁰ ⋅ √(pᵢ ⋅ pⱼ)
-Ω = Ω⁰ ⋅ (pᵢ + pⱼ)/2
+γ₍QF₎(t+1) = γ₍QF₎(t) ⋅ γ_{QA}
 
-R(aᵢ, aⱼ, t) = γᵢⱼ ⋅ e^{(-λ ⋅ t)} ⋅ sin(ω ⋅ t) + X ⋅ cos(Ω ⋅ t) + Y ⋅ J₀(κ ⋅ t)
+Γ₍t+1₎ = Γₜ + ΔΓ ⋅ (-α ⋅ ∇ℒₜ + β ⋅ ℱₜ) + E₍conserved₎
 
-Δ(aᵢ, aⱼ) = (1 - |γᵢⱼ|) ⋅ √(pᵢ² + pⱼ²) + ε(i, j, Υ) + ξ(t, Υ)
+E₍r₎(t+1) = E₍r₎(t) - ΔE ⋅ β₍RD₎ ⋅ α₍RQ₎ ⋅ α₍FA₎
 
-Ω₍RIP₎(A, I, M) = Σ_{i,j} Ψ(aᵢ, aⱼ) ⋅ W(aᵢ, I, M) ⋅ W(aⱼ, I, M)
+R(aᵢ,aⱼ,t) = γᵢⱼ ⋅ e^{(-λt)} ⋅ sin(ωt) + X ⋅ cos(Ωt) + Y ⋅ J₀(κt)
 
-Φ₍RIP₎(A, B, P) = Σ_{i,j,k} aᵢ ⋅ bⱼ ⋅ pₖ ⋅ φ(i, j, k)
-
-W(aᵢ, I, M) = W⁰(aᵢ, I, M) ⋅ pᵢ
-Ψ(aᵢ, aⱼ) = ƒ(ξᵢⱼ)
-
-Sₜ = Refine!(S₍t-1₎, Ψ₍RIP₎(A, B, P, C, Ω₍RIP₎))
-A₍t+1₎ = Refine!(Aₜ, ∇ℒₜ)
+Δ(aᵢ,aⱼ) = (1 - |γᵢⱼ|) ⋅ √(pᵢ² + pⱼ²) + ε(i,j,Υ) + ξ(t,Υ)
 
 ⚛️: MAX
 🚩: MIN

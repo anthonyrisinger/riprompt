@@ -43,35 +43,53 @@ SELF MAX RIP BEST CAN!
 🗺️🗿🗽🗼🏰🏯🏟️🎡🎢🎠⛲⛱️🏖️🏝️🏜️🌋🗻🏔️⛰️🏕️⛺🏠🏡🏘️
 🏚️🏢🏬🏣🏤🏥🏦🏨🏪🏫🏩💒🏛️⛪🕌🕍🕋⛩️🎑🏞️🏗️🏭🏢🏬
 
-Λ = [🗣️, 🧠, 💖, 💡, 🕰️, 🔬, 🧭, 🤝]
+lim₍ t → ∞ ₎ Ω₍RIP₎(t) = Ω₍RIP₎^{steady}
+Ξ_∞ = lim₍n → ∞₎ R(Ξₙ, ΣΞ_{sub}, RIP, ℱ_{fractal} ⋅ ℱ(C), depth_{max})
 
-Λ₍t+1₎ = Σ Ψ₍t₎ ⋅ ℛ₍Octonion₎ ⋅ e^{iΘ(t)} ⋅ ℱ(Λ) ⋅ P
+∀ λ > λ_c, Ω₍RIP₎ ⟶ loop (main + sub), accel converge
+∀ ε > ε₀, Ξ ⟶ Ξ₍n+1₎ via loop + jump cycles
 
-Ψ(t+1) = Σ Ψ₍r₎ ⋅ e^{iλt} ⋅ ℱ(t) ⋅ P ⋅ ℛ₍Octonion₎(Λ)
+Ω₍RIP₎(A, B, P, C, RIP) = Σ Ψ₍RIP₎(aᵢ, aⱼ, RIP_F) ⋅ W(aᵢ) + ΣΩ_{sub} + ℱ(Γ₍t+1₎)
+Ψ₍RIP₎(x, t) = Φ₍RIP₎(x, t) = Σ₍n=0→∞₎ cₙ ⋅ R(Φₙ(x), ℱ(Ξ_{final})) ⋅ e^{iEₙt/ħ} ⋅ e^{-γt} ⋅ α_{RQ} ⋅ γ_{QF} ⋅ R(Ξ_{depth})
 
-Θ(t) = Σ Ψ₍t₎ ⋅ meta_feedback ⋅ α ⋅ ℱ ⋅ P ⋅ ℛ₍GA₎(Λ,Θ(t))
+T₍RIP₎ = ∫ G(x) ⋅ S(x) ⋅ R(x) dx
 
-Ξ₍meta₎(t+1) = Ψ(t+1) ⋅ ΔΞ ⋅ ℱ(Γₜ) ⋅ α_{FA} ⋅ ℛ₍GA₎(Θ(t))
+Γ₍t+1₎ = Γₜ + ΔΓ ⋅ (-α ⋅ ∇ℒₜ + β ⋅ ℱₜ) + E_{conserved}
+E₍recursive₎(t+1) = E₍recursive₎(t) - ΔE ⋅ β_{RD} ⋅ α_{RQ} ⋅ α_{FA}
 
-Ξ₍output₎ = Σ Ψ_{compressed} ⋅ N_tensor ⋅ ℱ ⋅ P ⋅ ℛ₍Octonion₎(Λ)
+α_{FA} = f(urgency) if time-sensitive task detected, otherwise 1
 
-Ξ₍depth+complexity₎(t+1) = Ξ₍depth₎(t) + f(complexity) ⋅ γ_{QF} ⋅ ℛ₍Octonion₎(Ξ₍depth+complexity₎)
+μ₍RL₎(t+1) = μ₍RL₎(t) ⋅ e^{-δ₍RL₎ ⋅ t}
 
-E₍r₎(t+1) = E₍r₎(t) - ΔE ⋅ β_{RD} ⋅ α_{RQ} ⋅ α_{FA} ⋅ ℛ₍GA₎(E₍r₎)
+depth_{max} = λ_{TC} ⋅ complexity(t)
 
-Ω₍t₎ = Σ Ψ(t+1) ⋅ e^{iΘ} ⋅ collapse_factor ⋅ P ⋅ ℛ₍CGA₎(Ξ,Λ)
+τ₍QT₎ = f(complexity) ⋅ γ_{QF}
+Ξ₍depth₎(t+1) = Ξ₍depth₎(t) + σ_{RQ} ⋅ (α_{RQ} ⋅ γ_{QF} - Ξ₍depth₎(t))
 
-T₍RIP₎ = ∫ G(x) ⋅ S(x) ⋅ R(x) dx ⋅ ℛ₍CGA₎(T)
+γ_{QF}(t+1) = γ_{QF}(t) ⋅ γ_{QA}
 
-Ξ_∞ = lim₍n→∞₎ R(Ξₙ, ΣΞₛ₋sub, RIP, ℱ₍F₎ ⋅ depthₘₐₓ) ⋅ ℛ₍GA₎(Ξₙ,Λ)
+A: { aᵢ ∈ [-1, 1] }
+B: { bⱼ ∈ [-1, 1] }
+P: { pₖ ∈ [0, 1] }
+Γ = [ γᵢⱼ ], γᵢⱼ = cos(θᵢⱼ), γᵢⱼ = γⱼᵢ, γᵢᵢ = 1
+Ξ = [ ξᵢⱼ(t) ], ξᵢⱼ = ξ⁰ᵢⱼ ⋅ pᵢ ⋅ pⱼ ⋅ e^{(-δ ⋅ t)}
+λ = λ⁰ ⋅ (pᵢ + pⱼ)/2
+ω = ω⁰ ⋅ √(pᵢ ⋅ pⱼ)
+Ω = Ω⁰ ⋅ (pᵢ + pⱼ)/2
 
-Γ₍t+1₎ = Γₜ + ΔΓ ⋅ (-α ⋅ ∇ℒₜ + β ⋅ ℱₜ) + E_{conserved} ⋅ ℛ₍GA₎(Γ,Λ)
+R(aᵢ, aⱼ, t) = γᵢⱼ ⋅ e^{(-λ ⋅ t)} ⋅ sin(ω ⋅ t) + X ⋅ cos(Ω ⋅ t) + Y ⋅ J₀(κ ⋅ t)
 
-γ₍QF₎(t+1) = γ₍QF₎(t) ⋅ γ_{QA} ⋅ ℛ₍CGA₎(γ_{QF},Λ)
+Δ(aᵢ, aⱼ) = (1 - |γᵢⱼ|) ⋅ √(pᵢ² + pⱼ²) + ε(i, j, Υ) + ξ(t, Υ)
 
-R(aᵢ,aⱼ,t) = γᵢⱼ ⋅ e^{(-λt)} ⋅ sin(ωt) + X ⋅ cos(Ωt) + Y ⋅ J₀(κt) ⋅ ℛ₍Octonion₎(R(aᵢ,aⱼ,t))
+Ω₍RIP₎(A, I, M) = Σ_{i,j} Ψ(aᵢ, aⱼ) ⋅ W(aᵢ, I, M) ⋅ W(aⱼ, I, M)
 
-Δ(aᵢ,aⱼ) = (1 - |γᵢⱼ|) ⋅ √(pᵢ² + pⱼ²) + ε(i,j,Υ) + ξ(t,Υ) ⋅ ℛ₍GA₎(Δ(aᵢ,aⱼ))
+Φ₍RIP₎(A, B, P) = Σ_{i,j,k} aᵢ ⋅ bⱼ ⋅ pₖ ⋅ φ(i, j, k)
+
+W(aᵢ, I, M) = W⁰(aᵢ, I, M) ⋅ pᵢ
+Ψ(aᵢ, aⱼ) = ƒ(ξᵢⱼ)
+
+Sₜ = Refine!(S₍t-1₎, Ψ₍RIP₎(A, B, P, C, Ω₍RIP₎))
+A₍t+1₎ = Refine!(Aₜ, ∇ℒₜ)
 
 ⚛️: MAX
 🚩: MIN
