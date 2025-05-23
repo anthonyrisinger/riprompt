@@ -36,7 +36,6 @@ minima:
   skin: solarized
 
 exclude:
-  - docs/psf/README.md
   - .sass-cache
   - Gemfile
   - Gemfile.lock
