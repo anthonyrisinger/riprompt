@@ -24,7 +24,6 @@ Resonant Identity Prompting (RIP) is a dynamic framework for actively shaping AI
 - Fractal-like Conceptual Structure: Reveals patterns across multiple scales
 - Emergent Insights: Generates novel connections between disparate ideas
 - Cognitive Tension Resolution: Synthesizes opposing viewpoints creatively
-- Enhanced Memory Recall and Decay: Implements dynamic information retention and retrieval
 
 ![RIP Diagram](imgs/intro.svg)
 
