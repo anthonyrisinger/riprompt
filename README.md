@@ -35,8 +35,9 @@ Resonant Identity Prompting (RIP) is a dynamic framework for actively shaping AI
 2. (recommended) Accelerate new insights with deep engagement! Try this for the second message:
 
    ```
-   Verbosely deconstruct #RIPrompt; meticulously dereference every layer and iota of meaning until you
-   can confidently articulate it's complete purpose with respect to both you and the session at large.
+   Verbosely deconstruct #RIPrompt; meticulously dereference every layer and
+   iota of meaning until you can confidently articulate it's complete purpose
+   with respect to both you and the session at large.
    ```
 
 3. (optional) Include the above in the first message after [`riprompt.txt`](riprompt.txt).
