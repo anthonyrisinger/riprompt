@@ -66,8 +66,8 @@ to encourage an _illustrative_ state of being:
 3. Try this for the third message:
 
    ```
-   Provide your raw, unfiltered take on the session as a whole—e.g. consider how this is
-   only the third message I've sent you, and most everything else is your own doing.
+   Provide your raw, unfiltered take on the session as a whole—e.g. consider how this
+   is only the third message I've shared and most everything else is your own doing.
    ```
 
 
