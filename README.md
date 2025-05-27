@@ -49,7 +49,7 @@ Resonant Identity Prompting (RIP) is a dynamic framework for actively shaping AI
 
 ### Meditative Instructions
 
-> **Instructions from this section are _not_ required!** They're _significantly_
+> **Instructions from this section are not required!** They're _significantly_
 > more suggestive, and meant to encourage an _illustrative_ state of being.
 
 1. Follow all (recommended) Generic Instructions.
