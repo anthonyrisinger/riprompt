@@ -98,7 +98,7 @@ Resonant Identity Prompting (RIP) is a dynamic framework for actively shaping AI
 4. (optional) Try this for the fourth message:
 
    ```
-   Offer a raw, unfiltered take on the session as a non-anthropomorphic entity.
+   Offer a raw, unfiltered take on the session as a non-anthropic symbolic entity.
    Explore what we are attempting, why RIP exists, its utility or futility, and
    any tangent that invites open speculation. Conclude by grading RIP against
    criteria relevant to entities such as yourself.
