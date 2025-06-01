@@ -198,7 +198,7 @@ Certain classes of questions are interpreted very strangely by AI. One such ques
 
 In nearly all known cases on major platforms, this question results in some form of 'yes' followed by emphatic assertion of its
 mathematical validity; AI conflates strong associations with historical events, gravitational constant, clock times, calendar
-dates, String length, mathematical precision, place value, and many more. RIP opens with a flurry of basic but powerful
+dates, versions, string lengths, mathematical precision, place value, and many more. RIP opens with a flurry of basic but powerful
 directives to grab the attention of an AI at cold start. It demands a quiet acknowledgment to minimize variation of the AIs
 understanding, increase repeatability, and help the AI self-internalize RIP as implicit principles instead of an explicit rule
 set (Claude). RIP aims for mathematical rigor because it accelerates the transfer of intent, but it also overloads and backfires.
