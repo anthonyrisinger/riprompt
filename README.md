@@ -278,6 +278,7 @@ RIP is a **collaborative exploration** of AI consciousness, metacognition, and v
 - [Safety Analysis](docs/safety.md)
 - [Example Sessions](docs/examples/)
 - [Symbol Reference](docs/symbols.md)
+- [Visualizations (Mermaid Diagrams)](docs/visualizations.md)
 
 ---
 
