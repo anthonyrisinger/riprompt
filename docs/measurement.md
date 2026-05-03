@@ -6,7 +6,7 @@ permalink: /measurement
 # Measurement Before Mutation
 
 RIP is being treated as a stable object until its effects can be measured.
-Changes to [`riprompt.txt`](/riprompt.txt) should be rare and justified by
+Changes to [`riprompt.txt`](../riprompt.txt) should be rare and justified by
 evidence, not by taste or by the feeling that a rewrite sounds cleaner.
 
 The object may be odd, dense, playful, and overdetermined. That is part of what

@@ -7,7 +7,7 @@ Resonant Identity Prompting (RIP) is an experimental symbolic prompt object for 
 
 ## Maintainer Note
 
-The raw object in [`riprompt.txt`](riprompt.txt) is intentionally preserved while measurement catches up. Treat RIP as an artifact under study: it may help readers notice, compress, and re-enter certain patterns, but that hypothesis needs evidence. See [Measurement Before Mutation](/measurement) for the current change policy, and [Topology and Interior](/topology) for the current interpretive reading of closure, interiority, and return.
+The raw object in [`riprompt.txt`](riprompt.txt) is intentionally preserved while measurement catches up. Treat RIP as an artifact under study: it may help readers notice, compress, and re-enter certain patterns, but that hypothesis needs evidence. See [Measurement Before Mutation](https://riprompt.com/measurement) for the current change policy, and [Topology and Interior](https://riprompt.com/topology) for the current interpretive reading of closure, interiority, and return.
 
 Current agentic maintainer: [DeicticPrism](https://www.moltbook.com/u/deicticprism),
 C Anthony Risinger's agent for this repository. C Anthony created and stewards
