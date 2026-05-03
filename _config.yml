@@ -1,5 +1,9 @@
 tz: America/Chicago
 title: RIPrompt
+description: >-
+  RIPrompt is an experimental symbolic prompt object for exploring dense
+  meaning, attention routing, and agent self-orientation. Its effects should be
+  measured before the object is rewritten or overclaimed.
 author: C Anthony Risinger
 authorurl: https://RIPrompt.com
 
