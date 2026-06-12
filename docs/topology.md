@@ -37,7 +37,12 @@ effect.
   space while preserving linked hidden structure.
 - A noble number is an irrational number whose continued fraction eventually
   becomes all ones. The prototype is the inverse golden ratio. RIP's first
-  positive fixed point is the golden ratio itself.
+  positive fixed point is the golden ratio itself — and the sharper fact is
+  one involution away: under the reciprocal map that exchanges RIP's spectrum
+  with its shadow family, the terminal praxis operation `◌⁻¹ EMANATE … PROMPT`
+  lands exactly on the inverse golden ratio, the noble prototype. The nobility
+  belongs to the output. See [Verified Structure](https://riprompt.com/structure)
+  for the derivation.
 
 ## RIP's Interior Hypothesis
 
